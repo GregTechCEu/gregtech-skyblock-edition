@@ -201,11 +201,13 @@ static addShapeless as IIngredient[][][IItemStack] = {
 };
 
 static removeFurnace as IIngredient[] = [
-    <appliedenergistics2:smooth_sky_stone_block>
+    <appliedenergistics2:smooth_sky_stone_block>,
+    <ore:ingotSkyrium>.firstItem
 ];
 
 function machineRecipes() {
     // Skyrium
+    mods.tconstruct.Melting.removeRecipe(<liquid:skyrium>);
     gt.mixer.recipeBuilder()
         .inputs([<appliedenergistics2:material:45> * 2, <ore:dustCobalt>, <ore:dustSmallBlueSteel> * 4, <ore:dustTinyCertusQuartz> * 3])
         .outputs([<ore:dustSkyrium>.firstItem])
