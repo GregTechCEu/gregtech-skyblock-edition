@@ -131,67 +131,6 @@ function machineRecipes() {
     [<ore:dustObsidian>,<minecraft:nether_wart>,<ore:dustObsidian>]]);
 }
 
-static sieveDropsGravel as WeightedItemStack[][int] = {
-    4 : [
-        <ore:oreGravelCopper>.firstItem % 20
-    ]
-};
-
-static sieveDropsGranite as WeightedItemStack[][int] = {
-    4 : [
-        <ore:oreGravelCopper>.firstItem % 20
-    ]
-};
-
-static sieveDropsAndesite as WeightedItemStack[][int] = {
-    4 : [
-        <ore:oreGravelCopper>.firstItem % 20
-    ]
-};
-
-static sieveDropsDiorite as WeightedItemStack[][int] = {
-    4 : [
-        <ore:oreGravelCopper>.firstItem % 20
-    ]
-};
-
-static sieveDropsNetherrack as WeightedItemStack[][int] = {
-    4 : [
-        <ore:oreGravelCopper>.firstItem % 20
-    ]
-};
-
-static sieveDropsEndstone as WeightedItemStack[][int] = {
-    3 : [
-        <appliedenergistics2:material:45> % 2
-    ],
-    4 : [
-        <appliedenergistics2:material:45> % 7
-    ]
-};
-
-function processSieveDrops(input as IIngredient, sieveDrops as WeightedItemStack[][int]) {
-    for tier, weightedItems in sieveDrops {
-        for weighted in weightedItems {
-            val output = weighted.stack;
-            val chance = weighted.chance;
-
-            if(tier == 1) {
-                Sieve.addStringMeshRecipe(input, output, chance);
-            } else
-            if(tier == 2) {
-                Sieve.addFlintMeshRecipe(input, output, chance);
-            } else
-            if(tier == 3) {
-                Sieve.addIronMeshRecipe(input, output, chance);
-            } else
-            if(tier == 4) {
-                Sieve.addDiamondMeshRecipe(input, output, chance);
-            }
-        }
-    } 
-}
-
 function init() {
 	// Un-named recipes
 	craft.process(shapedRecipes, false);
@@ -200,5 +139,4 @@ function init() {
 	craft.removeFurnace(removeFurnace);
 
     machineRecipes();
-    processSieveDrops(<exnihilocreatio:block_endstone_crushed>, sieveDropsEndstone);
 }

@@ -93,7 +93,7 @@ static addShaped as IIngredient[][][][IItemStack] = {
     <appliedenergistics2:interface> : [
         [
             [matPlate, quartzGlass, matPlate],
-            [<appliedenergistics2:material:44>, <gregtech:machine_casing:3>, <appliedenergistics2:material:43>],
+            [<appliedenergistics2:material:44>, <gregtech:machine_casing:4>, <appliedenergistics2:material:43>],
             [matPlate, <metaitem:conveyor.module.hv>, matPlate]
         ]
     ],
@@ -219,6 +219,7 @@ function machineRecipes() {
 		.EUt(120)
 		.buildAndRegister();
 
+    // Skystone
     gt.compressor.recipeBuilder()
         .inputs([<appliedenergistics2:material:45> * 4])
         .outputs([<appliedenergistics2:sky_stone_block>])
@@ -231,6 +232,11 @@ function machineRecipes() {
 		.duration(sec(60))
 		.EUt(120)
 		.buildAndRegister();
+    gt.macerator.recipeBuilder()
+        .inputs([<appliedenergistics2:sky_stone_block>])
+        .outputs([<appliedenergistics2:material:45> * 4])
+        .EUt(16).duration(sec(4))
+        .buildAndRegister();
 
 
     // Add charged Certus to pure certus centrifuge
@@ -262,7 +268,7 @@ function machineRecipes() {
         .inputs([<ore:blockGlass>, <ore:dustQuartz> * 2])
         .outputs([<appliedenergistics2:quartz_glass>])
         .EUt(120).duration(sec(10))
-        .buildAndRegister();
+        .buildAndRegister(); 
 
     // Processors
     gt.forming_press.recipeBuilder()
@@ -479,6 +485,51 @@ function machineRecipes() {
 		.duration(sec(20))
 		.EUt(120)
 		.buildAndRegister();
+
+    val aeSeeds as IItemStack[string][IItemStack] = {
+        <appliedenergistics2:material:10> : {
+            "0" : <appliedenergistics2:crystal_seed>.withTag({progress: 0}),
+            "33" : <appliedenergistics2:crystal_seed>.withTag({progress: 200}),
+            "66" : <appliedenergistics2:crystal_seed>.withTag({progress: 400})
+        },
+        <appliedenergistics2:material:11> : {
+            "0" : <appliedenergistics2:crystal_seed:600>.withTag({progress: 600}),
+            "33" : <appliedenergistics2:crystal_seed:600>.withTag({progress: 800}),
+            "66" : <appliedenergistics2:crystal_seed:600>.withTag({progress: 1000})
+        },
+        <appliedenergistics2:material:12> : {
+            "0" : <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1200}),
+            "33" : <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}),
+            "66" : <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600})
+        },
+    };
+
+    for crystal, seed in aeSeeds {
+
+        gt.autoclave.recipeBuilder()
+            .inputs([seed["0"]])
+            .fluidInputs([<liquid:water> * 1000])
+            .outputs([seed["33"]])
+            .duration(60)
+            .EUt(256)
+            .buildAndRegister();
+
+        gt.autoclave.recipeBuilder()
+            .inputs([seed["33"]])
+            .fluidInputs([<liquid:water> * 1000])
+            .outputs([seed["66"]])
+            .duration(60)
+            .EUt(256)
+            .buildAndRegister();
+
+        gt.autoclave.recipeBuilder()
+            .inputs([seed["66"]])
+            .fluidInputs([<liquid:water> * 1000])
+            .outputs([crystal])
+            .duration(60)
+            .EUt(256)
+            .buildAndRegister();
+    }
 }
 
 function init() {

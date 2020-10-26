@@ -5,7 +5,8 @@
 		"Want something to transport RF? Here you go."
 	],
 	dependencies: [
-		"506ea84f"
+		"506ea84f",
+		"e6df61ec"
 	],
 	tasks: [{
 		uid: "e69f360d",

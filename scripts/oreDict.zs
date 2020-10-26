@@ -323,10 +323,10 @@ static oresAdd as IItemStack[][IOreDictEntry] = {
     <ore:crystalCertusQuartz> : [
         <appliedenergistics2:material:10>,
         <gregtech:meta_item_1:8202> //Gregtech certus quartz
-    ],
-    <ore:ingotFireclay> : [
-        <gregtech:meta_item_2:32015> //GT Faireclay brick
     ]
+    //<ore:ingotFireclay> : [
+    //    <gregtech:meta_item_2:32015> //GT Faireclay brick
+    //]
 };
 
 static gt as string = "gregtech";

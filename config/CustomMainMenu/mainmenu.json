@@ -64,7 +64,7 @@
 			"texture": "modpack:gui/mods.png",
             "action": {
                 "type": "openLink",
-                "link": "https://github.com/huneau/gregicality-skyblock-edition/issues"
+                "link": "https://github.com/Gregicality/gregicality-skyblock-edition"
             }
         },
         "options": {

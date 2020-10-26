@@ -8,12 +8,13 @@ import mods.gregtech.recipe.FuelRecipe;
 import mods.gtadditions.recipe.Utils;
 
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+    /*
     <gregtech:metal_casing:1> : [
 		[
 			[<ore:ingotFireclay>, <ore:ingotFireclay>],
 			[<ore:ingotFireclay>, <ore:ingotFireclay>]
 		]
-	]
+	]*/
 };
 
 /*
@@ -26,9 +27,8 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-    <gregtech:meta_item_2:32015>,
-    <gtadditions:ga_meta_item:32038>,
-    <gregtech:metal_casing:1>,
+    //<gregtech:meta_item_2:32015>,
+    //<gregtech:metal_casing:1>,
     <opencomputers:material:6>
 ];
 
@@ -38,8 +38,8 @@ static removeFurnace as IIngredient[] = [
 
 function machineRecipes() {
     //Compressed Fireclay
-    Utils.removeRecipeByOutput(gt.compressor, [<gregtech:meta_item_2:32014>], [], false); //Compressed Fireclay
-    furnace.addRecipe(<gregtech:meta_item_2:32015>, <gtadditions:ga_meta_item:32037>);
+    //Utils.removeRecipeByOutput(gt.compressor, [<gregtech:meta_item_2:32014>], [], false); //Compressed Fireclay
+    //furnace.addRecipe(<gregtech:meta_item_2:32015>, <gtadditions:ga_meta_item:32037>);
 
     //Glass
     gt.alloy_smelter.recipeBuilder()

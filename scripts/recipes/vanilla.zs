@@ -116,6 +116,7 @@ function machineRecipes() {
     // Redstone Alloy cable
     gt.assembler.recipeBuilder()
         .inputs([<ore:wireFineRedAlloy> * 2])
+        .notConsumable(gt.getCirc(1))
         .outputs([<projectred-transmission:wire:0>])
         .EUt(8).duration(sec(6))
         .buildAndRegister();

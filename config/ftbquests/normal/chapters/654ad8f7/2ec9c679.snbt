@@ -1,0 +1,18 @@
+{
+	title: "Open Computers",
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		"Computers can be powered with GTEU"
+	],
+	dependencies: [
+		"e6df61ec"
+	],
+	tasks: [{
+		uid: "17fbd39e",
+		type: "item",
+		items: [{
+			item: "opencomputers:case1"
+		}]
+	}]
+}

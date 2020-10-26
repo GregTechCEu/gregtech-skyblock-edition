@@ -1,0 +1,125 @@
+version 5.0.5
+
+fixes
+removed skyrium tools
+added integrated circuit to red alloy wire recipe
+removed all eu2 drums
+glowstone, blaze powder and skystone dust are now obtainable from dust again
+blizz, blitz & basalz powder can now sieved
+nerfed storage module quest
+disabled pulse centrifuge
+added autoclave recipes for pure crystals (Thanks _MasterEnderman_)
+
+updated 
+Gregicality 0.20.9-hotfix2
+
+#################################################
+
+version 5.0.4
+
+fixes
+fixed MV hull dependecy
+fixed hardened glass dependecy
+fixed BLast furnace quest
+changed all servo, filter and retriever recipes,
+added skyrium material
+changed the material used for ae2 to skyrium
+changed recipe of sky stone
+changed redstone wire recipe
+fixed ruby, sapphire and red alloy block recipe
+added fluix dust recipe
+
+updated carry on
+
+#################################################
+
+version 5.0.3
+
+fixes
+added glass in alloy smelter recipe
+fixed fireclay
+added ender pearl to resonant ender recipe
+changed recipe of all ducts
+gated opencomputers (by changing transistor recipe)
+
+#################################################
+
+version 5.0.2
+
+fixes
+fixed wrong compressed fireclay
+fixed rftools script (spelling)
+added the server to the multiplayer menu
+disabled Pyrotheum & Petrotheum Ore crafting
+added better description to some quests
+fixed Main Menu (finally)
+nerfed packer and unpacker recipe
+changed AE2 Fluid Crafting recipes
+unhide all quests
+fixed and changed recipes of Lazy AE2
+fixed gt tool crafting
+
+added
+Featured Servers
+gtce2oc (OpenComputers - gregtech adapter)
+
+#################################################
+
+version 5.0.1
+
+fixes
+added Cobblestone Generator quest
+fixed error message at creating world
+added recipes and quest for inscriber presses
+fixed bucket quests nbt matching
+fixed some quest dependecies
+fixed hardened glass recipes
+A lot of AE2 recipe changes
+
+added
+Main Menu Scale
+
+#################################################
+
+version 5.0.0
+
+updated
+gregtech
+gregciality
+Bad Wither No Cookies
+Building Gadgets
+Controlling
+Crafttweaker
+In Controll
+RandomPatches
+RandomTweaks
+mysticallib
+FTB Utilities
+
+added
+FTB Quests
+FTB Quest importer
+Applied Energistics 2
+Extra Cells
+Extra CPUs
+AE net vis tool
+Brandons core
+Lazy AE2
+Libnine
+Ae2 fluid crafting
+Just Enough Energistics
+Packaged Auto
+ProjectRed - Base
+ProjectRed - Integration
+KubeJS
+Bountifull
+
+removed
+Refined Storage
+Reborn Storage
+RS Large Patterns
+Refined Storage Addons
+Engineers Workshop Reborn
+Better Questing
+Questbook
+Standart Expansion

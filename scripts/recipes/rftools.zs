@@ -16,14 +16,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<rftools:storage_module> : [
 		[
 			[<minecraft:quartz>, <minecraft:redstone>, <minecraft:quartz>],
-			[<ore:plateBrass>, <meta_tile_entity:gregtech:wooden_chest>, <ore:plateBrass>],
+			[<ore:plateGold>, <meta_tile_entity:gregtech:wooden_chest>, <ore:plateGold>],
 			[<minecraft:quartz>, <minecraft:redstone>, <minecraft:quartz>]
 		]
 	],
 	<rftools:storage_module:1> : [
 		[
 			[<minecraft:quartz>, <meta_tile_entity:gregtech:bronze_chest>, <minecraft:quartz>],
-			[<ore:gearBrass>, <rftools:storage_module>, <ore:gearBrass>],
+			[<ore:gearGold>, <rftools:storage_module>, <ore:gearGold>],
 			[<minecraft:quartz>, <minecraft:redstone>, <minecraft:quartz>]
 		]
 	],

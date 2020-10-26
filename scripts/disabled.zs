@@ -66,8 +66,12 @@ static disabledItems as IIngredient[][string] = {
         <extracells:part.base:5>,
         <extracells:part.base:6>,
         <extracells:part.base:9>,
+        <threng:machine:1>,
         <threng:machine:2>,
         <threng:machine:5>
+    ],
+    extrautils2 : [
+        <extrautils2:drum:*>
     ],
     exnihilo : [
         <exnihilocreatio:hammer_wood>,
