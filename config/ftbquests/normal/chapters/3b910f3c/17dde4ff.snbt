@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -2.5d,
+	text: [
+		"Chrome can be obtained in the Electrolyzer from Ruby Dust."
+	],
+	dependencies: [
+		"fcb657a7"
+	],
+	tasks: [{
+		uid: "bf1a64a5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2016"
+		}]
+	}],
+	rewards: [{
+		uid: "0fae7fc7",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

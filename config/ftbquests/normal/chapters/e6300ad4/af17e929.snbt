@@ -1,0 +1,38 @@
+{
+	title: "Porcelain",
+	icon: "ceramics:unfired_clay 1 5",
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"In some Cultures it is Tradition to break Porcelain at Weddings. They believe it brings Fortune"
+	],
+	dependencies: [
+		"351cfa71"
+	],
+	tasks: [{
+		uid: "c925b58b",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 4"
+		}]
+	},
+	{
+		uid: "3f53d5e9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:unfired_porcelain_brick"
+		}]
+	},
+	{
+		uid: "726fd1c7",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "e6219369",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

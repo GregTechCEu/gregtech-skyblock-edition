@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	text: [
+		"You can't make this yet because Osmium is available at IV. "
+	],
+	dependencies: [
+		"eeb03cc1"
+	],
+	tasks: [{
+		uid: "19c15275",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32670"
+		}]
+	}],
+	rewards: [{
+		uid: "bb9b91ea",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "First LV Circuit",
+	x: -1.5d,
+	y: -2.5d,
+	shape: "rsquare",
+	text: [
+		""
+	],
+	dependencies: [
+		"82815a78"
+	],
+	tasks: [{
+		uid: "ba1b81c9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32487"
+		}]
+	}],
+	rewards: [{
+		uid: "237f9537",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

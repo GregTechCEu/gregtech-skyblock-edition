@@ -1,0 +1,37 @@
+{
+	title: "Cobblestone Generator",
+	x: -1.5d,
+	y: 2.5d,
+	text: [
+		"Now that you have &6Lava&r you can make a &7Cobblestone&r Generator. You can also generate &7Andesite&r, &7Granite&r and &7Diorite&r depending on how far the &9Water&r flows.",
+		"",
+		"&nFlow Length and Output:&r",
+		"&b2 :&r &7Cobblestone&r",
+		"&b3-4 :&r &7Diorite&r",
+		"&b5-6 :&r &7Granite&r",
+		"&b7+ :&r &7Andesite&r",
+		"",
+		"And make sure the &9Water&r does not reach the &6Lava&r by making a hole into the ground where it should stop. (Usually 1 Block before where the Stone should spawn)"
+	],
+	dependencies: [
+		"6b1b3250"
+	],
+	tasks: [{
+		uid: "e0e0a04f",
+		type: "item",
+		title: "Stone / Cobblestone",
+		items: [{
+			item: "minecraft:stone 1 1"
+		},
+		{
+			item: "minecraft:cobblestone"
+		},
+		{
+			item: "minecraft:stone 1 3"
+		},
+		{
+			item: "minecraft:stone 1 5"
+		}],
+		count: 64L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -4.0d,
+	y: -1.5d,
+	shape: "hexagon",
+	text: [
+		"This is the gate to Gregicality and IV "
+	],
+	dependencies: [
+		"299982da",
+		"47637d38"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "5c331d58",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10235"
+		}]
+	}],
+	rewards: [{
+		uid: "1548fb3a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

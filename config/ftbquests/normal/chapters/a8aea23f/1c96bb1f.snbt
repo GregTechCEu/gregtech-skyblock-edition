@@ -1,0 +1,23 @@
+{
+	title: "Tier 4 Sifting",
+	x: -1.5d,
+	y: -7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9ae79371"
+	],
+	tasks: [{
+		uid: "5cef132b",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "5edd0d58",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

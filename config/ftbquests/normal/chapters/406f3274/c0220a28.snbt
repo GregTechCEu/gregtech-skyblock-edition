@@ -1,0 +1,20 @@
+{
+	x: 2.5d,
+	y: 0.5d,
+	dependencies: [
+		"393aa56c",
+		"d3e4773f"
+	],
+	tasks: [{
+		uid: "e51a5b34",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2037"
+		}]
+	}],
+	rewards: [{
+		uid: "adb8a073",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

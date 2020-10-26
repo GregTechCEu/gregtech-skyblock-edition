@@ -1,0 +1,14 @@
+{
+	title: "EV",
+	loot_size: 1,
+	rewards: [],
+	loot_crate: {
+		string_id: "ev",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

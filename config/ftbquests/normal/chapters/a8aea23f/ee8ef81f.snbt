@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"This Machine is used to turn Dusts into there Gems. But also for Reinforced Iridium. You probably don't need this now.",
+		" "
+	],
+	dependencies: [
+		"08abed51"
+	],
+	tasks: [{
+		uid: "d76be71e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2536"
+		}]
+	}],
+	rewards: [{
+		uid: "d92bd767",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

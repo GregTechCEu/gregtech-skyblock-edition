@@ -1,0 +1,24 @@
+{
+	x: -1.9500000000000002d,
+	y: -4.550000000000001d,
+	shape: "hexagon",
+	text: [
+		"Simply made from Osmiridium and Naquadah"
+	],
+	dependencies: [
+		"5266262e"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "42208966",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10308"
+		}]
+	}],
+	rewards: [{
+		uid: "01a0165b",
+		type: "ftbmoney:money",
+		ftb_money: 220L
+	}]
+}

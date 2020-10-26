@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"Can you get all the Elements on the Periodic Table?",
+		"(The Barrier elements currently do not exist)"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "31b7859c",
+		type: "checkmark",
+		title: "All the Elements"
+	}]
+}

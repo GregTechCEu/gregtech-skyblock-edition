@@ -1,0 +1,23 @@
+{
+	title: "First ZPM Circuit",
+	x: 3.0d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ca6210e6"
+	],
+	tasks: [{
+		uid: "e439facf",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32218"
+		}]
+	}],
+	rewards: [{
+		uid: "d29b94a3",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

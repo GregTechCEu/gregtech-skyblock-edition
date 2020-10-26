@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: -5.5d,
+	text: [
+		"Want something to transport RF? Here you go."
+	],
+	dependencies: [
+		"506ea84f"
+	],
+	tasks: [{
+		uid: "e69f360d",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_0"
+		}]
+	}]
+}

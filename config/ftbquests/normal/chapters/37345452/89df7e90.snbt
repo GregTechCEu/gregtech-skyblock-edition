@@ -1,0 +1,17 @@
+{
+	x: 13.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "833f38c7",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluorine",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}

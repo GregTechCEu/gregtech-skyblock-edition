@@ -1,0 +1,24 @@
+{
+	title: "Tier 2 Sifting",
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"Gives acces to more resource like Lead, Silver, Redstone and a view Gems",
+		"But you need an Alloy Smelter"
+	],
+	dependencies: [
+		"69361dec"
+	],
+	tasks: [{
+		uid: "cbb8afe8",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "ee8f8fc9",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

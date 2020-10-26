@@ -1,0 +1,23 @@
+material.conductive_iron=Conductive Iron
+material.pulsating_iron=Pulsating Iron
+material.energetic_alloy=Energetic Alloy
+material.vibrant_alloy=Vibrant Alloy
+material.dark_steel=Dark Steel
+material.lumium=Lumium
+material.signalum=Signalum
+material.enderium=Enderium
+material.electrical_steel=Electrical Steel
+material.end_steel=End Steel
+material.ardite=Ardite
+material.manyullyn=Manyullyn
+material.omnium=Omnium
+material.draconium=Draconium
+
+item.contenttweaker.unfired_porcelain_brick.name=Unfired Porcelain Brick
+
+item.contenttweaker.uncompressed_charcoal.name=Uncompressed Charcoal
+item.contenttweaker.uncompressed_coal_coke.name=Uncompressed Coal Coke
+item.contenttweaker.uncompressed_lignite_coal.name=Uncompressed Lignite Coal
+item.contenttweaker.uncompressed_lignite_coke.name=Uncompressed Lignite Coke
+
+item.contenttweaker.electrotine_wire.name=Electrotine Wire

@@ -1,0 +1,7 @@
+{
+	title: "Age 6 - IV Age",
+	icon: "gregtech:machine 1 505",
+	always_invisible: false,
+	group: -1509069860,
+	default_quest_shape: ""
+}

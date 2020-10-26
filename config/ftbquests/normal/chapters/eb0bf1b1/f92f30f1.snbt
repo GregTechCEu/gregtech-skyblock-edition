@@ -1,0 +1,46 @@
+{
+	title: "Quark Tech Suit",
+	x: -0.5d,
+	y: 2.5d,
+	dependencies: [
+		"cd988360",
+		"7c1e09bc"
+	],
+	tasks: [{
+		uid: "9c9591e9",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_armor 1 6"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f2ed5aa6",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_armor 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11445afc",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_armor 1 5"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5120a52a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_armor 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5c907ddc",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

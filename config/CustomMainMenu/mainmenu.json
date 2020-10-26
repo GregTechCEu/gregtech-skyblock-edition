@@ -1,0 +1,171 @@
+{
+    "images": {
+        "title": {
+            "image": "modpack:title/title.png",
+            "posX": -190,
+            "posY": -120,
+            "width": 380,
+            "height": 76,
+            "alignment": "center"
+        }
+    },
+    "buttons": {
+        "singleplayer": {
+            "text": "menu.singleplayer",
+            "posX": -200,
+            "posY": 15,
+            "width": 114,
+            "height": 18,
+			"imageWidth": 128,
+			"imageHeight": 20,
+			"texture": "modpack:gui/singleplayer.png",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+        "multiplayer": {
+            "text": "menu.multiplayer",
+            "posX": -200,
+            "posY": 37,
+            "width": 114,
+            "height": 18,
+			"imageWidth": 128,
+			"imageHeight": 20,
+			"texture": "modpack:gui/multiplayer.png",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+        "mods": {
+            "text": "fml.menu.mods",
+            "posX": -200,
+            "posY": 59,
+            "width": 114,
+            "height": 18,
+			"imageWidth": 128,
+			"imageHeight": 20,
+			"texture": "modpack:gui/mods.png",
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
+            }
+        },
+        "Bug Report": {
+            "text": "Bug Report",
+            "tooltip": "Report a bug",
+            "posX": -200,
+            "posY": 81,
+            "width": 114,
+            "height": 18,
+			"imageWidth": 128,
+			"imageHeight": 20,
+			"texture": "modpack:gui/mods.png",
+            "action": {
+                "type": "openLink",
+                "link": "https://github.com/huneau/gregicality-skyblock-edition/issues"
+            }
+        },
+        "options": {
+            "text": "menu.options",
+            "posX": -200,
+            "posY": 103,
+            "width": 114,
+            "height": 18,
+			"imageWidth": 128,
+			"imageHeight": 20,
+			"texture": "modpack:gui/options.png",
+			"textOffsetX": 10,
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+        "language": {
+            "text": "Language",
+            "posX": -200,
+            "posY": 125,
+            "width": 114,
+            "height": 18,
+			"imageWidth": 128,
+			"imageHeight": 20,
+			"texture": "modpack:gui/language.png",
+            "action": {
+                "type": "openGui",
+                "gui": "languages"
+            }
+        },
+		"quit": {
+            "text": "menu.quit",
+            "posX": -200,
+            "posY": 147,
+            "width": 114,
+            "height": 18,
+			"imageWidth": 128,
+			"imageHeight": 20,
+			"texture": "modpack:gui/quit.png",
+            "action": {
+                "type": "quit"
+            }
+        },
+		"discord": {
+            "text" : "",
+			"hoverText" : "Gregicality Discord",
+			"textOffsetY" : -25,
+			"textOffsetX" : 25,
+			"hoverTextColor" : 16777215,
+            "posX" : -75,
+            "posY" : 133,
+            "width" : 32,
+            "height" : 32,
+			"imageWidth": 40,
+			"imageHeight": 40,
+			"texture" : "modpack:gui/discord.png",
+            "action" : {
+                "type" : "openLink",
+                "link" : "https://discord.gg/y5dkPtF"
+            }
+        },
+        "refresh": {
+            "text": "",
+            "posX": -240,
+            "posY": 181,
+            "width": 10,
+            "height": 10,
+			"imageWidth": 20,
+			"imageHeight": 20,
+            "texture": "custommainmenu:textures/gui/buttons.png",
+            "action": {
+                "type": "refresh"
+            }
+        }
+    },
+    "texts": {
+        "mojang": {
+            "text": "Copyright Mojang AB. Do not distribute!",
+            "hoverText": "�nCopyright Mojang AB. Do not distribute!",
+            "posX": -197,
+            "posY": -10,
+            "color": -1,
+            "alignment": "bottom_right",
+            "action": {
+                "type": "openGui",
+                "gui": "credits"
+            }
+        },
+        "fml": {
+            "text": "",
+            "posX": 2,
+            "posY": -40,
+            "color": -1,
+            "alignment": "bottom_left"
+        }
+    },
+    "other": {
+        "background": {
+            "image": "modpack:background/splash_screen2.png",
+            "mode": "fill"
+        }
+    }
+}

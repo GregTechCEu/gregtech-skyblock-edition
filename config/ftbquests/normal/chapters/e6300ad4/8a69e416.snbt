@@ -1,0 +1,40 @@
+{
+	title: "Wrought Iron",
+	icon: "gregtech:meta_item_1 1 10197",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"Wrought Iron can be obtained by smelting Iron nuggets"
+	],
+	dependencies: [
+		"0edc90bb"
+	],
+	tasks: [{
+		uid: "9cf7a6e6",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_nugget"
+		}],
+		count: 9L
+	},
+	{
+		uid: "ba7929ff",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 9197"
+		}],
+		count: 9L
+	},
+	{
+		uid: "90453480",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10197"
+		}]
+	}],
+	rewards: [{
+		uid: "d1aa030e",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

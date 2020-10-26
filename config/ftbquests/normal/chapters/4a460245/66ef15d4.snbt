@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"This guy mines ores from the void! That's right, finally something that suits your world."
+	],
+	dependencies: [
+		"b8657795",
+		"f83656bb",
+		"46a49c6f"
+	],
+	tasks: [{
+		uid: "30b53734",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2551"
+		}]
+	}],
+	rewards: [{
+		uid: "9c69bba2",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

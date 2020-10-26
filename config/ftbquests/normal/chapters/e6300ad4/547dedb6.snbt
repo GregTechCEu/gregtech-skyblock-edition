@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: 1.5d,
+	text: [
+		"You can place this in one of the sides of your coke oven to be able automate it."
+	],
+	dependencies: [
+		"3c79317f"
+	],
+	tasks: [{
+		uid: "c811fe37",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 527"
+		}]
+	}],
+	rewards: [{
+		uid: "f4413fac",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

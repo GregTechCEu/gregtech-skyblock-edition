@@ -1,0 +1,7 @@
+{
+	title: "Age xx - MAX Age",
+	icon: "gregtech:machine 1 509",
+	always_invisible: false,
+	group: -1509069860,
+	default_quest_shape: ""
+}

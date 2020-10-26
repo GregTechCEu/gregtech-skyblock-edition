@@ -1,0 +1,17 @@
+{
+	tags: [
+		"furnace_mv"
+	],
+	x: 1.5d,
+	y: -2.0d,
+	dependencies: [
+		"ed5525fc"
+	],
+	tasks: [{
+		uid: "bf82e4f7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 51"
+		}]
+	}]
+}

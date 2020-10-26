@@ -1,0 +1,105 @@
+{
+	title: "Tinker's Tools",
+	icon: {
+		id: "tconstruct:pickaxe",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 4.0f,
+				FreeModifiers: 3,
+				Durability: 241,
+				HarvestLevel: 1,
+				Attack: 3.4f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 4.0f,
+				FreeModifiers: 3,
+				Durability: 241,
+				HarvestLevel: 1,
+				Attack: 3.4f
+			},
+			Special: {
+				Categories: [
+					"aoe",
+					"harvest",
+					"tool"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"cactus",
+					"cactus",
+					"cactus"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Modifiers: [{
+				identifier: "spiky",
+				color: -16735985,
+				level: 1
+			},
+			{
+				identifier: "prickly",
+				color: -16735985,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"spiky",
+				"prickly",
+				"toolleveling"
+			]
+		}
+	},
+	x: 2.5d,
+	y: 2.5d,
+	text: [
+		"Congrats, you can now make Tinker's Tools"
+	],
+	dependencies: [
+		"8ccbd2f4"
+	],
+	tasks: [{
+		uid: "229e0c2c",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a7da52dd",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	},
+	{
+		uid: "a3234cc8",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "163dc7ab",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

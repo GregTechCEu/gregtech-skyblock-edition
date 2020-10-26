@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -3.5d,
+	shape: "pentagon",
+	dependencies: [
+		"48823735"
+	],
+	tasks: [{
+		uid: "a1961e4a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 501"
+		}]
+	}],
+	rewards: [{
+		uid: "7b1a95bf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

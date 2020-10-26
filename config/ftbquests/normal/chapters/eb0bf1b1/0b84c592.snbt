@@ -1,0 +1,26 @@
+{
+	tags: [
+		"cassembler_ev"
+	],
+	x: 1.5d,
+	y: 0.5d,
+	text: [
+		"This is the last tier of Circuit Assembler"
+	],
+	dependencies: [
+		"53d67e6e",
+		"6372f2b0"
+	],
+	tasks: [{
+		uid: "4ede08bb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2003"
+		}]
+	}],
+	rewards: [{
+		uid: "8003270f",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

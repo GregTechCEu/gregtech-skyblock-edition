@@ -1,0 +1,11 @@
+{
+	x: 9.0d,
+	y: 4.5d,
+	tasks: [{
+		uid: "df7bc50f",
+		type: "item",
+		items: [{
+			item: "minecraft:barrier"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	dependencies: [
+		"8b78e659"
+	],
+	tasks: [{
+		uid: "d897aa43",
+		type: "item",
+		items: [{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_blue.name"
+				}
+			}
+		}]
+	}]
+}

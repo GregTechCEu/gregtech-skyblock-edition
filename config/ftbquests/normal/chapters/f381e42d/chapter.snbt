@@ -1,0 +1,7 @@
+{
+	title: "Did you know...?",
+	icon: "ftbquests:book",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

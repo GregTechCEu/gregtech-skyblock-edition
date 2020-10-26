@@ -1,0 +1,23 @@
+{
+	title: "Second LV Circuit",
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9cbbf5b0"
+	],
+	tasks: [{
+		uid: "8ad88c1b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32488"
+		}]
+	}],
+	rewards: [{
+		uid: "11297626",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Age 9 - UV Age",
+	icon: "gregtech:machine 1 508",
+	always_invisible: false,
+	group: -1509069860,
+	default_quest_shape: ""
+}

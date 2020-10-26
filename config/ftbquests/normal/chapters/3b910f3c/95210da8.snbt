@@ -1,0 +1,23 @@
+{
+	title: "First EV Circuit",
+	x: -7.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"aae1748a"
+	],
+	tasks: [{
+		uid: "2cbe7959",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32206"
+		}]
+	}],
+	rewards: [{
+		uid: "b19c206b",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: -2.5d,
+	text: [
+		"Put Silkworms on Tree Leaves and wait until they're fully infested.",
+		"If you now break them you will get Strings."
+	],
+	dependencies: [
+		"0ae56dca"
+	],
+	tasks: [{
+		uid: "704a5f0c",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "736f6a88",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"The Alloy Smelter allows you to make various Low Tier Alloys"
+	],
+	dependencies: [
+		"18b8af44"
+	],
+	tasks: [{
+		uid: "12922ae7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "82be48d1",
+		type: "ftbmoney:money",
+		ftb_money: 7L
+	}]
+}

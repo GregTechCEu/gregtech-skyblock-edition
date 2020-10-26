@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: -3.0d,
+	dependencies: [
+		"506ea84f"
+	],
+	tasks: [{
+		uid: "5c35d412",
+		type: "item",
+		items: [{
+			item: "rftools:machine_frame"
+		}]
+	}]
+}

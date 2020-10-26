@@ -1,0 +1,40 @@
+{
+	title: "First MV Circuit",
+	icon: "gtadditions:ga_meta_item 1 32200",
+	x: -1.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	text: [
+		"Centrifuge some Impure Sphalerite Dust do get Gallium"
+	],
+	dependencies: [
+		"eeb03cc1",
+		"74f74dc6"
+	],
+	tasks: [{
+		uid: "6b923860",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 1025"
+		}]
+	},
+	{
+		uid: "a8d06398",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32451"
+		}]
+	},
+	{
+		uid: "89b5ee73",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32200"
+		}]
+	}],
+	rewards: [{
+		uid: "b551ccd0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,74 @@
+{
+	title: "Vacuum Freezer",
+	icon: "gregtech:machine 1 2535",
+	x: -0.5d,
+	y: -2.0d,
+	text: [
+		"The Vacuum Freezer is mainly used to turn Hot Ingots into normal Ingots, but it can also cool some fluids"
+	],
+	dependencies: [
+		"6ffc46d9"
+	],
+	tasks: [{
+		uid: "4c892b5f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2535"
+		}]
+	},
+	{
+		uid: "ca871d12",
+		type: "item",
+		title: "Any anyInputBus",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "anyInputBus",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "b0966861",
+		type: "item",
+		title: "Any anyOutputBus",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "anyOutputBus",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "51aea24c",
+		type: "item",
+		title: "Any anyEnergyInputHatch",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "anyEnergyInputHatch",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "9bbc6581",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing_aluminium"
+		}],
+		count: 23L
+	}],
+	rewards: [{
+		uid: "395c1522",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	}]
+}

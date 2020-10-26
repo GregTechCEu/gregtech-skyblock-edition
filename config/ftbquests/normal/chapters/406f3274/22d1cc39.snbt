@@ -1,0 +1,24 @@
+{
+	title: "Second ZPM Circuit",
+	x: 5.0d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"3057a244"
+	],
+	tasks: [{
+		uid: "f2f4d708",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32214"
+		}]
+	}],
+	rewards: [{
+		uid: "fedc1ff9",
+		type: "ftbmoney:money",
+		ftb_money: 180L
+	}]
+}

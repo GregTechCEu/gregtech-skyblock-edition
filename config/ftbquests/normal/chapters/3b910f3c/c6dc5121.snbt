@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 1.5d,
+	text: [
+		"For every Voltage above LV there is a Superconductor. They are, as the name implies, really good Conductors. However they are a bit expensive."
+	],
+	dependencies: [
+		"297154ef"
+	],
+	tasks: [{
+		uid: "3903597d",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 970"
+		}]
+	}],
+	rewards: [{
+		uid: "ed7c80da",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

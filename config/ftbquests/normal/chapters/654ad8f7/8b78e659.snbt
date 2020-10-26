@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	dependencies: [
+		"12d38967"
+	],
+	tasks: [{
+		uid: "bf921797",
+		type: "item",
+		items: [{
+			item: "xnet:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "63b9fbb8",
+		type: "item",
+		item: "xnet:xnet_manual"
+	}]
+}

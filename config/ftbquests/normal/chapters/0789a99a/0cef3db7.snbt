@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	text: [
+		"Your first automatic Sieve!"
+	],
+	dependencies: [
+		"00cd4686"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fdf9493a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2749"
+		}]
+	}],
+	rewards: [{
+		uid: "98ec026b",
+		type: "ftbmoney:money",
+		ftb_money: 7L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Third and Last LV Circuit",
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9a0ae84d"
+	],
+	tasks: [{
+		uid: "6dbbab63",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32203"
+		}]
+	}],
+	rewards: [{
+		uid: "d05960f7",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

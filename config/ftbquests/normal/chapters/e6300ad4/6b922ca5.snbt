@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	dependencies: [
+		"6b1b3250"
+	],
+	tasks: [{
+		uid: "3485b4c2",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}]
+	}]
+}

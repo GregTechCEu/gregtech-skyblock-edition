@@ -1,0 +1,48 @@
+{
+	title: "Bronze",
+	icon: "gregtech:meta_item_1 1 10095",
+	x: 2.5d,
+	y: -0.5d,
+	shape: "hexagon",
+	text: [
+		"For this you need the mortar. First make Tin and Copper dust then craft bronze dust and smelt it."
+	],
+	dependencies: [
+		"351cfa71",
+		"0edc90bb"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "ebc70931",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2018"
+		}]
+	},
+	{
+		uid: "b17f775e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2071"
+		}]
+	},
+	{
+		uid: "10c0bff1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2095"
+		}]
+	},
+	{
+		uid: "64ea2ca8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10095"
+		}]
+	}],
+	rewards: [{
+		uid: "de9daf78",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

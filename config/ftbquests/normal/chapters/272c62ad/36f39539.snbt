@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -10.0d,
+	dependencies: [
+		"cd988360",
+		"bdee3ef2"
+	],
+	tasks: [{
+		uid: "20f6b5fa",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_armor 1 14"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f1d514f5",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

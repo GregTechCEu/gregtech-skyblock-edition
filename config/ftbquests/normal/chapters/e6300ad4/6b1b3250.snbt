@@ -1,0 +1,58 @@
+{
+	title: "Lava",
+	icon: {
+		id: "ceramics:clay_bucket",
+		tag: {
+			fluids: {
+				FluidName: "lava",
+				Amount: 1000
+			}
+		}
+	},
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"Make a Crucible. Put a heat source beneath it (check JEI) and put Cobblestone in...Bam."
+	],
+	dependencies: [
+		"af17e929"
+	],
+	tasks: [{
+		uid: "a2fc4040",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible 1 1"
+		}]
+	},
+	{
+		uid: "58b44f81",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}]
+	},
+	{
+		uid: "20251d9e",
+		type: "item",
+		title: "Lava Bucket",
+		items: [{
+			item: "minecraft:lava_bucket"
+		},
+		{
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "6354579d",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Age 10 - UHV Age",
+	icon: "gregtech:machine 1 500",
+	always_invisible: false,
+	group: -1509069860,
+	default_quest_shape: ""
+}

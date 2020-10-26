@@ -1,0 +1,27 @@
+{
+	title: "UV Assembler",
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"Make a Assembling Machine or upgrade your Large Assembler"
+	],
+	dependencies: [
+		"c55fb62a",
+		"f325f26b"
+	],
+	tasks: [{
+		uid: "9d718a8b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2039"
+		},
+		{
+			item: "gtadditions:ga_robot_arm_casing 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "88e5f7f8",
+		type: "ftbmoney:money",
+		ftb_money: 370L
+	}]
+}

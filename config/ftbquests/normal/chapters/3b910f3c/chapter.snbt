@@ -1,0 +1,7 @@
+{
+	title: "Age 3 - MV Age",
+	icon: "gregtech:machine 1 502",
+	always_invisible: false,
+	group: -673523104,
+	default_quest_shape: ""
+}

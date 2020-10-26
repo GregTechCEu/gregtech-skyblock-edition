@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	dependencies: [
+		"12d38967"
+	],
+	tasks: [{
+		uid: "2cc440c1",
+		type: "item",
+		items: [{
+			item: "rftools:remote_storage"
+		}]
+	}]
+}

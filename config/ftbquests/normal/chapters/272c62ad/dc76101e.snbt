@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: -8.0d,
+	text: [
+		"Need a better Power Storage? This is the way.",
+		"You can also upgrade this with better battery cells.",
+		"But this Tower has a constant Power loss."
+	],
+	dependencies: [
+		"0fe0f6f4"
+	],
+	tasks: [{
+		uid: "8ea16b4f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2562"
+		}]
+	}]
+}

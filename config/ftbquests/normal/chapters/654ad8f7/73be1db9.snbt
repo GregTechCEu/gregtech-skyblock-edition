@@ -1,0 +1,17 @@
+{
+	x: -0.5d,
+	y: -3.0d,
+	text: [
+		"Can be obtained from the Charger and by centrifuging Pure Certus Quartz Dust"
+	],
+	dependencies: [
+		"bbebfd1a"
+	],
+	tasks: [{
+		uid: "e114ac5f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}]
+	}]
+}

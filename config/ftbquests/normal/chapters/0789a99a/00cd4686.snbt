@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: -0.5d,
+	shape: "circle",
+	dependencies: [
+		"8071792d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "358e93e5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "15ff12c6",
+		type: "ftbmoney:money",
+		ftb_money: 4L
+	}]
+}

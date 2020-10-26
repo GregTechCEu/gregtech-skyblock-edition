@@ -1,0 +1,34 @@
+[
+  {
+    "mob": "minecraft:witch",
+    "remove": "minecraft:glowstone_dust"
+  },
+  {
+    "mob": "minecraft:witch",
+    "remove": "minecraft:redstone"
+  },
+  {
+    "mob": "minecraft:witch",
+    "remove": "minecraft:gunpowder"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "remove": "minecraft:iron_ingot"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "remove": "minecraft:gold_ingot"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "remove": "minecraft:gold_nugget"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "remove": "minecraft:golden_sword"
+  },
+  {
+  	"mob": "minecraft:ghast",
+  	"remove": "minecraft:gunpowder"
+  }
+]

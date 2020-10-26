@@ -1,0 +1,23 @@
+{
+	title: "Third MV Circuit",
+	x: -5.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e8621615"
+	],
+	tasks: [{
+		uid: "12689fa4",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32204"
+		}]
+	}],
+	rewards: [{
+		uid: "669ab321",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

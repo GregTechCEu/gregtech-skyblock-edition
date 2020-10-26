@@ -1,0 +1,37 @@
+{
+	title: "Tier 1 sifting",
+	x: 1.5d,
+	y: -0.5d,
+	text: [
+		"By sifting Gravel, Sand, Crushed Diorit, Andesite, and Granite you can get Ore Chunks which can be smelted into ingots."
+	],
+	dependencies: [
+		"ccdc3932"
+	],
+	tasks: [{
+		uid: "1d8db1a0",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	},
+	{
+		uid: "51da7db1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10018"
+		}]
+	},
+	{
+		uid: "f990af6e",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}],
+	rewards: [{
+		uid: "58794d6a",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

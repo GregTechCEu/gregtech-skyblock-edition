@@ -1,0 +1,32 @@
+{
+	title: "Large Autocrafting",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"Usefull when you need automation with more than 9 different items."
+	],
+	dependencies: [
+		"b7b3bc3b"
+	],
+	tasks: [{
+		uid: "b0582b9f",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	},
+	{
+		uid: "51beb1e6",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	},
+	{
+		uid: "962b09f9",
+		type: "item",
+		items: [{
+			item: "packagedauto:unpackager"
+		}]
+	}]
+}

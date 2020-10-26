@@ -1,0 +1,24 @@
+{
+	tags: [
+		"chemical_reactor_hv"
+	],
+	x: -2.0d,
+	y: -4.5d,
+	shape: "pentagon",
+	dependencies: [
+		"0fe0f6f4",
+		"33475e12"
+	],
+	tasks: [{
+		uid: "909ceb8c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 192"
+		}]
+	}],
+	rewards: [{
+		uid: "5cdecefa",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	icon: "ceramics:clay_bucket",
+	x: -0.5d,
+	y: -0.5d,
+	text: [
+		"Just as usefull as a normal Bucket,",
+		"",
+		"but it breaks after pouring out a hot fluid."
+	],
+	dependencies: [
+		"bc714d1c",
+		"320dab77"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "e1e5002d",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay"
+		}]
+	},
+	{
+		uid: "b851ab12",
+		type: "item",
+		items: [{
+			item: "ceramics:clay_bucket"
+		}]
+	}],
+	rewards: [{
+		uid: "245442e8",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

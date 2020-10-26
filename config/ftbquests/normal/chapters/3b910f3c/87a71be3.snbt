@@ -1,0 +1,22 @@
+{
+	x: 2.5d,
+	y: -0.5d,
+	text: [
+		"This Machine can Transform any Voltage to any Voltage. Just make sure use the correct Hatches."
+	],
+	dependencies: [
+		"ed5525fc"
+	],
+	tasks: [{
+		uid: "32149cc9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2552"
+		}]
+	}],
+	rewards: [{
+		uid: "ad7b1f12",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

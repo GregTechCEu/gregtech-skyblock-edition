@@ -1,0 +1,27 @@
+{
+	title: "AE2 Fluid Crafting",
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"The Discretizer allows converting between Fluids and \"Drops\". Just stick one somewhere on your network.",
+		"",
+		"The Pattern Encoder allows you to encode Patterns with Fluids as Ingredients or Result. The best way to do so is JEI."
+	],
+	dependencies: [
+		"cc1d03ca"
+	],
+	tasks: [{
+		uid: "df59b2d0",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_discretizer"
+		}]
+	},
+	{
+		uid: "ffc8c568",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_pattern_encoder"
+		}]
+	}]
+}

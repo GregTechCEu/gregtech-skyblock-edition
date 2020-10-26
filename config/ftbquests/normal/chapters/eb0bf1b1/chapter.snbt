@@ -1,0 +1,7 @@
+{
+	title: "Age 5 - EV Age",
+	icon: "gregtech:machine 1 504",
+	always_invisible: false,
+	group: -673523104,
+	default_quest_shape: ""
+}

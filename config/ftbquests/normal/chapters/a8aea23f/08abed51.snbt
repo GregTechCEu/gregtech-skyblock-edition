@@ -1,0 +1,23 @@
+{
+	title: "First HV Circuit",
+	x: -1.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"feef3aa4"
+	],
+	tasks: [{
+		uid: "54b1b1a3",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32202"
+		}]
+	}],
+	rewards: [{
+		uid: "ee2f5c36",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

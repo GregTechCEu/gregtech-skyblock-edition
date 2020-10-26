@@ -1,0 +1,107 @@
+{
+	title: "Greg Tech tools",
+	x: 1.5d,
+	y: 0.5d,
+	text: [
+		"Any item on this list will complete this quest. However you will probably need all of them"
+	],
+	dependencies: [
+		"0edc90bb"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "936bb5e5",
+		type: "item",
+		title: "Any craftingToolSaw",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolSaw",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0088622d",
+		type: "item",
+		title: "Any craftingToolWrench",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWrench",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "899470a9",
+		type: "item",
+		title: "Any craftingToolHardHammer",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolHardHammer",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1488d29a",
+		type: "item",
+		title: "Any craftingToolFile",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolFile",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6dac8ebf",
+		type: "item",
+		title: "Any craftingToolMortar",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolMortar",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ec232cb5",
+		type: "item",
+		title: "Any craftingToolKnife",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolKnife",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa8bddf4",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

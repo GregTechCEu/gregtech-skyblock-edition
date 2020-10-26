@@ -1,0 +1,25 @@
+{
+	title: "Fourth and Last EV Circuit",
+	x: 3.0d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"67eeef8c",
+		"c64b483c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c5daca9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32494"
+		}]
+	}],
+	rewards: [{
+		uid: "81849b7b",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

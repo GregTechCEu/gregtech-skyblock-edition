@@ -1,0 +1,50 @@
+{
+	title: "Custom Drawer",
+	icon: {
+		id: "storagedrawers:customdrawers",
+		tag: {
+			MatT: {
+				id: "minecraft:planks",
+				Count: 1b,
+				Damage: 1s
+			},
+			MatF: {
+				id: "minecraft:planks",
+				Count: 1b,
+				Damage: 2s
+			},
+			MatS: {
+				id: "minecraft:planks",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	x: 2.5d,
+	y: 0.5d,
+	text: [
+		"Get a Saw and make your own customized Drawer"
+	],
+	dependencies: [
+		"351cfa71"
+	],
+	tasks: [{
+		uid: "a5619b2f",
+		type: "item",
+		items: [{
+			item: "storagedrawers:framingtable"
+		}]
+	},
+	{
+		uid: "4950b9d2",
+		type: "item",
+		items: [{
+			item: "storagedrawers:customdrawers"
+		}]
+	}],
+	rewards: [{
+		uid: "c699d5f7",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

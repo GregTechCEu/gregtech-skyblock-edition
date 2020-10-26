@@ -1,0 +1,24 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "28a7aeb1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10063"
+		}]
+	},
+	{
+		uid: "6f70bccd",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sodium",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}

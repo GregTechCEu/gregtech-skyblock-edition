@@ -1,0 +1,28 @@
+{
+	x: 3.0d,
+	y: 8.0d,
+	dependencies: [
+		"07521e8c",
+		"4ab57736"
+	],
+	tasks: [{
+		uid: "5a30e8c8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2504"
+		}]
+	},
+	{
+		uid: "624cbc99",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 7"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "5cfa1f9c",
+		type: "ftbmoney:money",
+		ftb_money: 210L
+	}]
+}

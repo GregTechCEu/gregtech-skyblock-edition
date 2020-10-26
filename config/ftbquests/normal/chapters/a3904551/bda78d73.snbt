@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	text: [
+		"Just as I said before, there are no more Circuit Assemblers"
+	],
+	dependencies: [
+		"a7916bd3"
+	],
+	tasks: [{
+		uid: "31807da2",
+		type: "checkmark",
+		title: "No Circuit Assembler"
+	}]
+}

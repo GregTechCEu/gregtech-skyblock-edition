@@ -1,0 +1,26 @@
+{
+	title: "Steel Hull",
+	x: 1.5d,
+	y: 6.5d,
+	text: [
+		"Steel Machines still run of steam. There are slightly better, but are mostly not worth it apart from the boilers."
+	],
+	dependencies: [
+		"48823735"
+	],
+	tasks: [{
+		uid: "1d1b3ccb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 13"
+		},
+		{
+			item: "gregtech:machine_casing 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "deef5c8c",
+		type: "ftbmoney:money",
+		ftb_money: 8L
+	}]
+}

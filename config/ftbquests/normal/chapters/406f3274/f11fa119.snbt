@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 0.5d,
+	dependencies: [
+		"c0220a28"
+	],
+	tasks: [{
+		uid: "d7cd19a9",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 966"
+		}]
+	}],
+	rewards: [{
+		uid: "bd7cd084",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

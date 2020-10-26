@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	text: [
+		"Not as good as the real one, but it will do the job for now."
+	],
+	dependencies: [
+		"7228abc2"
+	],
+	tasks: [{
+		uid: "cbf27713",
+		type: "item",
+		items: [{
+			item: "tconstruct:wooden_hopper"
+		}]
+	}]
+}

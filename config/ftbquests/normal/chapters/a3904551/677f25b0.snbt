@@ -1,0 +1,40 @@
+{
+	icon: "gregtech:machine 1 2502",
+	x: -1.5d,
+	y: -2.5d,
+	text: [
+		"The Assembly Line is a large Multiblock which is required for higher Machine Parts.",
+		"The length depends on the input amount. So when in JEI 12 slots are used, then the Machine needs to be 12 Blocks long."
+	],
+	dependencies: [
+		"a7916bd3"
+	],
+	tasks: [{
+		uid: "7ab7da3a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2502"
+		}]
+	},
+	{
+		uid: "f3d90739",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "db7ffa6a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "831b1f51",
+		type: "ftbmoney:money",
+		ftb_money: 170L
+	}]
+}

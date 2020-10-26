@@ -1,0 +1,85 @@
+{
+	title: "Blast Furnace",
+	icon: "gregtech:machine 1 2534",
+	x: -2.5d,
+	y: -6.0d,
+	shape: "pentagon",
+	text: [
+		"Use two LV Input Hatches inorder to be able to make MV Recipes with  LV power"
+	],
+	dependencies: [
+		"6c60d336",
+		"e6df61ec"
+	],
+	tasks: [{
+		uid: "fe3eafd7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2534"
+		}]
+	},
+	{
+		uid: "568800bf",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing_invar"
+		}],
+		count: 13L
+	},
+	{
+		uid: "7cb5d3ab",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		count: 16L
+	},
+	{
+		uid: "a9800187",
+		type: "item",
+		title: "Any anyInputBus",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "anyInputBus",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "fe14f35f",
+		type: "item",
+		title: "Any anyOutputBus",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "anyOutputBus",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "0fd349ac",
+		type: "item",
+		title: "Any anyEnergyInputHatch",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "anyEnergyInputHatch",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "209fa774",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

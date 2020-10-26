@@ -1,0 +1,98 @@
+{
+  "ore:obsidian": {
+    "fluid": "lava",
+    "amount": 1000
+  },
+  "ore:netherrack": {
+    "fluid": "lava",
+    "amount": 1000
+  },
+  "ore:stoneBasalt": {
+    "fluid": "lava",
+    "amount": 500
+  },
+  "ore:stoneGranite": {
+    "fluid": "lava",
+    "amount": 500
+  },
+  "ore:stoneAndesite": {
+    "fluid": "lava",
+    "amount": 500
+  },
+  "ore:stoneDiorite": {
+    "fluid": "lava",
+    "amount": 500
+  },
+  "ore:stoneBlackGranite": {
+    "fluid": "lava",
+    "amount": 500
+  },
+  "ore:stoneRedGranite": {
+    "fluid": "lava",
+    "amount": 500
+  },
+  "gregtech:mineral:6": {
+    "fluid": "lava",
+    "amount": 500
+  },
+  "gregtech:granite:4": {
+    "fluid": "lava",
+    "amount": 500
+  },
+  "gregtech:granite:5": {
+    "fluid": "lava",
+    "amount": 500
+  },
+  "gtadditions:gbpebble:0": {
+    "fluid": "lava",
+    "amount": 125
+  },
+  "gtadditions:gbpebble:1": {
+    "fluid": "lava",
+    "amount": 125
+  },
+  "gtadditions:gbpebble:3": {
+    "fluid": "lava",
+    "amount": 125
+  },
+  "exnihilocreatio:item_pebble:1": {
+    "fluid": "lava",
+    "amount": 125
+  },
+  "exnihilocreatio:item_pebble:2": {
+    "fluid": "lava",
+    "amount": 125
+  },
+  "exnihilocreatio:item_pebble:3": {
+    "fluid": "lava",
+    "amount": 125
+  },
+  "ore:stoneMarble": {
+    "fluid": "lava",
+    "amount": 250
+  },
+  "gregtech:mineral:4": {
+    "fluid": "lava",
+    "amount": 250
+  },
+  "ore:cobblestone": {
+    "fluid": "lava",
+    "amount": 100
+  },
+  "ore:stone": {
+    "fluid": "lava",
+    "amount": 100
+  },
+  "ore:gravel": {
+    "fluid": "lava",
+    "amount": 75
+  },
+  "ore:sand": {
+    "fluid": "lava",
+    "amount": 50
+  },
+  "ore:dust": {
+    "fluid": "lava",
+    "amount": 25
+  }
+}

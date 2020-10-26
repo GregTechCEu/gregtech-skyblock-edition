@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: 0.5d,
+	dependencies: [
+		"1e5e4d5f"
+	],
+	tasks: [{
+		uid: "1f164f50",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32015"
+		}]
+	}],
+	rewards: [{
+		uid: "a6832c9c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

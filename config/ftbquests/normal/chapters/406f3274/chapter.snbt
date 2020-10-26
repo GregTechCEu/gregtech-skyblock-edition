@@ -1,0 +1,7 @@
+{
+	title: "Age 7 - LuV Age",
+	icon: "gregtech:machine 1 506",
+	always_invisible: false,
+	group: -1509069860,
+	default_quest_shape: ""
+}

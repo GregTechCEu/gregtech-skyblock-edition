@@ -1,0 +1,31 @@
+{
+	title: "Clay",
+	icon: "minecraft:clay",
+	x: 0.5d,
+	y: -0.5d,
+	text: [
+		"Put Dust in a with Water filled Barrel"
+	],
+	dependencies: [
+		"ccdc3932"
+	],
+	tasks: [{
+		uid: "b78ab894",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_dust"
+		}]
+	},
+	{
+		uid: "a6fa5c1a",
+		type: "item",
+		items: [{
+			item: "minecraft:clay"
+		}]
+	}],
+	rewards: [{
+		uid: "97736b28",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

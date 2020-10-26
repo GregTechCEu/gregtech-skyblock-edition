@@ -1,0 +1,23 @@
+{
+	tags: [
+		"assembler_ev"
+	],
+	x: 0.5d,
+	y: 1.5d,
+	dependencies: [
+		"53d67e6e",
+		"6372f2b0"
+	],
+	tasks: [{
+		uid: "c14953e1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 103"
+		}]
+	}],
+	rewards: [{
+		uid: "3f561565",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

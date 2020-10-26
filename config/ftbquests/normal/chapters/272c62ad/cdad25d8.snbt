@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Kanthal is made from Iron, Aluminium and Chrome"
+	],
+	dependencies: [
+		"17dde4ff"
+	],
+	tasks: [{
+		uid: "1d96edaf",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10127"
+		}]
+	}],
+	rewards: [{
+		uid: "bfdce014",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	}]
+}

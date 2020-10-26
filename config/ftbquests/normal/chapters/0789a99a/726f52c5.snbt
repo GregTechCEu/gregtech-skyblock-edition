@@ -1,0 +1,28 @@
+{
+	x: 3.5d,
+	y: 3.0d,
+	dependencies: [
+		"c039f42f"
+	],
+	tasks: [{
+		uid: "b49552ba",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32037"
+		}],
+		count: 132L
+	},
+	{
+		uid: "f507a187",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2356"
+		}],
+		count: 132L
+	}],
+	rewards: [{
+		uid: "3c0a615f",
+		type: "ftbmoney:money",
+		ftb_money: 4L
+	}]
+}

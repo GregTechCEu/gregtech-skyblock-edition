@@ -1,0 +1,45 @@
+{
+	icon: "gregtech:machine 1 2004",
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"393aa56c",
+		"d3e4773f"
+	],
+	tasks: [{
+		uid: "c6302638",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2004"
+		}]
+	},
+	{
+		uid: "ddd72520",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 8"
+		}],
+		count: 7L
+	},
+	{
+		uid: "6d032f37",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 1"
+		}],
+		count: 14L
+	},
+	{
+		uid: "618bf37b",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 2"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "77feb86a",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

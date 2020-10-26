@@ -1,0 +1,7 @@
+{
+	title: "Age 4 - HV Age",
+	icon: "gregtech:machine 1 503",
+	always_invisible: false,
+	group: -673523104,
+	default_quest_shape: ""
+}

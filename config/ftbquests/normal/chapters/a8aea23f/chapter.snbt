@@ -1,0 +1,7 @@
+{
+	title: "Age 2 - LV Age",
+	icon: "gregtech:machine 1 501",
+	always_invisible: false,
+	group: -673523104,
+	default_quest_shape: ""
+}

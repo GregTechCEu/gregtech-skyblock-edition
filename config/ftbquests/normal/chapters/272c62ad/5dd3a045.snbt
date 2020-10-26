@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	text: [
+		"A strong Alloy made from Titanium and Nickel.",
+		"This opens the gate to Applied Energistics 2"
+	],
+	dependencies: [
+		"59f6f812"
+	],
+	tasks: [{
+		uid: "ba5dd21e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10943"
+		}]
+	}],
+	rewards: [{
+		uid: "f9fc1548",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

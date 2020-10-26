@@ -1,0 +1,11 @@
+{
+	x: -2.0d,
+	y: -0.5d,
+	shape: "octagon",
+	size: 8.0d,
+	tasks: [{
+		uid: "c892a9a1",
+		type: "checkmark",
+		title: "Coming Soon"
+	}]
+}
