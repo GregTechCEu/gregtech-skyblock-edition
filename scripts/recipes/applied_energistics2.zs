@@ -488,44 +488,30 @@ function machineRecipes() {
 		.EUt(120)
 		.buildAndRegister();
 
-    val aeSeeds as IItemStack[string][IItemStack] = {
-        <appliedenergistics2:material:10> : {
-            "0" : <appliedenergistics2:crystal_seed>.withTag({progress: 0}),
-            "33" : <appliedenergistics2:crystal_seed>.withTag({progress: 200}),
-            "66" : <appliedenergistics2:crystal_seed>.withTag({progress: 400})
-        },
-        <appliedenergistics2:material:11> : {
-            "0" : <appliedenergistics2:crystal_seed:600>.withTag({progress: 600}),
-            "33" : <appliedenergistics2:crystal_seed:600>.withTag({progress: 800}),
-            "66" : <appliedenergistics2:crystal_seed:600>.withTag({progress: 1000})
-        },
-        <appliedenergistics2:material:12> : {
-            "0" : <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1200}),
-            "33" : <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}),
-            "66" : <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600})
-        },
+    val aeSeeds as IItemStack[IItemStack] = {
+        <appliedenergistics2:material:10> : <appliedenergistics2:crystal_seed:0>,
+        <appliedenergistics2:material:11> : <appliedenergistics2:crystal_seed:600>,
+        <appliedenergistics2:material:12> : <appliedenergistics2:crystal_seed:1200>
     };
 
     for crystal, seed in aeSeeds {
-
+        val meta = seed.metadata;
         gt.autoclave.recipeBuilder()
-            .inputs([seed["0"]])
+            .inputs([seed.withTag({progress: meta}).onlyWithTag({progress: meta})])
             .fluidInputs([<liquid:water> * 1000])
-            .outputs([seed["33"]])
+            .outputs([seed.withTag({progress: meta+200})])
             .duration(60)
             .EUt(256)
             .buildAndRegister();
-
         gt.autoclave.recipeBuilder()
-            .inputs([seed["33"]])
+            .inputs([seed.withTag({progress: meta+200}).onlyWithTag({progress: meta+200})])
             .fluidInputs([<liquid:water> * 1000])
-            .outputs([seed["66"]])
+            .outputs([seed.withTag({progress: meta+400})])
             .duration(60)
             .EUt(256)
-            .buildAndRegister();
-
+            .buildAndRegister();    
         gt.autoclave.recipeBuilder()
-            .inputs([seed["66"]])
+            .inputs([seed.withTag({progress: meta+400}).onlyWithTag({progress: meta+400})])
             .fluidInputs([<liquid:water> * 1000])
             .outputs([crystal])
             .duration(60)
