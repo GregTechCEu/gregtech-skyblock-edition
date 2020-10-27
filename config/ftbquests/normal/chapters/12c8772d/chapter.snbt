@@ -1,5 +1,5 @@
 {
-	title: "Age 8 - ZPM Age",
+	title: "{quests.age8.title}",
 	icon: "gregtech:machine 1 507",
 	always_invisible: false,
 	group: -1509069860,

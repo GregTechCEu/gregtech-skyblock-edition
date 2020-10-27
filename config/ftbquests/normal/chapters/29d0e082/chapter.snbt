@@ -1,5 +1,5 @@
 {
-	title: "Age xx - MAX Age",
+	title: "{quests.age_max.title}",
 	icon: "gregtech:machine 1 509",
 	always_invisible: false,
 	group: -1509069860,

@@ -1,5 +1,5 @@
 {
-	title: "Storage & ...",
+	title: "{quests.storage.title}",
 	icon: "rftools:storage_scanner",
 	always_invisible: false,
 	group: 0,

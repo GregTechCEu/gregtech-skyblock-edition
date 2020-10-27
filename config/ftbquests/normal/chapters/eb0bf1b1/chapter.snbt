@@ -1,5 +1,5 @@
 {
-	title: "Age 5 - EV Age",
+	title: "{quests.age5.title}",
 	icon: "gregtech:machine 1 504",
 	always_invisible: false,
 	group: -673523104,

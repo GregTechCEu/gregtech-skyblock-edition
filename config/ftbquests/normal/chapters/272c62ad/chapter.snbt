@@ -1,5 +1,5 @@
 {
-	title: "Age 4 - HV Age",
+	title: "{quests.age4.title}",
 	icon: "gregtech:machine 1 503",
 	always_invisible: false,
 	group: -673523104,

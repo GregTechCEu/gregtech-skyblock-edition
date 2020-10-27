@@ -1,5 +1,5 @@
 {
-	title: "Did you know...?",
+	title: "{quests.did_you_know.title}",
 	icon: "ftbquests:book",
 	always_invisible: false,
 	group: 0,

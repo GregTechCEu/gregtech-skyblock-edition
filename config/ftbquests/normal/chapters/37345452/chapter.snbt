@@ -1,5 +1,5 @@
 {
-	title: "Periodic Table",
+	title: "{quests.periodic_table.title}",
 	icon: "gregtech:meta_item_1 1 32729",
 	always_invisible: false,
 	group: 0,
