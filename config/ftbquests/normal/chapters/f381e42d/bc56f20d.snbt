@@ -1,13 +1,12 @@
 {
+	title: "{quests.did_you_know.ftbquests.title}",
 	x: -3.5d,
 	y: -2.5d,
 	text: [
-		"On the left side you can see what you need to complete the quest. On the right side is the reward.",
-		"You may notice the little arrows on the left and right side. These show what quest you need to complete and what quests will be unlocked."
+		"{quests.did_you_know.ftbquests.desc}"
 	],
 	tasks: [{
 		uid: "bad4438c",
-		type: "checkmark",
-		title: "How to FTB Quests"
+		type: "checkmark"
 	}]
 }

@@ -1,14 +1,12 @@
 {
+	title: "{quests.did_you_know.gt_overclocking.title}",
 	x: -2.0d,
 	y: -2.5d,
 	text: [
-		"You will notice that Machines that require EU have a Overclocking Button. When the Machine is a higher tier than the Recipe, then the Machine will be faster but also will consume more Energy.",
-		"Here is a website where you can calculate the exact stats:",
-		"&bhttps://omnifactorydevs.github.io/OverclockingCalculator/"
+		"{quests.did_you_know.gt_overclocking.desc}"
 	],
 	tasks: [{
 		uid: "5f9b75c6",
-		type: "checkmark",
-		title: "Gregtech Overclocking"
+		type: "checkmark"
 	}]
 }
