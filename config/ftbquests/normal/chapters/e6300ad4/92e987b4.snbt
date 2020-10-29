@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"How much wood would a woodchuck chuck, if a woodchuck could chuck wood?",
+		"",
+		"The Chopper can automatically place and harvest trees. Just supply it with sapplings, fuel and an Axe.",
+		"Gregtech axes does  not work unfortunatly, but Tinkers does."
+	],
+	dependencies: [
+		"bc714d1c"
+	],
+	tasks: [{
+		uid: "5135114e",
+		type: "item",
+		items: [{
+			item: "progressiveautomation:chopper_wooden"
+		}]
+	}],
+	rewards: [{
+		uid: "1181a8f1",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

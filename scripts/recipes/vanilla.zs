@@ -34,6 +34,21 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
         [
             [<ore:wireFineRedAlloy>, <ore:wireFineRedAlloy>, <ore:wireFineRedAlloy>]
         ]
+    ],
+    //Progressive automation
+    <progressiveautomation:chopper_wooden> : [
+        [
+            [<ore:logWood>, <ore:chest>, <ore:logWood>],
+            [<ore:gearStone>, <minecraft:furnace>, <ore:gearStone>],
+            [<minecraft:stone_slab:4>, <tconstruct:axe_head>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"}), <minecraft:stone_slab:4>]
+        ]
+    ],
+    <progressiveautomation:wood_upgrade> : [
+        [
+            [<ore:plateWood>, <ore:gearWood>, <ore:plateWood>],
+            [<ore:gearWood>, <ore:plateRedAlloy>, <ore:gearWood>],
+            [<ore:plateWood>, <ore:gearWood>, <ore:plateWood>]
+        ]
     ]
 };
 
@@ -68,7 +83,15 @@ static removeRecipes as IItemStack[] = [
     <chisel:lapis>,
     <chisel:redstone>,
     <chisel:diamond>,
-    <chisel:emerald>
+    <chisel:emerald>,
+    <bonsaitrees:bonsaipot:1>,
+    <progressiveautomation:chopper_wooden>,
+    <progressiveautomation:farmer_wooden>,
+    <progressiveautomation:wood_upgrade>,
+    <progressiveautomation:stone_upgrade>,
+    <progressiveautomation:iron_upgrade>,
+    <progressiveautomation:diamond_upgrade>,
+    <progressiveautomation:wither_upgrade>
 ];
 
 static removeFurnace as IIngredient[] = [
