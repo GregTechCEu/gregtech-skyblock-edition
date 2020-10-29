@@ -21,4 +21,5 @@ function initRecipes() {
     scripts.recipes.rftools.init();
     scripts.recipes.tconstruct.init();
     scripts.recipes.ex_nihilo.init();
+    scripts.recipes.steves_carts.init();
 }

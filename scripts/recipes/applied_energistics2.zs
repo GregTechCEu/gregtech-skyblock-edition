@@ -488,35 +488,42 @@ function machineRecipes() {
 		.EUt(120)
 		.buildAndRegister();
 
+    val waters as int[ILiquidStack] = {
+        <liquid:water> : 80,
+        <liquid:distilled_water> : 60
+    };
+
     val aeSeeds as IItemStack[IItemStack] = {
         <appliedenergistics2:material:10> : <appliedenergistics2:crystal_seed:0>,
         <appliedenergistics2:material:11> : <appliedenergistics2:crystal_seed:600>,
         <appliedenergistics2:material:12> : <appliedenergistics2:crystal_seed:1200>
     };
 
-    for crystal, seed in aeSeeds {
-        val meta = seed.metadata;
-        gt.autoclave.recipeBuilder()
-            .inputs([seed.withTag({progress: meta}).onlyWithTag({progress: meta})])
-            .fluidInputs([<liquid:water> * 1000])
-            .outputs([seed.withTag({progress: meta+200})])
-            .duration(60)
-            .EUt(256)
-            .buildAndRegister();
-        gt.autoclave.recipeBuilder()
-            .inputs([seed.withTag({progress: meta+200}).onlyWithTag({progress: meta+200})])
-            .fluidInputs([<liquid:water> * 1000])
-            .outputs([seed.withTag({progress: meta+400})])
-            .duration(60)
-            .EUt(256)
-            .buildAndRegister();    
-        gt.autoclave.recipeBuilder()
-            .inputs([seed.withTag({progress: meta+400}).onlyWithTag({progress: meta+400})])
-            .fluidInputs([<liquid:water> * 1000])
-            .outputs([crystal])
-            .duration(60)
-            .EUt(256)
-            .buildAndRegister();
+    for water, duration in waters {
+        for crystal, seed in aeSeeds {
+            val meta = seed.metadata;
+            gt.autoclave.recipeBuilder()
+                .inputs([seed.withTag({progress: meta}).onlyWithTag({progress: meta})])
+                .fluidInputs([water * 1000])
+                .outputs([seed.withTag({progress: meta+200})])
+                .duration(duration)
+                .EUt(256)
+                .buildAndRegister();
+            gt.autoclave.recipeBuilder()
+                .inputs([seed.withTag({progress: meta+200}).onlyWithTag({progress: meta+200})])
+                .fluidInputs([water * 1000])
+                .outputs([seed.withTag({progress: meta+400})])
+                .duration(duration)
+                .EUt(256)
+                .buildAndRegister();    
+            gt.autoclave.recipeBuilder()
+                .inputs([seed.withTag({progress: meta+400}).onlyWithTag({progress: meta+400})])
+                .fluidInputs([water * 1000])
+                .outputs([crystal])
+                .duration(duration)
+                .EUt(256)
+                .buildAndRegister();
+        }
     }
 }
 

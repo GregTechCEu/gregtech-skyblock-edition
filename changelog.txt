@@ -1,3 +1,19 @@
+version 5.0.6
+
+fixes
+fixed Pure crystal crafting
+added distilled water to pure crystal crafting
+removed Skyrium melting
+fixed fireclay quest
+implemented steves carts and Progressive Automation
+ae2 requires 10x more energy than before (100x in total)
+
+added
+Progressive Automation
+Steve's Carts
+
+#################################################
+
 version 5.0.5
 
 fixes
@@ -6,7 +22,7 @@ added integrated circuit to red alloy wire recipe
 removed all eu2 drums
 glowstone, blaze powder and skystone dust are now obtainable from dust again
 blizz, blitz & basalz powder can now sieved
-nerfed storage module quest
+nerfed storage module recipe
 disabled pulse centrifuge
 added autoclave recipes for pure crystals (Thanks _MasterEnderman_)
 
