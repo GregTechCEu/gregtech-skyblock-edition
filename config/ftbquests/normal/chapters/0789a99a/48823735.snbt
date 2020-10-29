@@ -1,4 +1,7 @@
 {
+	tags: [
+		"first_steel"
+	],
 	x: 1.5d,
 	y: 5.0d,
 	shape: "hexagon",

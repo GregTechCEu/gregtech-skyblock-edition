@@ -1,5 +1,8 @@
 {
 	title: "More Integrated Circuits",
+	tags: [
+		"integrated_circuit_stack"
+	],
 	x: -4.0d,
 	y: -3.0d,
 	shape: "gear",

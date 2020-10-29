@@ -1,5 +1,8 @@
 {
 	title: "Collector of the Elements",
+	tags: [
+		"periodic_table_all"
+	],
 	x: 17.0d,
 	y: 2.5d,
 	text: [
