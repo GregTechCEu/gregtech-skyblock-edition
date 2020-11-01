@@ -22,4 +22,5 @@ function initRecipes() {
     scripts.recipes.tconstruct.init();
     scripts.recipes.ex_nihilo.init();
     scripts.recipes.steves_carts.init();
+    scripts.recipes.extra_utils.init();
 }

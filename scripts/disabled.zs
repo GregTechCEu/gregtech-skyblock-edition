@@ -137,7 +137,7 @@ static disabledItems as IIngredient[][string] = {
         <progressiveautomation:crafter_iron>,
         <progressiveautomation:crafter_diamond>,
         <progressiveautomation:chopper_stone>,
-        <progressiveautomation:chopper_iron>,
+        //<progressiveautomation:chopper_iron>,
         <progressiveautomation:chopper_diamond>,
         <progressiveautomation:farmer_stone>,
         <progressiveautomation:farmer_iron>,
