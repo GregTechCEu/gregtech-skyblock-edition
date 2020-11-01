@@ -1,3 +1,12 @@
+version 5.0.7
+
+fixes
+changed steves carts engine recipe
+added thermal duct eu2 pipe recipe
+added recipe to iron chopper and iron upgrade
+
+#################################################
+
 version 5.0.6
 
 fixes
