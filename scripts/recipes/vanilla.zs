@@ -43,11 +43,25 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<minecraft:stone_slab:4>, <tconstruct:axe_head>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"}), <minecraft:stone_slab:4>]
         ]
     ],
+    <progressiveautomation:chopper_iron> : [
+        [
+            [<ore:pipeMediumBronze>, <meta_tile_entity:gregtech:steel_chest>, <ore:pipeMediumBronze>],
+            [<ore:gearSteel>, <progressiveautomation:chopper_wooden>, <ore:gearSteel>],
+            [<minecraft:brick_block>, <tconstruct:axe_head>.withTag({Material: "steel"}).onlyWithTag({Material: "steel"}), <minecraft:brick_block>]
+        ]
+    ],
     <progressiveautomation:wood_upgrade> : [
         [
             [<ore:plateWood>, <ore:gearWood>, <ore:plateWood>],
             [<ore:gearWood>, <ore:plateRedAlloy>, <ore:gearWood>],
             [<ore:plateWood>, <ore:gearWood>, <ore:plateWood>]
+        ]
+    ],
+    <progressiveautomation:iron_upgrade> : [
+        [
+            [<ore:plateSteel>, <ore:gearSmallSteel>, <ore:plateSteel>],
+            [<ore:gearSmallSteel>, gt.getCirc("LV"), <ore:gearSmallSteel>],
+            [<ore:plateSteel>, <ore:gearSmallSteel>, <ore:plateSteel>]
         ]
     ]
 };
@@ -86,6 +100,7 @@ static removeRecipes as IItemStack[] = [
     <chisel:emerald>,
     <bonsaitrees:bonsaipot:1>,
     <progressiveautomation:chopper_wooden>,
+    <progressiveautomation:chopper_iron>,
     <progressiveautomation:farmer_wooden>,
     <progressiveautomation:wood_upgrade>,
     <progressiveautomation:stone_upgrade>,

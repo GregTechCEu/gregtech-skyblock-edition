@@ -26,6 +26,34 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<metaitem:robot.arm.hv>, <gregtech:machine_casing:3>, <metaitem:robot.arm.hv>],
 			[<stevescarts:modulecomponents:9>, <ore:plateSteel>, <stevescarts:modulecomponents:9>]
 		]
+	],
+	<stevescarts:cartmodule:0> : [
+		[
+			[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+			[<meta_tile_entity:gregtech:steam_boiler_coal_steel>, <meta_tile_entity:gregtech:steam_boiler_coal_steel>, <metaitem:electric.motor.hv>],
+			[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
+		]
+	],
+	<stevescarts:cartmodule:44> : [
+		[
+			[<ore:plateSteel>, <ore:plateSteel>],
+			[<meta_tile_entity:gregtech:steam_boiler_coal_steel>, <metaitem:electric.motor.hv>],
+			[<ore:plateSteel>, <ore:plateSteel>]
+		]
+	],
+	<stevescarts:cartmodule:69> : [
+		[
+			[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+			[<meta_tile_entity:gregtech:steam_boiler_lava_steel>, <meta_tile_entity:gregtech:steam_boiler_lava_steel>, <metaitem:electric.motor.hv>],
+			[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
+		]
+	],
+	<stevescarts:cartmodule:70> : [
+		[
+			[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+			[<meta_tile_entity:gregtech:steam_boiler_lava_steel>, <meta_tile_entity:gregtech:diesel_generator.hv>, <metaitem:electric.motor.hv>],
+			[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
+		]
 	]
 };
 
@@ -45,8 +73,12 @@ static removeRecipes as IItemStack[] = [
 	<stevescarts:modulecomponents:30>,
 	<stevescarts:modulecomponents:34>,
 	<stevescarts:modulecomponents:44>,
+	<stevescarts:cartmodule:0>,
 	<stevescarts:cartmodule:37>,
 	<stevescarts:cartmodule:38>,
+	<stevescarts:cartmodule:44>,
+	<stevescarts:cartmodule:69>,
+	<stevescarts:cartmodule:70>,
 	<stevescarts:blockcartassembler>
 ];
 
