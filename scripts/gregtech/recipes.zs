@@ -146,6 +146,14 @@ function machineRecipes() {
     gt.alloy_smelter.recipeBuilder().duration(4800).EUt(65536).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13307>*8]).outputs([<gregtech:meta_item_1:32006>]).buildAndRegister();
     gt.alloy_smelter.recipeBuilder().duration(4800).EUt(262144).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13993>*8]).outputs([<gregtech:meta_item_1:32007>]).buildAndRegister();
 
+    // Fix recipe conflict
+    gt.chemical_reactor.findRecipe(30, [null], [<liquid:ammonia> * 1000, <liquid:hypochlorous_acid> * 1000]).remove();
+    gt.alloy_smelter.recipeBuilder()
+        .fluidInputs([<liquid:ammonia> * 1000, <liquid:hypochlorous_acid> * 1000])
+        .notConsumable(gt.getCirc(1))
+        .fluidOutputs([<liquid:water> * 1000, <liquid:chloramine> * 1000])
+        .duration(sec(8)).EUt(30)
+        .buildAndRegister();
 } 
 
 function init() {
