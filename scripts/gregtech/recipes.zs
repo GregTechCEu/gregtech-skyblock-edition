@@ -148,7 +148,7 @@ function machineRecipes() {
 
     // Fix recipe conflict
     gt.chemical_reactor.findRecipe(30, [null], [<liquid:ammonia> * 1000, <liquid:hypochlorous_acid> * 1000]).remove();
-    gt.alloy_smelter.recipeBuilder()
+    gt.chemical_reactor.recipeBuilder()
         .fluidInputs([<liquid:ammonia> * 1000, <liquid:hypochlorous_acid> * 1000])
         .notConsumable(gt.getCirc(1))
         .fluidOutputs([<liquid:water> * 1000, <liquid:chloramine> * 1000])
