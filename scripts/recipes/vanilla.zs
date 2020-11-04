@@ -75,6 +75,10 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     ],
     <contenttweaker:unfired_porcelain_brick> : [
         [<ore:clayPorcelain>, <metaitem:wooden_form.brick>]
+    ],
+    //Black Dye
+    <metaitem:dye.black> * 2: [
+        [<ore:dustDarkAsh>, <ore:dustCoal>, gt.mortar]
     ]
 };
 
