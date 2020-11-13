@@ -6,7 +6,6 @@
   "dimension_filter": [
     "is_nether"
   ],
-  "surface_stone_material": "gold",
   "generator": {
     "type": "ellipsoid",
     "radius": [
