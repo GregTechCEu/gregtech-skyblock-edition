@@ -41,6 +41,13 @@ function machineRecipes() {
     //Utils.removeRecipeByOutput(gt.compressor, [<gregtech:meta_item_2:32014>], [], false); //Compressed Fireclay
     //furnace.addRecipe(<gregtech:meta_item_2:32015>, <gtadditions:ga_meta_item:32037>);
 
+    //Wodden Gear
+    gt.forming_press.recipeBuilder()
+        .inputs([<ore:plateWood>, <metaitem:shape.extruder.gear>])
+        .outputs([<ore:gearWood>.firstItem])
+        .duration(sec(8)).EUt(32)
+        .buildAndRegister();
+
     //Glass
     gt.alloy_smelter.recipeBuilder()
         .inputs([<ore:dustGlass>])
