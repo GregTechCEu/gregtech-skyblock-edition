@@ -150,7 +150,16 @@ static disabledItems as IIngredient[][string] = {
         <thermaldynamics:duct_0:7>,
         <thermaldynamics:duct_0:8>,
         <thermalfoundation:material:22>,
-        <thermalfoundation:material:23>
+        <thermalfoundation:material:23>,
+        //Constantan
+        <thermalfoundation:storage_alloy:4>,
+        <thermalfoundation:glass_alloy:4>,
+        <thermalfoundation:coin:100>,
+        <thermalfoundation:material:100>,
+        <thermalfoundation:material:164>,
+        <thermalfoundation:material:228>,
+        <thermalfoundation:material:292>,
+        <thermalfoundation:material:356>
     ],
     misc : [
         <exnihilocreatio:block_crucible>,

@@ -47,6 +47,7 @@ function machineRecipes() {
     Alloy.removeRecipe(<liquid:battery_alloy>);
     Alloy.removeRecipe(<liquid:soldering_alloy>);
     Alloy.removeRecipe(<liquid:magnalium>);
+    Alloy.removeRecipe(<liquid:constantan>);
     Alloy.addRecipe(<liquid:alubrass> * 4, [<liquid:aluminium> * 3, <liquid:copper>]);
 
 
