@@ -4,7 +4,10 @@
 	shape: "gear",
 	text: [
 		"Can you get all the Elements on the Periodic Table?",
-		"(The Barrier elements currently do not exist)"
+		"(The Barrier elements currently do not exist)",
+		"",
+		"&7This Quest is currently not completable since Barriers and maybe a few Ingots are not obtainable.",
+		"This (may) will change with the UHV+ update"
 	],
 	size: 2.0d,
 	tasks: [{

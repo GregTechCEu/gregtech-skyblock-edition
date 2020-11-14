@@ -4,29 +4,27 @@
 	x: 1.5d,
 	y: -1.5d,
 	text: [
-		"Wrought Iron can be obtained by smelting Iron nuggets"
+		"Wrought Iron can be obtained by smelting Iron ingots and then hammering the Hot Ingot"
 	],
 	dependencies: [
 		"0edc90bb"
 	],
 	tasks: [{
-		uid: "9cf7a6e6",
+		uid: "45114963",
 		type: "item",
 		items: [{
-			item: "minecraft:iron_nugget"
-		}],
-		count: 9L
+			item: "minecraft:iron_ingot"
+		}]
 	},
 	{
-		uid: "ba7929ff",
+		uid: "2144cfc7",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 9197"
-		}],
-		count: 9L
+			item: "gtadditions:ga_meta_item 1 32037"
+		}]
 	},
 	{
-		uid: "90453480",
+		uid: "655ece0c",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 10197"

@@ -1,3 +1,18 @@
+version 5.0.9
+
+fixes
+fixed deep dark crash
+fixed thermal ore spawning ?
+removed constantan
+added cheaper machine recipe for Wooden Gear
+changed iron upgrade recipe
+
+updated
+Gregtech
+Gregicality
+
+#################################################
+
 version 5.0.8
 
 fixes

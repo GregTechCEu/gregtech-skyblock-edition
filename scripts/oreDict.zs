@@ -440,6 +440,8 @@ static ores as string[IOreDictEntry] = {
     <ore:dustTin> : gt,
     <ore:nuggetTin> : gt,
     <ore:gearTin> : gt,
+
+    <ore:gearWood> : gt
 };
 
 function init() {
