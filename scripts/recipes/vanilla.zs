@@ -59,9 +59,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
     ],
     <progressiveautomation:iron_upgrade> : [
         [
-            [<ore:plateSteel>, <ore:gearSmallSteel>, <ore:plateSteel>],
-            [<ore:gearSmallSteel>, gt.getCirc("LV"), <ore:gearSmallSteel>],
-            [<ore:plateSteel>, <ore:gearSmallSteel>, <ore:plateSteel>]
+            [<ore:plateSteel>, <ore:gearSteel>, <ore:plateSteel>],
+            [<ore:gearSteel>, gt.getCirc("LV"), <ore:gearSteel>],
+            [<ore:plateSteel>, <ore:gearSteel>, <ore:plateSteel>]
         ]
     ]
 };
