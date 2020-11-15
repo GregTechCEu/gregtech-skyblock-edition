@@ -1,7 +1,11 @@
 {
   "weight": 100,
   "density": 0.3,
-  "min_height": 50,
+  "max_height": 63,
+  "min_height": 10,
+  "dimension_filter": [
+    "dimension_id:-11325"
+  ],
   "generator": {
     "type": "ellipsoid",
     "radius": [
@@ -10,25 +14,25 @@
     ]
   },
   "filler": {
-    "type": "simple",
+    "type": "ga_simple",
     "value": {
       "type": "weight_random",
       "values": [
         {
           "weight": 60,
-          "value": "ore:magnetite"
+          "value": "ore:pure:magnetite"
         },
         {
           "weight": 15,
-          "value": "ore:iron"
+          "value": "ore:pure:iron"
         },
         {
           "weight": 15,
-          "value": "ore:vanadium_magnetite"
+          "value": "ore:pure:vanadium_magnetite"
         },
         {
           "weight": 10,
-          "value": "ore:precious_metal"
+          "value": "ore:pure:precious_metal"
         }
       ]
     }

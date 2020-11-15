@@ -1,8 +1,11 @@
 {
   "weight": 100,
   "density": 0.4,
-  "max_height": 45,
+  "max_height": 63,
   "min_height": 10,
+  "dimension_filter": [
+    "dimension_id:-11325"
+  ],
   "generator": {
     "type": "ellipsoid",
     "radius": [
@@ -11,25 +14,25 @@
     ]
   },
   "filler": {
-    "type": "simple",
+    "type": "ga_simple",
     "value": {
       "type": "weight_random",
       "values": [
         {
           "weight": 30,
-          "value": "ore:brown_limonite"
+          "value": "ore:pure:brown_limonite"
         },
         {
           "weight": 30,
-          "value": "ore:yellow_limonite"
+          "value": "ore:pure:yellow_limonite"
         },
         {
           "weight": 30,
-          "value": "ore:banded_iron"
+          "value": "ore:pure:banded_iron"
         },
         {
           "weight": 10,
-          "value": "ore:malachite"
+          "value": "ore:pure:malachite"
         }
       ]
     }

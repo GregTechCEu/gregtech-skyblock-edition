@@ -1,34 +1,38 @@
 {
   "weight": 50,
   "density": 0.5,
-  "max_height": 50,
-  "min_height": 20,
- 
-
+  "max_height": 63,
+  "min_height": 10,
+  "dimension_filter": [
+    "dimension_id:-11325"
+  ],
   "generator": {
     "type": "ellipsoid",
-    "radius": [8, 9]
+    "radius": [
+      8,
+      9
+    ]
   },
   "filler": {
-    "type": "simple",
+    "type": "ga_simple",
     "value": {
       "type": "weight_random",
       "values": [
         {
           "weight": 30,
-          "value": "ore:lazurite"
+          "value": "ore:pure:lazurite"
         },
         {
           "weight": 20,
-          "value": "ore:sodalite"
+          "value": "ore:pure:sodalite"
         },
-		{
+        {
           "weight": 35,
-          "value": "ore:lapis"
+          "value": "ore:pure:lapis"
         },
-		{
+        {
           "weight": 15,
-          "value": "ore:calcite"
+          "value": "ore:pure:calcite"
         }
       ]
     }

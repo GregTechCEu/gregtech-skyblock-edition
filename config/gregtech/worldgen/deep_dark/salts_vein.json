@@ -1,33 +1,38 @@
 {
   "weight": 60,
   "density": 0.7,
-  "max_height": 90,
-  "min_height": 40,
-
+  "max_height": 63,
+  "min_height": 10,
+  "dimension_filter": [
+    "dimension_id:-11325"
+  ],
   "generator": {
     "type": "ellipsoid",
-    "radius": [14, 17]
+    "radius": [
+      14,
+      17
+    ]
   },
   "filler": {
-    "type": "simple",
+    "type": "ga_simple",
     "value": {
       "type": "weight_random",
       "values": [
         {
           "weight": 40,
-          "value": "ore:salt"
+          "value": "ore:pure:salt"
         },
         {
           "weight": 35,
-          "value": "ore:rock_salt"
+          "value": "ore:pure:rock_salt"
         },
-		{
+        {
           "weight": 15,
-          "value": "ore:lepidolite"
+          "value": "ore:pure:lepidolite"
         },
-		{
+        {
           "weight": 10,
-          "value": "ore:spodumene"
+          "value": "ore:pure:spodumene"
         }
       ]
     }

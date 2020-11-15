@@ -1,8 +1,11 @@
 {
   "weight": 80,
   "density": 0.4,
-  "max_height": 30,
+  "max_height": 63,
   "min_height": 10,
+  "dimension_filter": [
+    "dimension_id:-11325"
+  ],
   "generator": {
     "type": "ellipsoid",
     "radius": [
@@ -11,25 +14,25 @@
     ]
   },
   "filler": {
-    "type": "simple",
+    "type": "ga_simple",
     "value": {
       "type": "weight_random",
       "values": [
         {
           "weight": 30,
-          "value": "ore:chalcopyrite"
+          "value": "ore:pure:chalcopyrite"
         },
         {
           "weight": 30,
-          "value": "ore:iron"
+          "value": "ore:pure:iron"
         },
         {
           "weight": 30,
-          "value": "ore:pyrite"
+          "value": "ore:pure:pyrite"
         },
         {
           "weight": 10,
-          "value": "ore:copper"
+          "value": "ore:pure:copper"
         }
       ]
     }

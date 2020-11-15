@@ -1,37 +1,42 @@
 {
   "weight": 55,
   "density": 0.3,
-  "max_height": 50,
+  "max_height": 63,
   "min_height": 10,
-
+  "dimension_filter": [
+    "dimension_id:-11325"
+  ],
   "generator": {
     "type": "ellipsoid",
-    "radius": [13, 13]
+    "radius": [
+      13,
+      13
+    ]
   },
   "filler": {
-    "type": "simple",
+    "type": "ga_simple",
     "value": {
       "type": "weight_random",
       "values": [
         {
           "weight": 5,
-          "value": "ore:prasiolite"
+          "value": "ore:pure:prasiolite"
         },
         {
           "weight": 30,
-          "value": "ore:bentonite"
+          "value": "ore:pure:bentonite"
         },
         {
           "weight": 30,
-          "value": "ore:magnesite"
+          "value": "ore:pure:magnesite"
         },
         {
           "weight": 30,
-          "value": "ore:olivine"
+          "value": "ore:pure:olivine"
         },
         {
           "weight": 10,
-          "value": "ore:glauconite"
+          "value": "ore:pure:glauconite"
         }
       ]
     }
