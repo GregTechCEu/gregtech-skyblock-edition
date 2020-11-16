@@ -1,8 +1,11 @@
 {
   "weight": 15,
   "density": 0.5,
-  "max_height": 40,
-  "min_height": 5,
+  "max_height": 63,
+  "min_height": 10,
+  "dimension_filter": [
+    "dimension_id:-11325"
+  ],
   "generator": {
     "type": "ellipsoid",
     "radius": [
@@ -11,25 +14,25 @@
     ]
   },
   "filler": {
-    "type": "simple",
+    "type": "ga_simple",
     "value": {
       "type": "weight_random",
       "values": [
         {
           "weight": 60,
-          "value": "ore:graphite"
+          "value": "ore:pure:graphite"
         },
         {
           "weight": 15,
-          "value": "ore:diamond"
+          "value": "ore:pure:diamond"
         },
         {
           "weight": 5,
-          "value": "ore:nether_star"
+          "value": "ore:pure:nether_star"
         },
         {
           "weight": 20,
-          "value": "ore:coal"
+          "value": "ore:pure:coal"
         }
       ]
     }

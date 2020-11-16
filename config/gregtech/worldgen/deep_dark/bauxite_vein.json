@@ -1,8 +1,11 @@
 {
   "weight": 90,
   "density": 0.4,
-  "max_height": 90,
-  "min_height": 40,
+  "max_height": 63,
+  "min_height": 10,
+  "dimension_filter": [
+    "dimension_id:-11325"
+  ],
   "generator": {
     "type": "ellipsoid",
     "radius": [
@@ -11,21 +14,21 @@
     ]
   },
   "filler": {
-    "type": "simple",
+    "type": "ga_simple",
     "value": {
       "type": "weight_random",
       "values": [
         {
           "weight": 60,
-          "value": "ore:bauxite"
+          "value": "ore:pure:bauxite"
         },
         {
           "weight": 30,
-          "value": "ore:aluminium"
+          "value": "ore:pure:aluminium"
         },
         {
           "weight": 10,
-          "value": "ore:ilmenite"
+          "value": "ore:pure:ilmenite"
         }
       ]
     }

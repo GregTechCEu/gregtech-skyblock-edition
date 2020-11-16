@@ -1,33 +1,38 @@
 {
   "weight": 60,
   "density": 0.3,
-  "max_height": 40,
+  "max_height": 63,
   "min_height": 10,
-
+  "dimension_filter": [
+    "dimension_id:-11325"
+  ],
   "generator": {
     "type": "ellipsoid",
-    "radius": [16, 17]
+    "radius": [
+      16,
+      17
+    ]
   },
   "filler": {
-    "type": "simple",
+    "type": "ga_simple",
     "value": {
       "type": "weight_random",
       "values": [
         {
           "weight": 30,
-          "value": "ore:almandine"
+          "value": "ore:pure:almandine"
         },
         {
           "weight": 30,
-          "value": "ore:pyrope"
+          "value": "ore:pure:pyrope"
         },
-		{
+        {
           "weight": 30,
-          "value": "ore:sapphire"
+          "value": "ore:pure:sapphire"
         },
-		{
+        {
           "weight": 10,
-          "value": "ore:green_sapphire"
+          "value": "ore:pure:green_sapphire"
         }
       ]
     }

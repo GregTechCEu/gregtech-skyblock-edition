@@ -1,8 +1,11 @@
 {
   "weight": 50,
   "density": 0.4,
-  "max_height": 45,
+  "max_height": 63,
   "min_height": 10,
+  "dimension_filter": [
+    "dimension_id:-11325"
+  ],
   "generator": {
     "type": "ellipsoid",
     "radius": [
@@ -11,25 +14,25 @@
     ]
   },
   "filler": {
-    "type": "simple",
+    "type": "ga_simple",
     "value": {
       "type": "weight_random",
       "values": [
         {
           "weight": 30,
-          "value": "ore:garnierite"
+          "value": "ore:pure:garnierite"
         },
         {
           "weight": 30,
-          "value": "ore:nickel"
+          "value": "ore:pure:nickel"
         },
         {
           "weight": 30,
-          "value": "ore:cobaltite"
+          "value": "ore:pure:cobaltite"
         },
         {
           "weight": 10,
-          "value": "ore:pentlandite"
+          "value": "ore:pure:pentlandite"
         }
       ]
     }
