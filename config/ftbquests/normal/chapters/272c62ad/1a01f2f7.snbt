@@ -12,7 +12,7 @@
 		items: [{
 			item: "gregtech:wire_coil 1 1"
 		}],
-		count: 18L
+		count: 16L
 	}],
 	rewards: [{
 		uid: "3ff41a56",
