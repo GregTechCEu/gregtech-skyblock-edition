@@ -1,3 +1,20 @@
+version 5.0.10
+
+fixes
+reworked the deep dark ore gen
+coppers now takes 23 upgrades (5x5)
+formation core now accepts pure nether quartz
+added black dye recipe with charcoal
+added black dye conversion recipes
+added recipes for LV cables with ducttape
+added normal mixer recipe for elemental dust
+removed some recipes that shouldn't exist (imo)
+
+updated
+Gregicality
+
+#################################################
+
 version 5.0.9
 
 fixes

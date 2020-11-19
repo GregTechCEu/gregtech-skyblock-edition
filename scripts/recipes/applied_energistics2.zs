@@ -326,7 +326,7 @@ function machineRecipes() {
 
     //Cores
     gt.assembler.recipeBuilder()
-        .inputs([<appliedenergistics2:material:22>, <ore:dustFluix> * 2, <minecraft:quartz> * 2])
+        .inputs([<appliedenergistics2:material:22>, <ore:dustFluix> * 2, <ore:gemNetherQuartz> * 2])
         .outputs([<appliedenergistics2:material:43>])
         .EUt(410).duration(sec(13))
         .buildAndRegister();

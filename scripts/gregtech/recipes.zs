@@ -41,6 +41,21 @@ function machineRecipes() {
     //Utils.removeRecipeByOutput(gt.compressor, [<gregtech:meta_item_2:32014>], [], false); //Compressed Fireclay
     //furnace.addRecipe(<gregtech:meta_item_2:32015>, <gtadditions:ga_meta_item:32037>);
 
+    val lvCables as string[] = [
+        "Cobalt",
+        "Lead",
+        "SolderingAlloy",
+        "Tin",
+        "Zinc",
+        "RedAlloy"
+    ];
+
+    for material in lvCables {
+        recipes.addShapeless(oreDict["cableGtSingle" + material].firstItem, [oreDict["wireGtSingle" + material], <metaitem:insulating_tape>, <metaitem:insulating_tape>]);
+        recipes.addShapeless(oreDict["cableGtDouble" + material].firstItem, [oreDict["wireGtDouble" + material], <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>]);
+        recipes.addShapeless(oreDict["cableGtQuadruple" + material].firstItem, [oreDict["wireGtQuadruple" + material], <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>]);
+    }
+
     //Wodden Gear
     gt.forming_press.recipeBuilder()
         .inputs([<ore:plateWood>, <metaitem:shape.extruder.gear>])

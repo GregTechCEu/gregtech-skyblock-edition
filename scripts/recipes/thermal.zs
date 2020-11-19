@@ -348,7 +348,31 @@ function machineRecipes() {
 	Utils.removeRecipeByOutput(gt.mixer, [<gregtech:meta_item_1:2991> * 2], [], true); //Pyrotheum
 	Utils.removeRecipeByOutput(gt.large_mixer, [<gregtech:meta_item_1:2952> * 2], [], true); //Cryotheum
 	Utils.removeRecipeByOutput(gt.mixer, [<gregtech:meta_item_1:2952> * 2], [], true); //Cryotheum
-	gt.large_mixer.recipeBuilder()
+	gt.mixer.recipeBuilder()
+        .inputs([<minecraft:blaze_powder> * 2, <ore:dustRedstone>, <ore:dustSulfur>])
+        .outputs([<thermalfoundation:material:1024> * 2])
+        .EUt(120).duration(sec(5))
+		//.dupeForSmall()
+        .buildAndRegister();
+	gt.mixer.recipeBuilder()
+        .inputs([<ore:dustBlizz> * 2, <ore:dustRedstone>, <minecraft:snowball>])
+        .outputs([<thermalfoundation:material:1025> * 2])
+        .EUt(120).duration(sec(5))
+		//.dupeForSmall()
+        .buildAndRegister();
+	gt.mixer.recipeBuilder()
+        .inputs([<thermalfoundation:material:2051> * 2, <ore:dustRedstone>, <ore:dustSaltpeter>])
+        .outputs([<thermalfoundation:material:1026> * 2])
+        .EUt(120).duration(sec(5))
+		//.dupeForSmall()
+        .buildAndRegister();
+	gt.mixer.recipeBuilder()
+        .inputs([<thermalfoundation:material:2053> * 2, <ore:dustRedstone>, <ore:dustObsidian>])
+        .outputs([<thermalfoundation:material:1027> * 2])
+        .EUt(120).duration(sec(5))
+		//.dupeForSmall()
+        .buildAndRegister();
+	gt.mixer.recipeBuilder()
         .inputs([<minecraft:blaze_powder> * 2, <ore:dustRedstone>, <ore:dustSulfur>])
         .outputs([<thermalfoundation:material:1024> * 2])
         .EUt(120).duration(sec(5))

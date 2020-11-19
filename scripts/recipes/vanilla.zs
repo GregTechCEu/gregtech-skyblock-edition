@@ -78,7 +78,14 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     ],
     //Black Dye
     <metaitem:dye.black> * 2: [
+        [<ore:dustDarkAsh>, <ore:dustCharcoal>, gt.mortar],
         [<ore:dustDarkAsh>, <ore:dustCoal>, gt.mortar]
+    ],
+    <metaitem:dye.black> : [
+        [<minecraft:dye:0>]
+    ],
+    <minecraft:dye:0> : [
+        [<metaitem:dye.black>]
     ]
 };
 
@@ -124,12 +131,27 @@ static removeFurnace as IIngredient[] = [
 ];
 
 function machineRecipes() {
+
+    // Blaze Rod
+    gt.compressor.recipeBuilder()
+        .inputs([<minecraft:blaze_powder> * 4])
+        .outputs([<minecraft:blaze_rod> * 1])
+        .EUt(32).duration(sec(8))
+        .buildAndRegister();
+
     //Resonant ender
     gt.fluid_extractor.recipeBuilder()
         .inputs([<minecraft:ender_pearl>])
         .fluidOutputs([<liquid:ender> * 250])
         .EUt(32).duration(sec(4))
         .buildAndRegister();
+
+    // Remove stupid ender eye recipe
+    gt.assembler.findRecipe(2, [<minecraft:ender_pearl> * 6, <minecraft:blaze_rod>], null).remove();
+
+    // What the fuck gregtech?
+    gt.implosion_compressor.findRecipe(30, [<minecraft:tnt> * 24, <ore:dustEnderEye>.firstItem * 4], null).remove();
+    gt.implosion_compressor.findRecipe(30, [<metaitem:dynamite> * 12, <ore:dustEnderEye>.firstItem * 4], null).remove();
 
     //Glass
     furnace.addRecipe(<minecraft:glass>,<tconstruct:clear_glass>);
