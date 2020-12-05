@@ -1,8 +1,8 @@
 {
 	title: "Bronze",
 	icon: "gregtech:meta_item_1 1 10095",
-	x: 2.5d,
-	y: -0.5d,
+	x: 2.6d,
+	y: -0.65d,
 	shape: "hexagon",
 	text: [
 		"For this you need the mortar. First make Tin and Copper dust then craft bronze dust and smelt it."

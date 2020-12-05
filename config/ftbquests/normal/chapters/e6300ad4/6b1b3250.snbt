@@ -10,7 +10,7 @@
 		}
 	},
 	x: -0.5d,
-	y: 1.5d,
+	y: 0.5d,
 	text: [
 		"Make a Crucible. Put a heat source beneath it (check JEI) and put Cobblestone in...Bam."
 	],

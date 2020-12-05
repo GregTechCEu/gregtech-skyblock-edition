@@ -63,6 +63,26 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<ore:gearSteel>, gt.getCirc("LV"), <ore:gearSteel>],
             [<ore:plateSteel>, <ore:gearSteel>, <ore:plateSteel>]
         ]
+    ],
+    <xtones:base> * 8: [
+        [
+            [<extrautils2:decorativesolid:2>, <extrautils2:decorativesolid:2>],
+            [<extrautils2:decorativesolid:2>, <extrautils2:decorativesolid:2>]
+        ]
+    ],
+    <jecalculation:item_calculator:0> : [
+        [
+            [<ore:plateIron>, <minecraft:ender_pearl>, <ore:plateIron>],
+            [<ore:plateIron>, <metaitem:board.basic>, <ore:plateIron>],
+            [<minecraft:stone_button>, <minecraft:stone_button>, <minecraft:stone_button>]
+        ]
+    ],
+    <jecalculation:item_calculator:1> : [
+        [
+            [<ore:plateIron>, <ore:plateCopper>, <ore:plateIron>],
+            [<ore:plateIron>, <metaitem:board.basic>, <ore:plateIron>],
+            [<minecraft:stone_button>, <minecraft:stone_button>, <minecraft:stone_button>]
+        ]
     ]
 };
 
@@ -117,7 +137,10 @@ static removeRecipes as IItemStack[] = [
     <progressiveautomation:stone_upgrade>,
     <progressiveautomation:iron_upgrade>,
     <progressiveautomation:diamond_upgrade>,
-    <progressiveautomation:wither_upgrade>
+    <progressiveautomation:wither_upgrade>,
+    <xtones:base>,
+    <jecalculation:item_calculator:0>,
+    <jecalculation:item_calculator:1>
 ];
 
 static removeFurnace as IIngredient[] = [

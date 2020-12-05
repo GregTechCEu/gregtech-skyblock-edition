@@ -3,23 +3,18 @@
 	x: 1.0d,
 	y: -1.5d,
 	text: [
-		"Another complex process. You will need Naquadah later"
+		"The ore can only be found in the Deep Dark.",
+		"Maybe a Large Miner can help mining the ore..."
 	],
 	dependencies: [
-		"ccc1b599"
+		"ccc1b599",
+		"d973f6ba"
 	],
 	tasks: [{
 		uid: "9d0223f4",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 10307"
-		}]
-	},
-	{
-		uid: "0aef8c21",
-		type: "item",
-		items: [{
-			item: "gtadditions:ex_nihilo_meta_item 1 1747"
 		}]
 	}],
 	rewards: [{

@@ -3,7 +3,7 @@
 	x: -1.5d,
 	y: 0.0d,
 	text: [
-		"Make a Assembling Machine or upgrade your Large Assembler"
+		""
 	],
 	dependencies: [
 		"c55fb62a",
@@ -14,9 +14,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 2039"
-		},
-		{
-			item: "gtadditions:ga_robot_arm_casing 1 7"
 		}]
 	}],
 	rewards: [{

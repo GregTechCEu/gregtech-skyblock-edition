@@ -326,7 +326,10 @@ static oresAdd as IItemStack[][IOreDictEntry] = {
     ],
     <ore:gemNetherQuartz> : [
         <appliedenergistics2:material:11>
-    ]
+    ],
+    <ore:blockAluminum> : [
+        <ore:blockAluminium>.firstItem
+    ] // add gregtech block to stupid aluminium oreDict
 };
 
 static gt as string = "gregtech";

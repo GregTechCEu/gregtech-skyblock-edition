@@ -1,3 +1,21 @@
+version 5.0.11
+
+fixes
+fixed misleading quest description UV assembler
+fixed repeatable 2nd zpm circuit quest
+updated Enriched Naquadah Quest
+added Deep Dark Quest
+fix molten x to chisel block recipe
+added a quest to obtain ancient gold coin
+
+added
+Just Enough Calculation
+Littlr Tiles
+XTones
+CreativeCore
+
+#################################################
+
 version 5.0.10
 
 fixes

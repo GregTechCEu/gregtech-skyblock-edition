@@ -56,6 +56,59 @@ function machineRecipes() {
         recipes.addShapeless(oreDict["cableGtQuadruple" + material].firstItem, [oreDict["wireGtQuadruple" + material], <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>, <metaitem:insulating_tape>]);
     }
 
+    // Fix molten x to chisel block
+    gt.fluid_solidifier.findRecipe(8, [<metaitem:shape.mold.block>], [<liquid:iron> * 1296]).remove();
+    gt.alloy_smelter.findRecipe(32, [<ore:ingotIron>.firstItem * 9, <metaitem:shape.mold.block>], null).remove();
+    gt.extruder.findRecipe(64, [<ore:ingotIron>.firstItem * 9, <metaitem:shape.extruder.block>], null).remove();
+    gt.fluid_solidifier.recipeBuilder()
+        .notConsumable(<metaitem:shape.mold.block>)
+        .fluidInputs([<liquid:iron> * 1296])
+        .outputs([<minecraft:iron_block>])
+        .duration(56).EUt(8)
+        .buildAndRegister();
+    gt.alloy_smelter.recipeBuilder()
+        .notConsumable(<metaitem:shape.mold.block>)
+        .inputs([<ore:ingotIron> * 9])
+        .outputs([<minecraft:iron_block>])
+        .duration(5).EUt(32)
+        .buildAndRegister();
+    gt.extruder.recipeBuilder()
+        .notConsumable(<metaitem:shape.extruder.block>)
+        .inputs([<ore:ingotIron> * 9])
+        .outputs([<minecraft:iron_block>])
+        .duration(10).EUt(64)
+        .buildAndRegister();
+
+    gt.fluid_solidifier.findRecipe(8, [<metaitem:shape.mold.block>], [<liquid:redstone> * 1296]).remove();
+    gt.fluid_solidifier.recipeBuilder()
+        .notConsumable(<metaitem:shape.mold.block>)
+        .fluidInputs([<liquid:redstone> * 1296])
+        .outputs([<minecraft:redstone_block>])
+        .duration(85).EUt(8)
+        .buildAndRegister();
+
+    gt.fluid_solidifier.findRecipe(8, [<metaitem:shape.mold.block>], [<liquid:gold> * 1296]).remove();
+    gt.alloy_smelter.findRecipe(32, [<ore:ingotGold>.firstItem * 9, <metaitem:shape.mold.block>], null).remove();
+    gt.extruder.findRecipe(64, [<ore:ingotGold>.firstItem * 9, <metaitem:shape.extruder.block>], null).remove();
+    gt.fluid_solidifier.recipeBuilder()
+        .notConsumable(<metaitem:shape.mold.block>)
+        .fluidInputs([<liquid:gold> * 1296])
+        .outputs([<minecraft:gold_block>])
+        .duration(196).EUt(8)
+        .buildAndRegister();
+    gt.alloy_smelter.recipeBuilder()
+        .notConsumable(<metaitem:shape.mold.block>)
+        .inputs([<ore:ingotGold> * 9])
+        .outputs([<minecraft:gold_block>])
+        .duration(5).EUt(32)
+        .buildAndRegister();
+    gt.extruder.recipeBuilder()
+        .notConsumable(<metaitem:shape.extruder.block>)
+        .inputs([<ore:ingotGold> * 9])
+        .outputs([<minecraft:gold_block>])
+        .duration(10).EUt(64)
+        .buildAndRegister();
+
     //Wodden Gear
     gt.forming_press.recipeBuilder()
         .inputs([<ore:plateWood>, <metaitem:shape.extruder.gear>])

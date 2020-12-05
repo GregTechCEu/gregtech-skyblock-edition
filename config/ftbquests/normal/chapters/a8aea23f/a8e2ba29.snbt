@@ -1,0 +1,21 @@
+{
+	title: "Ancient Gold Coin",
+	icon: "gregtech:meta_item_1 1 32008",
+	x: -5.0d,
+	y: -4.5d,
+	can_repeat: true,
+	dependencies: [
+		"6c60d336"
+	],
+	tasks: [{
+		uid: "d3266c03",
+		type: "fluid",
+		fluid: "oil",
+		amount: 50000
+	}],
+	rewards: [{
+		uid: "3c9ba8ad",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32008"
+	}]
+}

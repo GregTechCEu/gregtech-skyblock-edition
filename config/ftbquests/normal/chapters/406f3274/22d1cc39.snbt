@@ -5,7 +5,6 @@
 	text: [
 		""
 	],
-	can_repeat: true,
 	dependencies: [
 		"3057a244"
 	],

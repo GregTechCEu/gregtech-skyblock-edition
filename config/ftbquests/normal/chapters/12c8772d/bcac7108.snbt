@@ -1,21 +1,18 @@
 {
 	x: -2.0d,
 	y: -3.0d,
+	text: [
+		"The ore can only be found in the Deep Dark",
+		"Maybe a Large Miner can help mining the ore..."
+	],
 	dependencies: [
-		"1c96bb1f"
+		"d973f6ba"
 	],
 	tasks: [{
 		uid: "676c4e75",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 10309"
-		}]
-	},
-	{
-		uid: "a9cbbdaf",
-		type: "item",
-		items: [{
-			item: "gtadditions:ex_nihilo_meta_item 1 1747"
 		}]
 	}],
 	rewards: [{
