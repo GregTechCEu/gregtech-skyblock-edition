@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	text: [
+		"This materials is used for a lot of the §6AE2§r components"
+	],
+	dependencies: [
+		"299982da"
+	],
+	tasks: [{
+		uid: "63263381",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10500"
+		}]
+	}],
+	rewards: [{
+		uid: "1db70bb2",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

@@ -1,8 +1,13 @@
 {
 	x: -1.5d,
 	y: -3.0d,
+	text: [
+		"The Base of a ME System.",
+		"",
+		"You should note that the power requirement is increased by a lot. Like times 100."
+	],
 	dependencies: [
-		"5dd3a045"
+		"b9353dd1"
 	],
 	tasks: [{
 		uid: "5743ef49",

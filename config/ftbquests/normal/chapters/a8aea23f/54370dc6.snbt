@@ -1,0 +1,67 @@
+{
+	title: "Resistor",
+	icon: "gregtech:meta_item_2 1 32455",
+	x: -1.0d,
+	y: -4.0d,
+	text: [
+		"Check the Circuit Board Quest next to this for an explanaiton on how to obtain §eResin§r"
+	],
+	dependencies: [
+		"899470a9",
+		"84fd9ed2"
+	],
+	tasks: [{
+		uid: "138698f0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32455"
+		}]
+	},
+	{
+		uid: "0fe69ecf",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32627"
+		}],
+		count: 2L
+	},
+	{
+		uid: "f8226296",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 16018"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a5ba9bfc",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 18"
+		}],
+		count: 2L
+	},
+	{
+		uid: "7c4e2074",
+		type: "item",
+		title: "Coal Dust",
+		items: [{
+			item: "gregtech:meta_item_1 1 2106"
+		},
+		{
+			item: "thermalfoundation:material 1 768"
+		},
+		{
+			item: "threng:material 1 3"
+		},
+		{
+			item: "gregtech:meta_item_1 1 2101"
+		},
+		{
+			item: "thermalfoundation:material 1 769"
+		},
+		{
+			item: "gregtech:meta_item_1 1 2012"
+		}]
+	}]
+}

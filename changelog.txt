@@ -1,3 +1,15 @@
+version 5.0.12
+
+fixes
+added Vine recipe
+quest fixes
+and some other stuff
+
+updated 
+Gregicality
+
+#################################################
+
 version 5.0.11
 
 fixes

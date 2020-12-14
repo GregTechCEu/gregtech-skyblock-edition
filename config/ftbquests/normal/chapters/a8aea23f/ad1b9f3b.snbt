@@ -3,8 +3,8 @@
 	tags: [
 		"integrated_circuit_stack"
 	],
-	x: -4.0d,
-	y: -3.0d,
+	x: -5.0d,
+	y: -1.5d,
 	shape: "gear",
 	text: [
 		"You will probably need a lot of the so why not craft a stack?"

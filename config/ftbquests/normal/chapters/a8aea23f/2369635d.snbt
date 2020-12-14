@@ -1,0 +1,38 @@
+{
+	title: "Basic Circuit Board",
+	icon: "gtadditions:ga_meta_item 1 32029",
+	x: -2.0d,
+	y: -4.0d,
+	text: [
+		"For the §6Circuit Board§r you need §eResin§r, which can be obtained by smelting §2Slime Balls§r.",
+		"§2Slime§r can be obtained by putting Milk in a Barrel and using a §7Mushroom§r on it.",
+		"§7Mushrooms§r can be obtained when a Barrel with §9Water§r stands on a field of §7Mycelium§r. The §7Mushrooms§r will spawn during the transformation of §9Water§r to §5Witch Water§r.",
+		"§7Mycelium§r can be obtained by using §5Ancient Spores§r on Grass"
+	],
+	dependencies: [
+		"899470a9",
+		"84fd9ed2"
+	],
+	tasks: [{
+		uid: "fdc319d1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32443"
+		}]
+	},
+	{
+		uid: "188b41aa",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 18"
+		}],
+		count: 8L
+	},
+	{
+		uid: "3742f8ba",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32029"
+		}]
+	}]
+}

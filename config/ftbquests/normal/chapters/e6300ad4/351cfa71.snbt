@@ -98,6 +98,92 @@
 			id: "itemfilters:filter"
 		}],
 		ignore_nbt: 1b
+	},
+	{
+		uid: "84fd9ed2",
+		type: "item",
+		title: "Any craftingToolWireCutter",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWireCutter",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5b222f95",
+		type: "item",
+		title: "Any craftingToolScrewdriver",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolScrewdriver",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c177e5d9",
+		type: "item",
+		title: "Any craftingToolSoftHammer",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolSoftHammer",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "423269e6",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "75f7ff85",
+		type: "item",
+		items: [{
+			id: "gtadditions:ga_meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2c524984",
+		type: "item",
+		items: [{
+			id: "gtadditions:ga_meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "fa8bddf4",

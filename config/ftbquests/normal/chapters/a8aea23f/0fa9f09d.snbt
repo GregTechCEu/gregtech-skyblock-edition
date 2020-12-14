@@ -2,8 +2,8 @@
 	tags: [
 		"furnace_lv"
 	],
-	x: -2.5d,
-	y: -4.0d,
+	x: -5.0d,
+	y: -2.5d,
 	dependencies: [
 		"eeb03cc1"
 	],

@@ -1,0 +1,12 @@
+{
+	title: "Hidden",
+	icon: {
+		id: "minecraft:potion",
+		tag: {
+			Potion: "minecraft:invisibility"
+		}
+	},
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -24,7 +24,8 @@ questsS.forEach(function(quests, i, arrayS) {
 var resetsBonsai = [
 	'periodic_table_all',
 	'integrated_circuit_stack',
-	'first_steel'
+	'first_steel',
+	'gt_tools_invisible'
 ];
 
 resetsBonsai.forEach(function(quest, i, array) {
