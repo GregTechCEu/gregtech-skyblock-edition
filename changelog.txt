@@ -4,6 +4,7 @@ fixes
 added Vine recipe
 quest fixes
 and some other stuff
+gold processing is now MV
 
 updated 
 Gregicality

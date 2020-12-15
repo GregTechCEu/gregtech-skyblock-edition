@@ -4,7 +4,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import mods.gregtech.recipe.RecipeMap;
-import mods.gtadditions.recipe.GARecipeMaps as GT;
+import mods.gtadditions.recipe.GARecipeMaps as GA;
 import mods.gtadditions.recipe.LargeRecipeMap;
 
 zenClass Gregtech {
@@ -56,25 +56,35 @@ zenClass Gregtech {
 	val packer as RecipeMap = RecipeMap.getByName("packer");
 	val unpacker as RecipeMap = RecipeMap.getByName("unpacker");
 
-	val cluster_mill as RecipeMap = RecipeMap.getByName("cluster_mill");
-	val assembly_line as RecipeMap = RecipeMap.getByName("assembly_line");
-	val mass_fab as RecipeMap = RecipeMap.getByName("mass_fab");
-	val replicator as RecipeMap = RecipeMap.getByName("replicator");
-	val cracker_unit as RecipeMap = RecipeMap.getByName("cracker_unit");
-	val circuit_assembler as RecipeMap = RecipeMap.getByName("circuit_assembler");
-	val electric_sieve as RecipeMap = RecipeMap.getByName("electric_sieve");
-	val attractor as RecipeMap = RecipeMap.getByName("attractor");
-	val large_chemical_reactor as RecipeMap = RecipeMap.getByName("large_chemical_reactor");
-	val chemical_dehydrator as RecipeMap = RecipeMap.getByName("chemical_dehydrator");
-	val chemical_plant as RecipeMap = RecipeMap.getByName("chemical_plant");
-	val large_mixer as RecipeMap = RecipeMap.getByName("large_mixer");
-	val blast_alloy as RecipeMap = RecipeMap.getByName("blast_alloy");
-	val large_forge_hammer as RecipeMap = RecipeMap.getByName("large_forge_hammer");
-	val simple_ore_washer as RecipeMap = RecipeMap.getByName("simple_ore_washer");
-	val nuclear_reactor as RecipeMap = RecipeMap.getByName("nuclear_reactor");
-	val decay_chamber as RecipeMap = RecipeMap.getByName("decay_chamber");
-	val nuclear_breeder as RecipeMap = RecipeMap.getByName("nuclear_breeder");
-	val large_centrifuge as RecipeMap = RecipeMap.getByName("large_centrifuge");
+	//Gregicality
+	val cluster_mill as RecipeMap = GA.CLUSTER_MILL_RECIPES;
+	val assembly_line as RecipeMap = GA.ASSEMBLY_LINE_RECIPES;
+	val mass_fab as RecipeMap = GA.MASS_FAB_RECIPES;
+	val replicator as RecipeMap = GA.REPLICATOR_RECIPES;
+	val cracker_unit as RecipeMap = GA.CRACKER_UNIT_RECIPES;
+	val circuit_assembler as RecipeMap = GA.CIRCUIT_ASSEMBLER_RECIPES;
+	val electric_sieve as RecipeMap = GA.SIEVE_RECIPES;
+	val attractor as RecipeMap = GA.ATTRACTOR_RECIPES;
+	val chemical_dehydrator as RecipeMap = GA.CHEMICAL_DEHYDRATOR_RECIPES;
+	val chemical_plant as RecipeMap = GA.CHEMICAL_PLANT_RECIPES;
+	val blast_alloy as RecipeMap = GA.BLAST_ALLOY_RECIPES;
+	val simple_ore_washer as RecipeMap = GA.SIMPLE_ORE_WASHER_RECIPES;
+	val nuclear_reactor as RecipeMap = GA.NUCLEAR_REACTOR_RECIPES;
+	val nuclear_breeder as RecipeMap = GA.NUCLEAR_BREEDER_RECIPES;
+	val decay_chamber as RecipeMap = GA.DECAY_CHAMBERS_RECIPES;
+	//val bio_reactor as RecipeMap = GA.BIO_REACTOR_RECIPES;
+	//val qubit_generator as RecipeMap = GA.SIMPLE_QUBIT_GENERATOR;
+	//val stellar_forge as RecipeMap = GA.STELLAR_FORGE_RECIPES;
+	//val plasma_condenser as RecipeMap = GA.PLASMA_CONDENSER_RECIPES;
+	//val gas_centrifuge as RecipeMap = GA.GAS_CENTRIFUGE_RECIPES;
+	//val adv_fusion as RecipeMap = GA.ADV_FUSION_RECIPES;
+
+	// Large
+	val large_chemical_reactor as RecipeMap = GA.LARGE_CHEMICAL_RECIPES;
+	val large_mixer as RecipeMap = GA.LARGE_MIXER_RECIPES;
+	val large_forge_hammer as RecipeMap = GA.LARGE_FORGE_HAMMER_RECIPES;
+	val large_centrifuge as RecipeMap = GA.LARGE_CENTRIFUGE_RECIPES;
+	//val large_engraver as RecipeMap = GA.LARGE_ENGRAVER_RECIPES;
 
 	val diesel_generator as RecipeMap = RecipeMap.getByName("diesel_generator");
 	val gas_turbine as RecipeMap = RecipeMap.getByName("gas_turbine");

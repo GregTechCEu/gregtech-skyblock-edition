@@ -214,6 +214,13 @@ function machineRecipes() {
     [<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>]
     ]);
 
+    for goldOre in utils.oresOf("Gold", ["Poor"]) {
+        furnace.remove(<ore:ingotGold>.firstItem, goldOre);
+    }
+    for goldOre in utils.oresOf("Gold", ["", "Rich", "Pure"]) {
+        furnace.remove(<ore:nuggetGold>.firstItem * 5, goldOre);
+    }
+
     recipes.addShaped(<ceramics:faucet>,[
     [null,null,null],
     [<ceramics:unfired_clay:5>,null,<ceramics:unfired_clay:5>],

@@ -51,7 +51,8 @@ static removeRecipes as IIngredient[] = [
     <ae2fc:ingredient_buffer>,
     <ae2fc:burette>,
     <threng:material:1>,
-    <appliedenergistics2:part:140>
+    <appliedenergistics2:part:140>,
+    <appliedenergistics2:quartz_block>
 ];
 
 static addShaped as IIngredient[][][][IItemStack] = {
@@ -127,6 +128,17 @@ static addShaped as IIngredient[][][][IItemStack] = {
         [
             [<appliedenergistics2:material:7>, <appliedenergistics2:material:7>],
             [<appliedenergistics2:material:7>, <appliedenergistics2:material:7>]
+        ]
+    ],
+    <appliedenergistics2:quartz_block> : [
+        [
+            [<appliedenergistics2:material:10>, <appliedenergistics2:material:10>, <appliedenergistics2:material:10>],
+            [<appliedenergistics2:material:10>, null, <appliedenergistics2:material:10>],
+            [<appliedenergistics2:material:10>, <appliedenergistics2:material:10>, <appliedenergistics2:material:10>]
+        ],
+        [
+            [<ore:crystalUnpureCertusQuartz>, <ore:crystalUnpureCertusQuartz>],
+            [<ore:crystalUnpureCertusQuartz>, <ore:crystalUnpureCertusQuartz>]
         ]
     ],
     <packagedauto:packager> : [

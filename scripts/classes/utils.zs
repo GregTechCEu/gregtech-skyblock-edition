@@ -3,6 +3,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDict;
 
 zenClass Utils {
 	zenConstructor() {
@@ -118,4 +119,41 @@ zenClass Utils {
 			}
 		}
 	}
+
+	function oresOf(material as string, filter as string[]) as IItemStack[] {
+		var ores as IItemStack[] = [];
+		for type in types {
+			for density in densitys {
+				if(!(filter.length > 0 && (filter has density || filter has type))) {
+					val ore = "ore" + density + type + material;
+					if(oreDict has ore) {
+						for oreItem in oreDict[ore].items {
+							ores += oreItem;
+						}
+					}
+				}
+			}
+		}
+
+		return ores;
+	}
+
+	static densitys as string[] = [
+		"Poor",
+		"",
+		"Rich",
+		"Pure"
+	];
+
+	static types as string[] = [
+		"",
+		"Gravel",
+		"Netherrack",
+		"Endstone",
+		"Sand",
+		"Blackgranite",
+		"Redgranite",
+		"Marble",
+		"Basalt"
+	];
 }

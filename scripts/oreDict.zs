@@ -322,6 +322,12 @@ static oresAdd as IItemStack[][IOreDictEntry] = {
     ],
     <ore:crystalCertusQuartz> : [
         <appliedenergistics2:material:10>,
+        <appliedenergistics2:material:1>,
+        <gregtech:meta_item_1:8202> //Gregtech certus quartz
+    ],
+    <ore:crystalUnpureCertusQuartz> : [
+        <appliedenergistics2:material:0>,
+        <appliedenergistics2:material:1>,
         <gregtech:meta_item_1:8202> //Gregtech certus quartz
     ],
     <ore:gemNetherQuartz> : [
