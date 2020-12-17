@@ -3,7 +3,7 @@
 	x: 1.5d,
 	y: 6.5d,
 	text: [
-		"Steel Machines still run of steam. There are slightly better, but are mostly not worth it apart from the boilers."
+		"Steel Machines still run off steam. They are slightly better than bronze machines, but mostly not worth it, apart from the boilers."
 	],
 	dependencies: [
 		"48823735"

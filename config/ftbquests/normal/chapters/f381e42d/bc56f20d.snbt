@@ -3,7 +3,8 @@
 	x: -3.5d,
 	y: -2.5d,
 	text: [
-		"{quests.did_you_know.ftbquests.desc}"
+		"{quests.did_you_know.ftbquests.desc.0}",
+		"{quests.did_you_know.ftbquests.desc.1}"
 	],
 	tasks: [{
 		uid: "bad4438c",

@@ -3,8 +3,9 @@
 	y: -0.5d,
 	shape: "circle",
 	text: [
-		"Welcome, to Gregtech. You are abou to make your first machines.",
-		"For now they all run of &7Steam&r. To get Steam you will need Boilers"
+		"Welcome to GregTech! You are about to make your first machines.",
+        "",
+		"For now they all run off of &7Steam&r. To get Steam, you will need Boilers."
 	],
 	dependencies: [
 		"0edc90bb"

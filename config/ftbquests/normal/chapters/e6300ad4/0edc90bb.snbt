@@ -3,7 +3,7 @@
 	x: 1.5d,
 	y: -0.5d,
 	text: [
-		"By sifting Gravel, Sand, Crushed Diorit, Andesite, and Granite you can get Ore Chunks which can be smelted into ingots."
+		"By sifting Gravel, Sand, or crushed Diorite, Andesite, and Granite, you can get Ore Chunks which can be smelted into ingots."
 	],
 	dependencies: [
 		"ccdc3932"
