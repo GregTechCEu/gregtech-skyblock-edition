@@ -7,7 +7,7 @@
 	x: 2.5d,
 	y: -2.0d,
 	text: [
-		"Let's trade a Bonsai Pot and a Hopper with Hopping Bonsai Pot. Unfortunatly I only have one. Maybe if you come back later I'll have another one."
+		"Let's trade a Bonsai Pot and a Hopper for a Hopping Bonsai Pot. Unfortunately, I only have one. Maybe if you come back later I'll have another one."
 	],
 	dependencies: [
 		"0edc90bb"

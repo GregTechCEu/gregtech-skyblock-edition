@@ -2,7 +2,7 @@
 	x: 1.0d,
 	y: 1.5d,
 	text: [
-		"For every Voltage above LV there is a Superconductor. They are, as the name implies, really good Conductors. However they are a bit expensive."
+		"For every Voltage above LV, there is a Superconductor. They are, as the name implies, really good Conductors. However, they are a bit expensive."
 	],
 	dependencies: [
 		"297154ef"

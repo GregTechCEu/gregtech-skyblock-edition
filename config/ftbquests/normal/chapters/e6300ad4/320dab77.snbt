@@ -4,7 +4,7 @@
 	x: 0.5d,
 	y: -0.5d,
 	text: [
-		"Put Dust in a with Water filled Barrel"
+		"Put dust in a barrel filled with water, or use a wooden crucible to compost organic matter into water and put dust in that."
 	],
 	dependencies: [
 		"ccdc3932"

@@ -3,9 +3,7 @@
 	x: -0.5d,
 	y: -0.5d,
 	text: [
-		"Just as usefull as a normal Bucket,",
-		"",
-		"but it breaks after pouring out a hot fluid."
+		"Just as useful as a normal bucket, but it breaks after pouring out hot fluids.",
 	],
 	dependencies: [
 		"bc714d1c",

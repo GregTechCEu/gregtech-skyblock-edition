@@ -4,7 +4,9 @@
 	x: 1.5d,
 	y: -1.5d,
 	text: [
-		"Wrought Iron can be obtained by smelting Iron ingots and then hammering the Hot Ingot"
+		"Wrought Iron can be obtained by smelting Iron ingots and then hammering the Hot Ingot.",
+        "",
+        "Wrought Iron is a good early material for GregTech tools, and is part of making steel.",
 	],
 	dependencies: [
 		"0edc90bb"
