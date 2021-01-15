@@ -177,7 +177,9 @@ static disabledItems as IIngredient[][string] = {
         <floodlights:carbon_dissolver>,
         <floodlights:carbon_lantern>,
         <floodlights:carbon_floodlight>,
-        <microblockcbe:stone_rod>
+        <microblockcbe:stone_rod>,
+        <ae2stuff:encoder>,
+		<ae2stuff:inscriber>
     ]
 };
 
