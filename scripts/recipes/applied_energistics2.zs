@@ -510,35 +510,7 @@ function machineRecipes() {
         <appliedenergistics2:material:11> : <appliedenergistics2:crystal_seed:600>,
         <appliedenergistics2:material:12> : <appliedenergistics2:crystal_seed:1200>
     };
-
-    for water, duration in waters {
-        for crystal, seed in aeSeeds {
-            val meta = seed.metadata;
-            gt.autoclave.recipeBuilder()
-                .inputs([seed.withTag({progress: meta}).onlyWithTag({progress: meta})])
-                .fluidInputs([water * 1000])
-                .outputs([seed.withTag({progress: meta+200})])
-                .duration(duration)
-                .EUt(256)
-                .buildAndRegister();
-            gt.autoclave.recipeBuilder()
-                .inputs([seed.withTag({progress: meta+200}).onlyWithTag({progress: meta+200})])
-                .fluidInputs([water * 1000])
-                .outputs([seed.withTag({progress: meta+400})])
-                .duration(duration)
-                .EUt(256)
-                .buildAndRegister();    
-            gt.autoclave.recipeBuilder()
-                .inputs([seed.withTag({progress: meta+400}).onlyWithTag({progress: meta+400})])
-                .fluidInputs([water * 1000])
-                .outputs([crystal])
-                .duration(duration)
-                .EUt(256)
-                .buildAndRegister();
-        }
-    }
-}
-
+    
 function init() {
 	// Un-named recipes
 	craft.process(addShaped, false);
