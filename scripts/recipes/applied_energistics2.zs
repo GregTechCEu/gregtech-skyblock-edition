@@ -499,18 +499,8 @@ function machineRecipes() {
 		.duration(sec(20))
 		.EUt(120)
 		.buildAndRegister();
+}
 
-    val waters as int[ILiquidStack] = {
-        <liquid:water> : 80,
-        <liquid:distilled_water> : 60
-    };
-
-    val aeSeeds as IItemStack[IItemStack] = {
-        <appliedenergistics2:material:10> : <appliedenergistics2:crystal_seed:0>,
-        <appliedenergistics2:material:11> : <appliedenergistics2:crystal_seed:600>,
-        <appliedenergistics2:material:12> : <appliedenergistics2:crystal_seed:1200>
-    };
-    
 function init() {
 	// Un-named recipes
 	craft.process(addShaped, false);
