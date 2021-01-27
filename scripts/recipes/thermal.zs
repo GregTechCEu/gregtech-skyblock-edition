@@ -319,6 +319,13 @@ function machineRecipes() {
         .EUt(120).duration(sec(5))
 		//.dupeForSmall()
         .buildAndRegister();
+	gt.mixer.recipeBuilder()
+        .inputs([<ore:dustCopper> * 3, <ore:dustSilver>])
+		.fluidInputs([<liquid:redstone> * 1000])
+        .outputs([<ore:dustSignalum>.firstItem * 4])
+        .EUt(120).duration(sec(5))
+		//.dupeForSmall()
+        .buildAndRegister();
 	gt.blast_furnace.recipeBuilder()
 		.inputs([<ore:dustSignalum> * 1])
 		.property("temperature", 3800)
@@ -329,6 +336,13 @@ function machineRecipes() {
 
 	// Lumium
 	gt.large_mixer.recipeBuilder()
+        .inputs([<ore:dustTin> * 3, <ore:dustSilver>])
+		.fluidInputs([<liquid:glowstone> * 1000])
+        .outputs([<ore:dustLumium>.firstItem * 4])
+        .EUt(120).duration(sec(5))
+		//.dupeForSmall()
+        .buildAndRegister();
+	gt.mixer.recipeBuilder()
         .inputs([<ore:dustTin> * 3, <ore:dustSilver>])
 		.fluidInputs([<liquid:glowstone> * 1000])
         .outputs([<ore:dustLumium>.firstItem * 4])
@@ -514,6 +528,13 @@ function machineRecipes() {
 		.fluidInputs([<liquid:redstone> * 144])
         .outputs([<thermaldynamics:duct_32:6>])
         .EUt(120).duration(sec(9))
+        .buildAndRegister();
+	//Signalum Plate
+	gt.metal_bender.recipeBuilder()
+        .inputs([<ore:ingotSignalum> * 1])
+		.notConsumable(gt.getCirc(0))
+        .outputs([<thermalfoundation:material:357> * 1])
+        .EUt(24).duration(sec(2.8))
         .buildAndRegister();
 
 	// remove alloying in smeltery
