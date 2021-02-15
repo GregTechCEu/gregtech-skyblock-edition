@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: 1.0d,
 	text: [
-		"If you can't find the Recipe for Cubic Zirconia Dust look for Flawed Cubic Zirkonia"
+		"If you can't find the Recipe for Cubic Zirconia Dust look for Flawed Cubic Zirconia"
 	],
 	dependencies: [
 		"add9cced"

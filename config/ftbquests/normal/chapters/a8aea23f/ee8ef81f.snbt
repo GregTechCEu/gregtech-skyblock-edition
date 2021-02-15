@@ -2,7 +2,7 @@
 	x: 0.0d,
 	y: 2.5d,
 	text: [
-		"This Machine is used to turn Dusts into there Gems. But also for Reinforced Iridium. You probably don't need this now.",
+		"This Machine is used to turn Dusts into their Gems. But also, for Reinforced Iridium. You probably don't need this now.",
 		" "
 	],
 	dependencies: [

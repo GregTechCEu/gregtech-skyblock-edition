@@ -5,7 +5,7 @@
 	y: -6.0d,
 	shape: "pentagon",
 	text: [
-		"Use two LV Input Hatches inorder to be able to make MV Recipes with  LV power"
+		"Use two LV Input Hatches in order to be able to make MV Recipes with LV power"
 	],
 	dependencies: [
 		"6c60d336",

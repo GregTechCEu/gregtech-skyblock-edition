@@ -8,7 +8,7 @@
 		"",
 		"At the moment you can only make Casts with &eGold&r, which you currently only can get by smelting &6Precious&r Ingots into &eGold&r Nuggets.",
 		"",
-		"You can also make Clay Casts. However they are very fragile and break by one usage."
+		"You can also make Clay Casts. However, they are very fragile and break by one usage."
 	],
 	dependencies: [
 		"d12863c7"

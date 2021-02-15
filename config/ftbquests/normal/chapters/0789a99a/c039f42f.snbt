@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: 1.5d,
 	text: [
-		"For your pulverizing needs. Can be used for Ore doubleing"
+		"For your pulverizing needs. Can be used for Ore doubling"
 	],
 	dependencies: [
 		"00cd4686"

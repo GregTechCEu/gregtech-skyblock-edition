@@ -4,7 +4,7 @@
 	x: -1.0d,
 	y: -4.0d,
 	text: [
-		"Check the Circuit Board Quest next to this for an explanaiton on how to obtain §eResin§r"
+		"Check the Circuit Board Quest next to this for an explanation on how to obtain §eResin§r"
 	],
 	dependencies: [
 		"899470a9",

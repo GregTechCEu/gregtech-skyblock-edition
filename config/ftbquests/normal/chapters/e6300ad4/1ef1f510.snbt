@@ -2,8 +2,8 @@
 	x: -3.5d,
 	y: -2.5d,
 	text: [
-		"Make sure to ckeck out the shop.",
-		"There might some usefull things you want."
+		"Make sure to check out the shop.",
+		"There might some useful things you want."
 	],
 	dependencies: [
 		"7228abc2"

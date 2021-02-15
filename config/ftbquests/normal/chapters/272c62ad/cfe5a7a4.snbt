@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: 1.0d,
 	text: [
-		"Rutile is the base resource for  Titanium. Elctrolyze some Bauxite or Zirkelite to obtain it."
+		"Rutile is the base resource for Titanium. Electrolyze some Bauxite or Zirkelite to obtain it."
 	],
 	dependencies: [
 		"fcb657a7"

@@ -11,7 +11,7 @@ Keep your multiblocks in one chunk
 Don't overclock recipes if you don't have to
 Boom = Bad
 Make sure your multiblocks are in only one chunk
-The true goal of GregTech is automation, not getting to the end. So don't just rush it
+The true goal of GregTech is automation, not getting to the end. So, don't just rush it
 Make sure to look through all the recipes for an item
 Craft things in batches
 Don't look at recipes for things that you can't make yet, it just leads to confusion
