@@ -3,7 +3,7 @@
 	x: -2.5d,
 	y: 0.0d,
 	text: [
-		"Gives acces to more resource like Lead, Silver, Redstone and a view Gems",
+		"Gives access to more resource like Lead, Silver, Redstone and a view Gems",
 		"But you need an Alloy Smelter"
 	],
 	dependencies: [

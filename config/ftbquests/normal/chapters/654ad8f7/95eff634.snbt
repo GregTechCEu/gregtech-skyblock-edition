@@ -3,7 +3,7 @@
 	x: 2.0d,
 	y: -2.0d,
 	text: [
-		"Usefull when you need automation with more than 9 different items."
+		"Useful when you need automation with more than 9 different items."
 	],
 	dependencies: [
 		"b7b3bc3b"

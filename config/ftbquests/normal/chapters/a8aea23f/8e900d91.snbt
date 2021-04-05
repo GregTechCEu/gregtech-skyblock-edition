@@ -3,7 +3,7 @@
 	x: 2.0d,
 	y: -2.5d,
 	text: [
-		"The Motor is used in almost all Gregtech Machines, so be prepared"
+		"The Motor is used in almost all GregTech Machines, so be prepared"
 	],
 	dependencies: [
 		"48823735"

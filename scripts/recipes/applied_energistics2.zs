@@ -12,7 +12,7 @@ import mods.threng.Aggregator;
 static quartzGlass as IIngredient = <appliedenergistics2:quartz_glass>; 
 static matPlate as IIngredient = <ore:plateSkyrium>;
 static matIngot as IIngredient = <ore:ingotSkyrium>;
-static processor  as IIngredient[] = [<appliedenergistics2:material:23>, <appliedenergistics2:material:22>, <appliedenergistics2:material:24>];
+static processor as IIngredient[] = [<appliedenergistics2:material:23>, <appliedenergistics2:material:22>, <appliedenergistics2:material:24>];
 static apMatPlate as IIngredient = <ore:plateDenseHssg>;
 
 static removeRecipes as IIngredient[] = [

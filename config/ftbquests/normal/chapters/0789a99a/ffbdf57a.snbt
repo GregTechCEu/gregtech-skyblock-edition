@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: -2.5d,
 	text: [
-		"The &nRockbreaker&r is a really usefull Machine:",
+		"The &nRockbreaker&r is a really useful Machine:",
         "",
 		"It can generate &7Cobblestone&r, &7Andesite, &7Diorite&r and &7Andesite&r when placed next &9Water&r and &6Lava&r.",
 		"To collect the Output place a &cChest&r on the output Side.",
