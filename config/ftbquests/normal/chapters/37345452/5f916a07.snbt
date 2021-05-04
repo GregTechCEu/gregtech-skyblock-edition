@@ -2,10 +2,10 @@
 	x: 7.0d,
 	y: 4.5d,
 	tasks: [{
-		uid: "a389fe01",
+		uid: "7478d522",
 		type: "item",
 		items: [{
-			item: "minecraft:barrier"
+			item: "gregtech:meta_item_1 1 10677"
 		}]
 	}]
 }
