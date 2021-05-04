@@ -3,7 +3,7 @@
 	x: 4.0d,
 	y: 5.0d,
 	text: [
-		"Gives you acces to resources like Uranium, Magnesium, Cobalt, Nickel and Monazite."
+		"Gives you access to resources like Uranium, Magnesium, Cobalt, Nickel and Monazite."
 	],
 	dependencies: [
 		"48823735"

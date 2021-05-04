@@ -1,0 +1,18 @@
+{
+	title: "Insane Circuit Board",
+	x: 4.0d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9674bc92"
+	],
+	tasks: [{
+		uid: "e4e0ad43",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32585"
+		}]
+	}]
+}

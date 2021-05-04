@@ -37,45 +37,6 @@ static removeFurnace as IIngredient[] = [
 ];
 
 function machineRecipes() {
-    // make gold process MV
-    // !! convert to dupeForSmall on 0.21
-    gt.chemical_reactor.findRecipe(30, [<ore:ingotGoldAlloy>.firstItem * 4], [<liquid:water> * 1000, <liquid:nitric_acid> * 1000]).remove();
-    gt.large_chemical_reactor.findRecipe(30, [<ore:ingotGoldAlloy>.firstItem * 4], [<liquid:water> * 1000, <liquid:nitric_acid> * 1000]).remove();
-    gt.chemical_reactor.recipeBuilder()
-        .inputs([<ore:ingotGoldAlloy> * 4])
-        .fluidInputs([<liquid:water> * 1000, <liquid:nitric_acid> * 1000])
-        .outputs([<ore:dustGoldLeach>.firstItem])
-        .fluidOutputs([<liquid:nitrogen_dioxide> * 1000, <liquid:precious_leach_nitrate> * 3000])
-        .EUt(40).duration(sec(40))
-        .buildAndRegister();
-    gt.large_chemical_reactor.recipeBuilder()
-        .inputs([<ore:ingotGoldAlloy> * 4])
-        .fluidInputs([<liquid:water> * 1000, <liquid:nitric_acid> * 1000])
-        .outputs([<ore:dustGoldLeach>.firstItem])
-        .fluidOutputs([<liquid:nitrogen_dioxide> * 1000, <liquid:precious_leach_nitrate> * 3000])
-        .EUt(40).duration(sec(40))
-        .buildAndRegister();
-
-    gt.chemical_reactor.findRecipe(30, [<ore:dustGoldLeach>.firstItem], [<liquid:aqua_regia> * 1000, <liquid:sulfuric_acid> * 1000]).remove();
-    gt.large_chemical_reactor.findRecipe(30, [<ore:dustGoldLeach>.firstItem], [<liquid:aqua_regia> * 1000, <liquid:sulfuric_acid> * 1000]).remove();
-    gt.chemical_reactor.recipeBuilder()
-        .inputs([<ore:dustGoldLeach>])
-        .fluidInputs([<liquid:aqua_regia> * 1000, <liquid:sulfuric_acid> * 1000])
-        .chancedOutput(<ore:dustTinyLeadNitrate>.firstItem, 10 * 100, 0)
-        .fluidOutputs([<liquid:chloroauric_acid> * 1000, <liquid:nitrogen_dioxide> * 1000])
-        .EUt(40).duration(sec(40))
-        .buildAndRegister();
-    gt.large_chemical_reactor.recipeBuilder()
-        .inputs([<ore:dustGoldLeach>])
-        .fluidInputs([<liquid:aqua_regia> * 1000, <liquid:sulfuric_acid> * 1000])
-        .chancedOutput(<ore:dustTinyLeadNitrate>.firstItem, 10 * 100, 0)
-        .fluidOutputs([<liquid:chloroauric_acid> * 1000, <liquid:nitrogen_dioxide> * 1000])
-        .EUt(40).duration(sec(40))
-        .buildAndRegister();
-
-    //Compressed Fireclay
-    //Utils.removeRecipeByOutput(gt.compressor, [<gregtech:meta_item_2:32014>], [], false); //Compressed Fireclay
-    //furnace.addRecipe(<gregtech:meta_item_2:32015>, <gtadditions:ga_meta_item:32037>);
 
     val lvCables as string[] = [
         "Cobalt",

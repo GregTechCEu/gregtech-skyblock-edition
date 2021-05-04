@@ -3,7 +3,7 @@
 	x: 1.5d,
 	y: 0.5d,
 	text: [
-		"Any item on this list will complete this quest. However you will probably need all of them"
+		"Any item on this list will complete this quest. However, you will probably need all of them"
 	],
 	dependencies: [
 		"0edc90bb"

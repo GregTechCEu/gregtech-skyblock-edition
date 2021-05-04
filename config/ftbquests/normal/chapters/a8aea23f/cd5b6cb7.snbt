@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: -0.5d,
 	text: [
-		"This Machine allows you to get Wires and Fine Wires much more resource effecient."
+		"This Machine allows you to get Wires and Fine Wires much more resource efficient."
 	],
 	dependencies: [
 		"8e900d91"

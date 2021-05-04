@@ -5,7 +5,7 @@
 	x: -1.5d,
 	y: -1.0d,
 	text: [
-		"A  Furnace that runs of Steam"
+		"A Furnace that runs of Steam"
 	],
 	dependencies: [
 		"18b8af44"

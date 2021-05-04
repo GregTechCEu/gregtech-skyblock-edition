@@ -4,7 +4,7 @@
 	x: 1.0d,
 	y: 3.5d,
 	text: [
-		"You can't just smelt Sand to get Glass. You need need to smelt Glass Dust in the Smeltery and smelt the Clear Glass in a Furnace to get normal Glass."
+		"You can't just smelt Sand to get Glass. You need to smelt Glass Dust in the Smeltery and smelt the Clear Glass in a Furnace to get normal Glass."
 	],
 	dependencies: [
 		"d12863c7"

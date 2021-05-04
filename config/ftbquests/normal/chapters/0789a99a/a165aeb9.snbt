@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	description: "A Multiblock Macerator at the Steam Era",
+	text: [
+		"The Steam Grinder can run up to 8 recipes at a time, for only 1.33x the steam consumption of the Steam Macerator, and only 1.5x the duration!"
+	],
+	dependencies: [
+		"506ea84f"
+	],
+	tasks: [{
+		uid: "747d9ef7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4178"
+		}]
+	}],
+	rewards: [{
+		uid: "b65905f5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

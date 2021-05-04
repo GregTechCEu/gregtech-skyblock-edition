@@ -4,7 +4,7 @@
 	y: -2.5d,
 	text: [
 		"The Assembly Line is a large Multiblock which is required for higher Machine Parts.",
-		"The length depends on the input amount. So when in JEI 12 slots are used, then the Machine needs to be 12 Blocks long."
+		"The length depends on the input amount. So, when in JEI 12 slots are used, then the Machine needs to be 12 Blocks long."
 	],
 	dependencies: [
 		"a7916bd3"

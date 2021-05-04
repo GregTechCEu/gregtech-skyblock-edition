@@ -22,7 +22,7 @@ quests.did_you_know.ftbquests.title=How to FTB Quests
 quests.did_you_know.ftbquests.desc.0=On the left side you can see what you need to complete the quest. On the right side is the reward.
 quests.did_you_know.ftbquests.desc.1=You may notice the little arrows on the left and right side. These show what quest you need to complete and what quests will be unlocked.
 
-quests.did_you_know.gt_overclocking.title=Gregtech Overclocking
+quests.did_you_know.gt_overclocking.title=GregTech Overclocking
 quests.did_you_know.gt_overclocking.desc.0=You will notice that Machines that require EU have a Overclocking Button. When the Machine is a higher tier than the Recipe, then the Machine will be faster but also will consume more Energy.
 quests.did_you_know.gt_overclocking.desc.1=Here is a website where you can calculate the exact stats:
 quests.did_you_know.gt_overclocking.desc.2=&bhttps://omnifactorydevs.github.io/OverclockingCalculator/

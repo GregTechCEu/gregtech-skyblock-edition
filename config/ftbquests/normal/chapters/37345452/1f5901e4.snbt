@@ -118,8 +118,11 @@
 		"70f81a04"
 	],
 	tasks: [{
-		uid: "d4b009d7",
-		type: "checkmark"
+		uid: "1fb8af55",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10672"
+		}]
 	}],
 	rewards: [{
 		uid: "8f15453c",
