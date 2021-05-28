@@ -14,7 +14,7 @@ recipes.addShaped(<logisticspipes:frame>,
             [[BlackSteelPlate, BlackSteelPlate, BlackSteelPlate],
             [BlackSteelPlate, MVMachineHull, BlackSteelPlate],
             [BlackSteelPlate, BlackSteelPlate, BlackSteelPlate]]);
-recipes.addShaped(<logisticspipes:pipe_transport_basic>,
+recipes.addShaped(<logisticspipes:pipe_transport_basic> * 4,
             [[SteelRod, Itemduct, SteelRod],
             [Itemduct, Itemduct, Itemduct],
             [SteelRod, Itemduct, SteelRod]]);

@@ -165,10 +165,10 @@ function machineRecipes() {
     recipes.remove(<ore:blockBronze>);
     recipes.remove(<ore:blockApatite>);
     recipes.remove(<forestry:apatite>);
-    gt.compressor.recipeBuilder().inputs([<ore:ingotTin>*9]).outputs([<gregtech:compressed_3:9>]).EUt(2).duration(400).buildAndRegister();
-    gt.compressor.recipeBuilder().inputs([<ore:ingotCopper>*9]).outputs([<gregtech:compressed_0:15>]).EUt(2).duration(400).buildAndRegister();
-    gt.compressor.recipeBuilder().inputs([<ore:ingotBronze>*9]).outputs([<gregtech:compressed_4:10>]).EUt(2).duration(400).buildAndRegister();
-    gt.compressor.recipeBuilder().inputs([<ore:gemApatite>*9]).outputs([<gregtech:compressed_10:5>]).EUt(2).duration(400).buildAndRegister();
+    gt.compressor.recipeBuilder().inputs([<ore:ingotTin>*9]).outputs([<gregtech:meta_block_compressed_4:7>]).EUt(2).duration(400).buildAndRegister();
+    gt.compressor.recipeBuilder().inputs([<ore:ingotCopper>*9]).outputs([<gregtech:meta_block_compressed_1:2>]).EUt(2).duration(400).buildAndRegister();
+    gt.compressor.recipeBuilder().inputs([<ore:ingotBronze>*9]).outputs([<gregtech:meta_block_compressed_5:15>]).EUt(2).duration(400).buildAndRegister();
+    gt.compressor.recipeBuilder().inputs([<ore:gemApatite>*9]).outputs([<gregtech:meta_block_compressed_14:2>]).EUt(2).duration(400).buildAndRegister();
 
     //Flexible Casing
     gt.assembler.recipeBuilder().inputs(<ore:plateBronze>*4,<ore:plateEmerald>*2,<forestry:impregnated_casing>).fluidInputs(<liquid:glass>*200).outputs(<forestry:flexible_casing>).EUt(30).duration(20).buildAndRegister();
