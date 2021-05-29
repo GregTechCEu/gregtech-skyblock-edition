@@ -269,7 +269,11 @@ static removeRecipes as IItemStack[] = [
 	<thermaldynamics:retriever:1>,
 	<thermaldynamics:retriever:2>,
 	<thermaldynamics:retriever:3>,
-	<thermaldynamics:retriever:4>
+	<thermaldynamics:retriever:4>,
+        <thermalfoundation:material:1025>,
+        <thermalfoundation:material:1024>,
+        <thermalfoundation:material:1026>,
+        <thermalfoundation:material:1027>
 ];
 
 static removeFurnace as IIngredient[] = [
