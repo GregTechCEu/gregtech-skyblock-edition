@@ -129,7 +129,6 @@ static removeRecipes as IItemStack[] = [
     <chisel:redstone>,
     <chisel:diamond>,
     <chisel:emerald>,
-    <bonsaitrees:bonsaipot:1>,
     <progressiveautomation:chopper_wooden>,
     <progressiveautomation:chopper_iron>,
     <progressiveautomation:farmer_wooden>,
@@ -258,7 +257,7 @@ function machineRecipes() {
 
     recipes.remove(<buildinggadgets:exchangertool>);
     recipes.addShaped(<buildinggadgets:exchangertool>,[
-    [<gregtech:meta_item_2:32507>,<gregtech:meta_item_2:32448>],
+    [<ore:circuitBasic>,<gregtech:meta_item_2:32448>],
     [<ore:platePlastic>,<buildinggadgets:buildingtool>]
     ]);
 
