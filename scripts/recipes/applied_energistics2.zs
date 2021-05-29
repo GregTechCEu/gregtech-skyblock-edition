@@ -221,7 +221,12 @@ function machineRecipes() {
     // Skyrium
     mods.tconstruct.Melting.removeRecipe(<liquid:skyrium>);
     gt.mixer.recipeBuilder()
-        .inputs([<appliedenergistics2:material:45> * 2, <ore:dustCobalt>, <ore:dustSmallBlueSteel> * 4, <ore:dustTinyCertusQuartz> * 3])
+        .inputs([<appliedenergistics2:material:45> * 2, <ore:dustCobalt>, <ore:dustBlueSteel>, <ore:dustTinyCertusQuartz> * 3])
+        .outputs([<ore:dustSkyrium>.firstItem])
+        .EUt(32).duration(sec(6))
+        .buildAndRegister();
+    gt.large_mixer.recipeBuilder()
+        .inputs([<appliedenergistics2:material:45> * 2, <ore:dustCobalt>, <ore:dustBlueSteel>, <ore:dustTinyCertusQuartz> * 3])
         .outputs([<ore:dustSkyrium>.firstItem])
         .EUt(32).duration(sec(6))
         .buildAndRegister();
