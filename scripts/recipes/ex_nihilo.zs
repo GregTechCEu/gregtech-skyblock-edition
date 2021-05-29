@@ -7,6 +7,18 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.WeightedItemStack;
 import mods.exnihilocreatio.Sieve;
 
+static shapedRecipes as IIngredient[][][][IItemStack] = {
+	/*
+    <abyssalcraft:necronomicon:0>: [
+		[
+			[<minecraft:rotten_flesh:0>, <abyssalcraft:corflesh:0>, <minecraft:rotten_flesh:0>],
+			[<abyssalcraft:corflesh:0>, <primal:plant_cloth:0>, <abyssalcraft:corflesh:0>],
+			[<minecraft:rotten_flesh:0>, <abyssalcraft:corflesh:0>, <minecraft:rotten_flesh:0>]
+		]
+	]
+    */
+};
+
 /*
     Shapeless Recipes
 */
