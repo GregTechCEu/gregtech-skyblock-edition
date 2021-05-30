@@ -1,3 +1,22 @@
+version 6.0
+
+updated most mods
+removed bonsai trees
+removed bountiful
+added deep mob learning
+added Gregtech Food Option
+added Just Enough IDs
+replaced applied energistics 2 through prototypetrouser's AE2 fork
+fixed building gadgets only accepting 1 circuit
+added integrated circuit to EIO armor recipes
+"greggified" dml recipes
+disabled glitched armor and sword
+disabled FE to GTEU converter to prevent abusing it
+Skyrium dust uses full Certus quartz and full blue steel dust now
+removed DML endstone recipe
+
+#################################################
+
 version 5.1
 
 updated mods
