@@ -25,6 +25,7 @@ recipes.remove(<deepmoblearning:extraction_chamber>);
 recipes.remove(<deepmoblearning:data_model_blank>);
 recipes.remove(<deepmoblearning:polymer_clay>);
 recipes.remove(<deepmoblearning:deep_learner>);
+recipes.remove(<minecraft:end_stone>);
 
 recipes.addShaped(<deepmoblearning:machine_casing>,
  [[sootplate,blacksteelplate,sootplate],
