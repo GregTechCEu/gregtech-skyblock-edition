@@ -179,7 +179,12 @@ static disabledItems as IIngredient[][string] = {
         <floodlights:carbon_floodlight>,
         <microblockcbe:stone_rod>,
         <ae2stuff:encoder>,
-		<ae2stuff:inscriber>
+	<ae2stuff:inscriber>,
+        <deepmoblearning:glitch_infused_sword>,
+        <deepmoblearning:glitch_infused_boots>,
+        <deepmoblearning:glitch_infused_chestplate>,
+        <deepmoblearning:glitch_infused_helmet>,
+        <deepmoblearning:glitch_infused_leggings>
     ]
 };
 
