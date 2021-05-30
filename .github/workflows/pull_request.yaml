@@ -1,0 +1,47 @@
+name: Build
+
+on: [pull_request]
+
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Declare some variables
+      id: vars
+      shell: bash
+      run: |
+        echo "::set-output name=sha_short::$(git rev-parse --short $GITHUB_SHA)"
+    - name: Install requests
+      run: |
+       pip install requests
+    - uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt' # See 'Supported distributions' for available options
+        java-version: '11'
+    - run: java -version
+    - name: Run Build
+      run: |
+        python build/main.py
+    - name: 'Upload Client'
+      uses: actions/upload-artifact@v2
+      with:
+        name: client
+        path: buildOut/client/*
+    - name: 'Upload Client'
+      uses: actions/upload-artifact@v2
+      with:
+        name: server
+        path: buildOut/server/*
+    - name: 'Upload Modlist'
+      uses: actions/upload-artifact@v2
+      with:
+        name: modlist
+        path: buildOut/modlist.html
