@@ -1,0 +1,15 @@
+{
+	x: -7.0d,
+	y: -4.5d,
+	dependencies: [
+		"b74f8177",
+		"aa68caea"
+	],
+	tasks: [{
+		uid: "9eb472c0",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_basic"
+		}]
+	}]
+}

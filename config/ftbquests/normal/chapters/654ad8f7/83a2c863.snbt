@@ -3,7 +3,7 @@
 	x: 2.0d,
 	y: -3.0d,
 	text: [
-		"Pure crystals are obtainable via &bGrowth Accelerator&r or the GregTech way with an &bAutoclave&r"
+		"Pure crystals are obtainable via &bGrowth Accelerator&r or with an &bCrystal Growth Chamber&r"
 	],
 	dependencies: [
 		"6961a91b"

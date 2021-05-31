@@ -1,0 +1,14 @@
+{
+	x: -8.0d,
+	y: -4.5d,
+	dependencies: [
+		"6a36227d"
+	],
+	tasks: [{
+		uid: "fdca5b45",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_request_table"
+		}]
+	}]
+}

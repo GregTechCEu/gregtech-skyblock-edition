@@ -1,0 +1,19 @@
+{
+	x: -7.0d,
+	y: -6.5d,
+	dependencies: [
+		"3b910f3c"
+	],
+	tasks: [{
+		uid: "d83bfa41",
+		type: "item",
+		items: [{
+			item: "logisticspipes:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "c6c86ec2",
+		type: "item",
+		item: "logisticspipes:guide_book"
+	}]
+}

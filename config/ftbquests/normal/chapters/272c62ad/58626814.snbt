@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: -10.0d,
+	dependencies: [
+		"973faf92"
+	],
+	tasks: [{
+		uid: "65932f9d",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blank"
+		}]
+	}]
+}
