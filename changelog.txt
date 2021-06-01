@@ -1,3 +1,9 @@
+version 6.0a
+fixed blazing pyrotheum not working with crucible
+machine parts now use metadata in DML.zs
+
+##################################################
+
 version 6.0
 
 updated most mods

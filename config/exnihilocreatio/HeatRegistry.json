@@ -3,5 +3,5 @@
   "minecraft:lava:-1": 6,
   "minecraft:fire:-1": 8,
   "minecraft:torch:-1": 2
-  "thermalfoundation:pyrotheum:-1": 40
+  "thermalfoundation:fluid_pyrotheum:-1": 40
 }
