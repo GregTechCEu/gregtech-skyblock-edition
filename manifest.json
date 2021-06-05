@@ -12,7 +12,7 @@
    "overrides": "overrides",
    "manifestVersion": 1,
    "version": "6.0",
-   "author": "Irgendwer1",
+   "author": "Irgendwer1", q
     "externalDeps":[
         {
             "url" : "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/omni-fixes-v41/appliedenergistics2-rv6-stable-7.omni-fixes-v41.jar",
