@@ -23,6 +23,11 @@
    "name":"Gregicality Skyblock Edition",
   "files": [
     {
+      "projectID": 296289,
+      "fileID": 2919737,
+      "required": true
+    },
+    {
       "projectID": 284229,
       "fileID": 2968355,
       "required": true
