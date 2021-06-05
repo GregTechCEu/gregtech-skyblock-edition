@@ -118,7 +118,7 @@ function machineRecipes() {
     ]);
 
     recipes.remove(<extrautils2:angelring>);
-    gt.assembly_line.recipeBuilder().duration(6000).EUt(32000).notConsumable(<gtadditions:ga_armor:13>).inputs([<gregtech:meta_item_2:32479>*64, <gregtech:meta_item_1:32675>*4, <ore:circuitSuperconductor>,<ore:circuitSuperconductor>,<ore:circuitSuperconductor>,<ore:circuitSuperconductor>, <gregtech:cable:354>*64]).outputs([<extrautils2:angelring>]).buildAndRegister();
+    gt.assembly_line.recipeBuilder().duration(1500).EUt(8100).inputs([<metaitem:gravitation_engine> * 4, <ore:circuitElite> * 10, <ore:cableGtQuadrupleOsmium> * 6, <metaitem:advanced_impeller_jetpack>, <metaitem:field.generator.ev> * 4, <metaitem:energy.lapotronicorb> * 2]).outputs([<extrautils2:angelring>]).buildAndRegister();
 
     //exploit with creative generator
     mods.jei.JEI.removeAndHide(<extrautils2:ingredients:4>);
