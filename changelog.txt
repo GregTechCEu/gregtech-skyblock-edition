@@ -1,3 +1,11 @@
+Version 6.1
+Moved Angel ring to IV
+Updated most mods
+added Journeymap
+added Architecturecraft
+
+##################################################
+
 version 6.0a
 fixed blazing pyrotheum not working with crucible
 machine parts now use metadata in DML.zs
