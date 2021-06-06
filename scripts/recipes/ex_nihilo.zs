@@ -83,6 +83,10 @@ function machineRecipes() {
     [<ore:stone>, gt.screwDriver, <ore:stone>],
     [<ore:stickStone>,<ore:stone>,<ore:stickStone>]
     ]);
+    recipes.addShaped(<exnihilocreatio:item_mesh:1>,
+     [[<minecraft:string>,<minecraft:string>,<minecraft:string>],
+      [<minecraft:string>,<minecraft:string>,<minecraft:string>],
+      [<minecraft:string>,<minecraft:string>,<minecraft:string>]]);
     recipes.remove(<exnihilocreatio:item_mesh:2>);
     recipes.addShaped(<exnihilocreatio:item_mesh:2>,[
     [<ore:stickTinAlloy>,<minecraft:string>,<ore:stickTinAlloy>],
