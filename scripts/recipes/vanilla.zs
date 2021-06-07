@@ -106,6 +106,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     ],
     <minecraft:dye:0> : [
         [<metaitem:dye.black>]
+    ],
+    <minecraft:slime_ball> * 9 : [
+        [<minecraft:slime>]
     ]
 };
 
