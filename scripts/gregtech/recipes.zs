@@ -7,21 +7,7 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.gregtech.recipe.FuelRecipe;
 import mods.gtadditions.recipe.Utils;
 
-static shapedRecipes as IIngredient[][][][IItemStack] = {
-    /*
-    <gregtech:metal_casing:1> : [
-		[
-			[<ore:ingotFireclay>, <ore:ingotFireclay>],
-			[<ore:ingotFireclay>, <ore:ingotFireclay>]
-		]
-	]*/
-};
 
-/*
-    Shapeless Recipes
-*/
-static shapelessRecipes as IIngredient[][][IItemStack] = {
-};
 
 /*
     Recipe Removals
@@ -29,8 +15,29 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 static removeRecipes as IItemStack[] = [
     //<gregtech:meta_item_2:32015>,
     //<gregtech:metal_casing:1>,
-    <opencomputers:material:6>
+    <opencomputers:material:6>,
+    <gregtech:machine:9>
 ];
+
+static shapedRecipes as IIngredient[][][][IItemStack] = {
+    <gregtech:machine:9>: [
+		[
+			[<excompressum:compressed_block:5>, <gregtech:fluid_pipe:1095>, <excompressum:compressed_block:5>],
+			[<gregtech:fluid_pipe:1095>, <gregtech:machine_casing:10>, <gregtech:fluid_pipe:1095>],
+			[<minecraft:piston>, <gregtech:fluid_pipe:1095>, <minecraft:piston>]
+		]
+	]
+};
+
+/*
+    Shapeless Recipes
+*/
+static shapelessRecipes as IIngredient[][][IItemStack] = {
+
+
+
+
+};
 
 static removeFurnace as IIngredient[] = [
 
