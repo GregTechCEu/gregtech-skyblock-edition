@@ -40,7 +40,6 @@ function machineRecipes() {
     //
     //Ex Nihilo
     //
-    gt.large_forge_hammer.findRecipe(32,[<minecraft:cobblestone>],[<liquid:lubricant>*2]).remove();
     gt.forge_hammer.findRecipe(32,[<minecraft:cobblestone>],[null]).remove();
 
     val stone_crushedStone as IItemStack[IIngredient] = {
@@ -58,13 +57,6 @@ function machineRecipes() {
     for stone, crushedStone in stone_crushedStone {
         gt.forge_hammer.recipeBuilder()
             .inputs([stone])
-            .outputs([crushedStone])
-            .duration(16).EUt(24)
-            .buildAndRegister();
-
-        gt.large_forge_hammer.recipeBuilder()
-            .inputs([stone])
-            .fluidInputs([<liquid:lubricant>*2])
             .outputs([crushedStone])
             .duration(16).EUt(24)
             .buildAndRegister();
