@@ -82,7 +82,6 @@ zenClass Gregtech {
 	// Large
 	val large_chemical_reactor as RecipeMap = GA.LARGE_CHEMICAL_RECIPES;
 	val large_mixer as RecipeMap = GA.LARGE_MIXER_RECIPES;
-	val large_forge_hammer as RecipeMap = GA.LARGE_FORGE_HAMMER_RECIPES;
 	val large_centrifuge as RecipeMap = GA.LARGE_CENTRIFUGE_RECIPES;
 	//val large_engraver as RecipeMap = GA.LARGE_ENGRAVER_RECIPES;
 

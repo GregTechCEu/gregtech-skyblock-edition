@@ -379,7 +379,6 @@ gregtech:chemical_dehydrator
 gregtech:chemical_plant
 gregtech:large_mixer
 gregtech:blast_alloy
-gregtech:large_forge_hammer
 gregtech:simple_ore_washer
 gregtech:nuclear_reactor
 gregtech:decay_chamber
