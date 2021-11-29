@@ -22,7 +22,7 @@
 		uid: "568800bf",
 		type: "item",
 		items: [{
-			item: "gregtech:metal_casing_invar"
+			item: "gregtech:metal_casing 1 2"
 		}],
 		count: 13L
 	},

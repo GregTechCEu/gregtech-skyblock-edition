@@ -1,6 +1,6 @@
 {
 	title: "{quests.age_max.title}",
-	icon: "gregtech:machine 1 509",
+	icon: "gregtech:machine 1 3243",
 	always_invisible: false,
 	group: -1509069860,
 	default_quest_shape: ""

@@ -20,7 +20,7 @@
 		uid: "703ae432",
 		type: "item",
 		items: [{
-			item: "gregtech:metal_casing_black_steel"
+			item: "gtadditions:ga_metal_casing_2 1 5"
 		}],
 		count: 30L
 	},
