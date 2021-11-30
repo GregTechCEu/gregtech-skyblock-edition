@@ -33,6 +33,7 @@ global cutting_saw as RecipeMap =                   RecipeMap.getByName("cutting
 global decay_chamber as RecipeMap =                 RecipeMap.getByName("decay_chamber");
 global disassembler as RecipeMap =                  RecipeMap.getByName("disassembler");
 global distillery as RecipeMap =                    RecipeMap.getByName("distillery");
+global distillation_tower as RecipeMap =            RecipeMap.getByName("distillation_tower");
 global efurnace as RecipeMap =                      RecipeMap.getByName("furnace");
 global electrolyzer as RecipeMap =                  RecipeMap.getByName("electrolyzer");
 global extractor as RecipeMap =                     RecipeMap.getByName("extractor");
