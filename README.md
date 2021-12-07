@@ -1,5 +1,5 @@
-# GregicalitySkyblockEdition
-The official modpack to the mod
+# Gregtech - Skyblock Edition
+GSE is a lightweight Skyblock modpack focused around GTCEu and Ex Nihilo with some QoL mods
 
 ## Building
 You will need to have python3 and python requests (`pip3 install requests`) installed.
