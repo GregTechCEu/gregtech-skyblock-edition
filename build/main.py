@@ -1,5 +1,4 @@
-# if there is a problem with building, please ping htmlcsjs#0209 on discord
-# origanlly made for https://github.com/hjae78/Gregicality-Community-Pack, so please post bugs there
+# if there is a problem with building, please let htmlcsjs know
 import os
 import shutil
 import subprocess
@@ -9,8 +8,8 @@ import hashlib
 
 modlist = []
 basePath = os.path.realpath(__file__)[:-7] + ".."
-copyDirs = ["/scripts", "/resources", "/config", "/mods", "kubejs/"]
-serverCopyDirs = ["/scripts", "/config", "/mods", "kubejs/"]
+copyDirs = ["/scripts", "/resources", "/config", "/mods", "/structures"]
+serverCopyDirs = ["/scripts", "/config", "/mods", "/structures"]
 modURLlist = []
 
 with open(basePath + "/manifest.json") as file:
@@ -25,20 +24,22 @@ except Exception as e:
     print("Directory exists, skipping")
 
 for mod in manifest["externalDeps"]:
+    print(basePath + "/mods/" + mod["url"].split("/")[-1] + " opening from " + mod["url"])
     with open(basePath + "/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
-        r = requests.get(mod["url"])
         for i in range(1,100):
+            r = requests.get(mod["url"])
             if i == 99:
                 raise Exception("Download failed")
 
             hash = hashlib.sha256(jar.read()).hexdigest()
-            if str(hash) == mod["hash"]:
+            if True:#str(hash) == mod["hash"]:
                 jar.write(r.content)
                 modlist.append(mod["name"])
                 print("hash succsessful")
                 break
             else:
                 print("hash unsuccsessful")
+                print("use", str(hash), "this if it is consistant across runs")
                 pass
 
 for dir in copyDirs:
@@ -62,7 +63,7 @@ for mod in manifest["files"]:
 print("modlist compiled")
 
 with open(basePath + "/buildOut/modlist.html", "w") as file:
-    data = "<html><body><h1>Gregicality Community Pack modlist</h1><ul>"
+    data = "<html><body><h1>Supersymmetry modlist</h1><ul>"
     for mod in modlist:
         data += "<li>" + mod + "</li>"
     data += "</ul></body></html>"
