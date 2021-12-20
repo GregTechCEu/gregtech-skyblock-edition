@@ -15,14 +15,14 @@
    "author":"Irgendwer1",
    "externalDeps":[
        {
-           "url":"https://github.com/GregTechCEu/GregTech/releases/download/latest/gregtech-1.12.2-2.0.0-alpha.jar",
-           "hash":"beed6f46a5fbcd8aafdd91f355dfcfc4144ca988c97a0e049417388c396a8dca",
-           "name":"Gregtech Community Edition Unofficial"
+           "url": "https://github.com/GregTechCEu/GregTech/releases/download/latest/gregtech-1.12.2-2.0.0-alpha.jar",
+           "hash": "beed6f46a5fbcd8aafdd91f355dfcfc4144ca988c97a0e049417388c396a8dca",
+           "name": "Gregtech Community Edition Unofficial"
        },
        {
-           "url":"https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/omni-fixes-v47/appliedenergistics2-rv6-stable-7.omni-fixes-v47i.jar",
-           "hash":"62dcee4fa3f63e19f1c476e00d29a8af940662ac69367f73aa39c3dc1f9debbc",
-           "name":"Applied Energistics 2 Prototypetrousers Edition"
+           "url": "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/omni-fixes-v47/appliedenergistics2-rv6-stable-7.omni-fixes-v47i.jar",
+           "hash": "62dcee4fa3f63e19f1c476e00d29a8af940662ac69367f73aa39c3dc1f9debbc",
+           "name": "Applied Energistics 2 Prototypetrousers Edition"
        }
    ],
    "name":"Gregtech - Skyblock Edition",
