@@ -1,7 +1,0 @@
-{
-	title: "{quests.age0.title}",
-	icon: "tconstruct:tooltables",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
