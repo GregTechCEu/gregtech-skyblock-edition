@@ -1,7 +1,0 @@
-{
-	title: "{quests.gregtech.title}",
-	icon: "gregtech:machine 1 518",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

@@ -1,7 +1,0 @@
-[
-	{
-		"onjoin": true,
-		"mob": "minecraft:creeper",
-		"result": "deny"
-	}
-]

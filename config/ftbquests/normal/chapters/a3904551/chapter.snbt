@@ -1,7 +1,0 @@
-{
-	title: "{quests.age6.title}",
-	icon: "gregtech:machine 1 505",
-	always_invisible: false,
-	group: -1509069860,
-	default_quest_shape: ""
-}
