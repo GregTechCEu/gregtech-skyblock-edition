@@ -28,6 +28,11 @@
    "name":"Gregtech - Skyblock Edition",
    "files":[
       {
+         "projectID":228816,
+         "fileID":2699056,
+         "required":true
+      },
+      {
          "projectID":250617,
          "fileID":3158763,
          "required":true
