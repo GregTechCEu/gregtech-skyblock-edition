@@ -16,7 +16,7 @@
    "externalDeps":[
        {
            "url": "https://github.com/GregTechCEu/GregTech/releases/download/latest/gregtech-1.12.2-2.0.0-alpha.jar",
-           "hash": "11fca5a55b83ec5d6f8bd038375b80928c71e83f580843b92fd6635f99679d7c",
+           "hash": "7f9c33e45176b192e10846749ae45a1dab92923364c0085db801fe7a2355648b",
            "name": "Gregtech Community Edition Unofficial"
        },
        {
