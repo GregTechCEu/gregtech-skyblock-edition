@@ -7,7 +7,7 @@ mods.jei.JEI.hideCategory("gregtech:electric_sieve");
 mixer.recipeBuilder()
    .inputs(<ore:treeSapling>)
    .inputs(<metaitem:rubber_drop>*8)
-   .outputs(<gregtech:sapling>)
+   .outputs(<gregtech:rubber_sapling>)
    .duration(600)
    .EUt(32)
    .buildAndRegister();
