@@ -31,3 +31,20 @@ for i, sapling in saplings {
         .EUt(16)
         .buildAndRegister();
 }
+
+//Add Mushroom recipe to Chemical Reactor
+chemreactor.recipeBuilder()
+    .notConsumable(<minecraft:brown_mushroom>)
+    .fluidInputs(<liquid:witchwater>*1000)
+    .outputs(<minecraft:brown_mushroom>*5)
+    .duration(500)
+    .EUt(8)
+    .buildAndRegister();
+
+chemreactor.recipeBuilder()
+    .notConsumable(<minecraft:red_mushroom>)
+    .fluidInputs(<liquid:witchwater>*1000)
+    .outputs(<minecraft:red_mushroom>*5)
+    .duration(500)
+    .EUt(8)
+    .buildAndRegister();
