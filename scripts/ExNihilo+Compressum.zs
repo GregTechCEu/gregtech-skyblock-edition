@@ -38,3 +38,20 @@ extractor.recipeBuilder()
    .duration(100)
    .EUt(32)
    .buildAndRegister();
+
+//Add Slime recipe to Mixer
+mixer.recipeBuilder()
+   .inputs(<minecraft:brown_mushroom>)
+   .fluidInputs(<liquid:milk>)
+   .outputs(<minecraft:slime>)
+   .duration(200)
+   .EUt(8)
+   .buildAndRegister();
+
+mixer.recipeBuilder()
+   .inputs(<minecraft:red_mushroom>)
+   .fluidInputs(<liquid:milk>)
+   .outputs(<minecraft:slime>)
+   .duration(200)
+   .EUt(8)
+   .buildAndRegister();

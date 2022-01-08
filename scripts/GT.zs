@@ -3,16 +3,6 @@ import crafttweaker.item.IItemStack;
 //Hide Electric sieve category
 mods.jei.JEI.hideCategory("gregtech:electric_sieve");
 
-//Add rubber sapling recipe
-mixer.recipeBuilder()
-   .inputs(<ore:treeSapling>)
-   .inputs(<metaitem:rubber_drop>*8)
-   .outputs(<gregtech:rubber_sapling>)
-   .duration(600)
-   .EUt(32)
-   .buildAndRegister();
-
-
 //Fix Steam Macerator and rock breaker
 recipes.remove(<gregtech:machine:9>);
 recipes.addShaped("Steam Macerator", <gregtech:machine:9>,
