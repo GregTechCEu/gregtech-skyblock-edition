@@ -15,13 +15,18 @@
    "author":"Irgendwer1",
    "externalDeps":[
        {
-           "url": "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/omni-fixes-v47/appliedenergistics2-rv6-stable-7.omni-fixes-v47i.jar",
+           "url": "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/Experimental-v49/appliedenergistics2-trousers_edition-rv6-stable-7-v49t-texture-hotfix.jar",
            "hash": "62dcee4fa3f63e19f1c476e00d29a8af940662ac69367f73aa39c3dc1f9debbc",
            "name": "Applied Energistics 2 Prototypetrousers Edition"
        }
    ],
    "name":"Gregtech Skyblock Edition",
    "files":[
+      {
+         "projectID":564858,
+         "fileID":3600068,
+         "required":true
+      },
       {
          "projectID":269377,
          "fileID":2456802,
@@ -334,7 +339,7 @@
       },
       {
          "projectID":557242,
-         "fileID":3597722,
+         "fileID":3603956,
          "required":true
       },
       {
