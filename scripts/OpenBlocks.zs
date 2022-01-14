@@ -73,7 +73,7 @@ recipes.addShaped("guide", <openblocks:guide>,
   
  //Add enhanced building guide recipe
 recipes.remove(<openblocks:builder_guide>);
-recipes.addShaped("guide", <openblocks:guide>,
+recipes.addShaped("builder_guide", <openblocks:builder_guide>,
  [[<ore:blockGlass>,<ore:lensGlass>,		<ore:blockGlass>],
   [<ore:blockGlass>,<metaitem:emitter.lv>,	<ore:blockGlass>],
   [<ore:blockGlass>,<ore:circuitBasic>,		<ore:blockGlass>]]);
