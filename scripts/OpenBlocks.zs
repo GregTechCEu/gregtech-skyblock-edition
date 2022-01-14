@@ -76,10 +76,10 @@ recipes.remove(<openblocks:builder_guide>);
 recipes.addShaped("guide", <openblocks:guide>,
  [[<ore:blockGlass>,<ore:lensGlass>,		<ore:blockGlass>],
   [<ore:blockGlass>,<metaitem:emitter.lv>,	<ore:blockGlass>],
-  [<ore:blockGlass>,<ore:circuitBasic>,		<ore:blockGlass>]])
+  [<ore:blockGlass>,<ore:circuitBasic>,		<ore:blockGlass>]]);
   
   
- //donation station
+//donation station
 recipes.remove(<openblocks:donation_station>);
 chemreactor.recipeBuilder()
 	.inputs(<ore:chest>)
@@ -88,7 +88,7 @@ chemreactor.recipeBuilder()
 	.EUt(16)
 	.duration(512)
 	.buildAndRegister();
- ;
+
 //Add glider wing recipe
 recipes.remove(<openblocks:generic:0>);
 assembler.recipeBuilder()
