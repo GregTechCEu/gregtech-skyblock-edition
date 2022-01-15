@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 
 //Hide Electric sieve category
-mods.jei.JEI.hideCategory("gregtech:electric_sieve");
+//mods.jei.JEI.hideCategory("gregtech:electric_sieve");
 
 //Fix Steam Macerator and rock breaker
 recipes.remove(<gregtech:machine:9>);
