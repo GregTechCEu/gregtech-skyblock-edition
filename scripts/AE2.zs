@@ -1,4 +1,5 @@
 import mods.exnihilocreatio.Sieve;
+import crafttweaker.item.IItemStack;
 
 //Skystone Dust
 Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <appliedenergistics2:material:45>, 0.054);
@@ -123,6 +124,7 @@ recipes.addShaped("Molecular assembler", <appliedenergistics2:molecular_assemble
   [<gregtech:meta_plate:113>,<appliedenergistics2:material:23>,<gregtech:meta_plate:113>]]);
 
 //Add Charged certus recipe
+mods.jei.JEI.removeAndHide(<appliedenergistics2:charger>);
 polarizer.recipeBuilder()
    .inputs(<gregtech:meta_gem:214>)
    .outputs(<appliedenergistics2:material:1>)
@@ -230,9 +232,16 @@ macerator.recipeBuilder()
 //Add ME Quantum Ring recipe
 recipes.remove(<appliedenergistics2:quantum_ring>);
 recipes.addShaped("Quantum Ring", <appliedenergistics2:quantum_ring>,
- [[<gregtech:meta_plate:2013>,<appliedenergistics2:material:22>,<gregtech:meta_plate:2013>],
+ [[<ore:plateTungstenSteel>,<appliedenergistics2:material:22>,<ore:plateTungstenSteel>],
   [<appliedenergistics2:material:24>,<appliedenergistics2:dense_energy_cell>,<ore:circuitElite>],
-  [<gregtech:meta_plate:2013>,<appliedenergistics2:material:22>,<gregtech:meta_plate:2013>]]);
+  [<ore:plateTungstenSteel>,<appliedenergistics2:material:22>,<ore:plateTungstenSteel>]]);
+
+//Add ME Quantum link chamber recipe
+recipes.remove(<appliedenergistics2:quantum_link>);
+recipes.addShaped("quantum_link", <appliedenergistics2:quantum_link>,
+ [[<ore:plateTungstenSteel>,<appliedenergistics2:material:22>,<ore:plateTungstenSteel>],
+  [<appliedenergistics2:material:24>,<metaitem:hull.iv>,<ore:circuitElite>],
+  [<ore:plateTungstenSteel>,<appliedenergistics2:material:22>,<ore:plateTungstenSteel>]]);
 
 //Add Creative energy cell recipe
 assembly_line.recipeBuilder()
@@ -256,3 +265,211 @@ assembly_line.recipeBuilder()
   .duration(35000)
   .EUt(2097152)
   .buildAndRegister();
+
+//hide gold-dust; iron dust; silicon; Flour; nether quartz dust; certus quartz dust; ender dust
+val aematerial = <appliedenergistics2:material>.definition;
+val matstoremove = [5,49,51,4,3,2,46] as int[];
+
+for i in matstoremove {
+mods.jei.JEI.hide(aematerial.makeStack(i));
+}
+
+//quartz glass
+recipes.remove(<appliedenergistics2:quartz_glass>);
+alloy_smelter.recipeBuilder()
+	.inputs(<ore:dustNetherQuartz>)
+	.inputs(<ore:blockGlassColorless>)
+	.outputs(<appliedenergistics2:quartz_glass>)
+	.duration(20)
+	.EUt(8)
+	.buildAndRegister();
+
+//vibrant quartz_glass
+recipes.remove(<appliedenergistics2:quartz_vibrant_glass>);
+alloy_smelter.recipeBuilder()
+	.inputs(<appliedenergistics2:quartz_glass>)
+	.inputs(<ore:dustGlowstone>*2)
+	.outputs(<appliedenergistics2:quartz_vibrant_glass>)
+	.duration(20)
+	.EUt(30)
+	.buildAndRegister();
+
+//fluix crystal
+chemreactor.recipeBuilder()
+	.inputs(<appliedenergistics2:material:1>)
+	.inputs(<ore:gemNetherQuartz>)
+	.fluidInputs(<liquid:redstone>*72)
+	.outputs(<appliedenergistics2:material:7>*2)
+	.duration(20)
+	.EUt(60)
+	.buildAndRegister();
+
+mixer.recipeBuilder()
+	.inputs(<appliedenergistics2:material:1>)
+	.inputs(<ore:gemNetherQuartz>)
+	.inputs(<ore:dustRedstone>)
+	.fluidInputs(<liquid:water>*250)
+	.outputs(<appliedenergistics2:material:7>*2)
+	.duration(80)
+	.EUt(30)
+	.buildAndRegister();
+
+mixer.recipeBuilder()
+	.inputs(<appliedenergistics2:material:1>)
+	.inputs(<ore:gemNetherQuartz>)
+	.inputs(<ore:dustRedstone>)
+	.fluidInputs(<liquid:distilled_water>*100)
+	.outputs(<appliedenergistics2:material:7>*2)
+	.duration(40)
+	.EUt(30)
+	.buildAndRegister();
+
+//energy cell recipe
+recipes.remove(<appliedenergistics2:energy_cell>);
+recipes.addShaped("energy_cell", <appliedenergistics2:energy_cell>,
+ [[<ore:plateAluminium>,<ore:batteryGood>,<ore:plateAluminium>],
+  [<ore:batteryGood>,<metaitem:battery_buffer.mv.4>,<ore:batteryGood>],
+  [<ore:plateAluminium>,<ore:batteryGood>,<ore:plateAluminium>]]);
+ 
+//energy dense cell recipe
+recipes.remove(<appliedenergistics2:dense_energy_cell>);
+recipes.addShaped("dense_energy_cell", <appliedenergistics2:dense_energy_cell>,
+ [[<appliedenergistics2:energy_cell>,<appliedenergistics2:energy_cell>,<appliedenergistics2:energy_cell>],
+  [<appliedenergistics2:energy_cell>,<metaitem:hull.hv>,<appliedenergistics2:energy_cell>],
+  [<appliedenergistics2:energy_cell>,<appliedenergistics2:energy_cell>,<appliedenergistics2:energy_cell>]]);
+  
+//crafting unit
+recipes.remove(<appliedenergistics2:crafting_unit>);
+assembler.recipeBuilder()
+	.inputs(<ore:plateStainlessSteel>*4)
+	.inputs(<appliedenergistics2:part:16>*4)
+	.inputs(<metaitem:hull.hv>)
+	.inputs(<appliedenergistics2:material:23>*2)
+	.inputs(<appliedenergistics2:material:22>)
+	.fluidInputs(<liquid:plastic>*144)
+	.outputs(<appliedenergistics2:crafting_unit>)
+	.duration(20)
+	.EUt(200)
+	.buildAndRegister();
+	
+//glass cable fluix
+recipes.remove(<appliedenergistics2:part:16>);
+chemreactor.recipeBuilder()
+	.inputs(<ore:crystalFluix>*2)
+	.inputs(<appliedenergistics2:part:140>)
+	.outputs(<appliedenergistics2:part:16>*4)
+	.duration(1000)
+	.EUt(4)
+	.buildAndRegister();
+
+val ae2part = <appliedenergistics2:part>.definition;
+for i in 0 to 16 {
+chemical_bath.recipeBuilder()
+	.inputs(ae2part.makeStack(i))
+	.fluidInputs(<liquid:water>*100)
+	.outputs(<appliedenergistics2:part:16>)
+	.duration(10)
+	.EUt(30)
+	.buildAndRegister();
+}
+//quartz fiber
+recipes.remove(<appliedenergistics2:part:140>);
+autoclave.recipeBuilder()
+	.inputs(<ore:dustNetherQuartz>)
+	.fluidInputs(<liquid:silicon>*72)
+	.outputs(<appliedenergistics2:part:140>)
+	.duration(1200)
+	.EUt(8)
+	.buildAndRegister();
+
+//storage housing
+recipes.remove(<appliedenergistics2:material:39>);
+assembler.recipeBuilder()
+	.inputs(<ore:plateStainlessSteel>*5)
+	.inputs(<appliedenergistics2:part:16>*2)
+	.inputs(<appliedenergistics2:quartz_glass>*2)
+	.fluidInputs(<liquid:plastic>*144)
+	.outputs(<appliedenergistics2:material:39>)
+	.duration(20)
+	.EUt(100)
+	.buildAndRegister();
+
+//storage cell canning
+val parts = [32,33,34,35,36,37,38,54,55,56,57,0,1] as int[];
+val crafted = [<appliedenergistics2:spatial_storage_cell_2_cubed>,<appliedenergistics2:spatial_storage_cell_16_cubed>,<appliedenergistics2:spatial_storage_cell_128_cubed>,
+				<appliedenergistics2:storage_cell_1k>,<appliedenergistics2:storage_cell_4k>,<appliedenergistics2:storage_cell_16k>,<appliedenergistics2:storage_cell_64k>,
+				<appliedenergistics2:fluid_storage_cell_1k>,<appliedenergistics2:fluid_storage_cell_4k>,<appliedenergistics2:fluid_storage_cell_16k>,<appliedenergistics2:fluid_storage_cell_64k>,
+				<appliedenergistics2:view_cell>,<appliedenergistics2:view_cell>
+] as IItemStack[];
+for i in 0 to 13 {
+recipes.remove(crafted[i]);
+canner.recipeBuilder()
+	.inputs(<appliedenergistics2:material:39>)
+	.inputs(aematerial.makeStack(parts[i]))
+	.outputs(crafted[i])
+	.duration(20)
+	.EUt(30)
+	.buildAndRegister();
+
+}
+
+//crafting storage canning
+val partss = [54,55,56,57,24] as int[];
+val craftedd = [<appliedenergistics2:crafting_storage_1k>,<appliedenergistics2:crafting_storage_4k>,<appliedenergistics2:crafting_storage_16k>,<appliedenergistics2:crafting_storage_64k>,
+<appliedenergistics2:crafting_accelerator>
+] as IItemStack[];
+for i in 0 to 5 {
+recipes.remove(craftedd[i]);
+canner.recipeBuilder()
+	.inputs(<appliedenergistics2:crafting_unit>)
+	.inputs(aematerial.makeStack(partss[i]))
+	.outputs(craftedd[i])
+	.duration(20)
+	.EUt(500)
+	.buildAndRegister();
+}
+recipes.remove(<appliedenergistics2:crafting_monitor>);
+canner.recipeBuilder()
+	.inputs(<appliedenergistics2:crafting_unit>)
+	.inputs(<metaitem:cover.screen>)
+	.outputs(<appliedenergistics2:crafting_monitor>)
+	.duration(20)
+	.EUt(500)
+	.buildAndRegister();
+	
+//matter condensor
+recipes.remove(<appliedenergistics2:condenser>);
+recipes.addShaped("condenser", <appliedenergistics2:condenser>,
+ [[<ore:plateStainlessSteel>,<appliedenergistics2:fluix_block>,<ore:plateStainlessSteel>],
+  [<appliedenergistics2:fluix_block>,<metaitem:implosion_compressor>,<appliedenergistics2:fluix_block>],
+  [<ore:plateStainlessSteel>,<appliedenergistics2:fluix_block>,<ore:plateStainlessSteel>]]);
+
+//ME IO port
+recipes.remove(<appliedenergistics2:io_port>);
+recipes.addShaped("io_port", <appliedenergistics2:io_port>,
+ [[<appliedenergistics2:quartz_glass>,<appliedenergistics2:quartz_glass>,<appliedenergistics2:quartz_glass>],
+  [<appliedenergistics2:drive>,<appliedenergistics2:part:16>,<appliedenergistics2:drive>],
+  [<ore:plateStainlessSteel>,<appliedenergistics2:material:22>,<ore:plateStainlessSteel>]]);
+  
+//Annihilation Core
+recipes.remove(<appliedenergistics2:material:44>);
+assembler.recipeBuilder()
+	.inputs(<ore:gemQuartz>)
+	.inputs(<ore:dustFluix>)
+	.inputs(<appliedenergistics2:material:22>)
+	.outputs(<appliedenergistics2:material:44>)
+	.duration(20)
+	.EUt(60)
+	.buildAndRegister();
+
+//formation Core
+recipes.remove(<appliedenergistics2:material:43>);
+assembler.recipeBuilder()
+	.inputs(<ore:crystalCertusQuartz>)
+	.inputs(<ore:dustFluix>)
+	.inputs(<appliedenergistics2:material:22>)
+	.outputs(<appliedenergistics2:material:43>)
+	.duration(20)
+	.EUt(60)
+	.buildAndRegister();
+
