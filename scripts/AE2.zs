@@ -118,6 +118,8 @@ recipes.addShaped("Interface", <appliedenergistics2:interface>,
   [<appliedenergistics2:material:44>,<metaitem:robot.arm.hv>,<appliedenergistics2:material:43>],
   [<gregtech:meta_plate:113>,<gregtech:meta_plate:113>,<gregtech:meta_plate:113>]]);
 
+recipes.addShapeless("Interface2", <appliedenergistics2:interface>, [<appliedenergistics2:part:440>]);
+
 recipes.addShaped("Molecular assembler", <appliedenergistics2:molecular_assembler>,
  [[<gregtech:meta_plate:113>,<appliedenergistics2:material:22>,<gregtech:meta_plate:113>],
   [<gregtech:meta_plate:113>,<metaitem:cover.crafting>,<gregtech:meta_plate:113>],
@@ -473,3 +475,78 @@ assembler.recipeBuilder()
 	.EUt(60)
 	.buildAndRegister();
 
+//fluix pearl
+recipes.remove(<appliedenergistics2:material:9>);
+autoclave.recipeBuilder()
+	.inputs(<ore:dustEnderPearl>)
+	.inputs(<ore:dustFluix>*8)
+	.fluidInputs(<liquid:bismuth>*72)
+	.outputs(<appliedenergistics2:material:9>)
+	.duration(500)
+	.EUt(120)
+	.buildAndRegister();
+
+//wireless transmitter
+recipes.remove(<appliedenergistics2:material:41>);
+assembler.recipeBuilder()
+	.inputs(<ore:pearlFluix>)
+	.inputs(<metaitem:emitter.hv>)
+	.inputs(<ore:plateStainlessSteel>*3)
+	.fluidInputs(<liquid:plastic>*144)
+	.outputs(<appliedenergistics2:material:41>)
+	.duration(20)
+	.EUt(500)
+	.buildAndRegister();
+
+//wireless terminal
+recipes.remove(<appliedenergistics2:wireless_terminal>);
+assembler.recipeBuilder()
+	.inputs(<appliedenergistics2:material:41>)
+	.inputs(<metaitem:terminal>)
+	.inputs(<ore:plateStainlessSteel>*4)
+	.inputs(<metaitem:energy_crystal>)
+	.fluidInputs(<liquid:plastic>*144)
+	.outputs(<appliedenergistics2:wireless_terminal>)
+	.duration(20)
+	.EUt(500)
+	.buildAndRegister();
+
+//wireless booster
+recipes.remove(<appliedenergistics2:material:42>);
+assembler.recipeBuilder()
+	.inputs(<metaitem:emitter.hv>)
+	.inputs(<ore:dustFluix>)
+	.inputs(<ore:plateStainlessSteel>*3)
+	.inputs(<ore:dustEnderPearl>)
+	.fluidInputs(<liquid:plastic>*72)
+	.outputs(<appliedenergistics2:material:42>*2)
+	.duration(20)
+	.EUt(500)
+	.buildAndRegister();
+	
+
+//advanced card
+recipes.remove(<appliedenergistics2:material:28>);
+assembler.recipeBuilder()
+	.inputs(<ore:plateStainlessSteel>*4)
+	.inputs(<appliedenergistics2:material:23>)
+	.inputs(<ore:wireFineRedAlloy>*8)
+	.inputs(<appliedenergistics2:material:24>*2)
+	.fluidInputs(<liquid:plastic>*144)
+	.outputs(<appliedenergistics2:material:28>)
+	.duration(30)
+	.EUt(120)
+	.buildAndRegister();
+	
+//basic card
+recipes.remove(<appliedenergistics2:material:25>);
+assembler.recipeBuilder()
+	.inputs(<ore:plateStainlessSteel>*4)
+	.inputs(<appliedenergistics2:material:23>)
+	.inputs(<ore:wireFineCopper>*4)
+	.inputs(<ore:wireGtSingleGold>*2)
+	.fluidInputs(<liquid:plastic>*72)
+	.outputs(<appliedenergistics2:material:25>)
+	.duration(15)
+	.EUt(120)
+	.buildAndRegister();
