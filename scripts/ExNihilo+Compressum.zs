@@ -55,3 +55,9 @@ mixer.recipeBuilder()
    .duration(200)
    .EUt(8)
    .buildAndRegister();
+
+//remove ex nihilo porcelain clay since it conflicts with ceramics unfired porcelain and is functionally the same
+mods.jei.JEI.removeAndHide(<exnihilocreatio:item_material:1>);
+
+//remove ex nihilo compressed flint since it conflicts with GTCEu block of flint and is functionally the same
+mods.jei.JEI.removeAndHide(<excompressum:compressed_block:5>);
