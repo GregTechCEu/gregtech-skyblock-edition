@@ -48,3 +48,9 @@ chemreactor.recipeBuilder()
     .duration(500)
     .EUt(8)
     .buildAndRegister();
+	
+//flint from gravel recipe
+recipes.addShaped("flint_from_gravel", <minecraft:flint>,
+ [[<minecraft:gravel>,<minecraft:gravel>,null],
+  [<minecraft:gravel>,null,null],
+  [null,null,null]]);
