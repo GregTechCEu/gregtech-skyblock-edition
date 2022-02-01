@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 
-//Add Wood Recipes
+// Add Wood Recipes.
 var saplings = [
     <minecraft:sapling>,
     <minecraft:sapling:1>,
@@ -32,7 +32,7 @@ for i, sapling in saplings {
         .buildAndRegister();
 }
 
-//Add Mushroom recipe to Chemical Reactor
+// Add Mushroom recipe to Chemical Reactor.
 chemreactor.recipeBuilder()
     .notConsumable(<minecraft:brown_mushroom>)
     .fluidInputs(<liquid:witchwater>*1000)
@@ -48,9 +48,12 @@ chemreactor.recipeBuilder()
     .duration(500)
     .EUt(8)
     .buildAndRegister();
-	
-//flint from gravel recipe
+
+// Flint from gravel recipe.
 recipes.addShaped("flint_from_gravel", <minecraft:flint>,
  [[<minecraft:gravel>,<minecraft:gravel>,null],
   [<minecraft:gravel>,null,null],
   [null,null,null]]);
+
+// Breab... from flour...
+furnace.addRecipe(<minecraft:bread>, <ore:dustWheat>);
