@@ -1,6 +1,6 @@
 // A bunch of globals for Ex Nihilo to simplify naming.
 
-#priority 500
+#priority 1000
 
 import crafttweaker.item.IItemStack;
 
