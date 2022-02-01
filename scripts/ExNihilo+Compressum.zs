@@ -1,4 +1,6 @@
-//Remove stuff
+import crafttweaker.item.IItemStack;
+
+// Remove stuff.
 mods.jei.JEI.removeAndHide(<excompressum:auto_hammer>);
 mods.jei.JEI.removeAndHide(<excompressum:auto_compressed_hammer>);
 mods.jei.JEI.removeAndHide(<excompressum:auto_sieve>);
@@ -31,7 +33,14 @@ mods.jei.JEI.removeAndHide(<excompressum:heavy_sieve:3>);
 mods.jei.JEI.removeAndHide(<excompressum:heavy_sieve:4>);
 mods.jei.JEI.removeAndHide(<excompressum:heavy_sieve:5>);
 
-//Add lava recipe to Fluid Extractor
+// Remove ex nihilo porcelain clay since it conflicts with ceramics unfired porcelain and is functionally the same
+mods.jei.JEI.removeAndHide(<exnihilocreatio:item_material:1>);
+
+// Remove ex nihilo compressed flint since it conflicts with GTCEu block of flint and is functionally the same
+mods.jei.JEI.removeAndHide(<excompressum:compressed_block:5>);
+
+
+// Add lava recipe to Fluid Extractor.
 extractor.recipeBuilder()
    .inputs(<minecraft:cobblestone>)
    .fluidOutputs(<liquid:lava>*250)
@@ -39,25 +48,13 @@ extractor.recipeBuilder()
    .EUt(30)
    .buildAndRegister();
 
-//Add Slime recipe to Mixer
-mixer.recipeBuilder()
-   .inputs(<minecraft:brown_mushroom>)
-   .fluidInputs(<liquid:milk>*1000)
-   .outputs(<minecraft:slime>)
-   .duration(200)
-   .EUt(8)
-   .buildAndRegister();
-
-mixer.recipeBuilder()
-   .inputs(<minecraft:red_mushroom>)
-   .fluidInputs(<liquid:milk>*1000)
-   .outputs(<minecraft:slime>)
-   .duration(200)
-   .EUt(8)
-   .buildAndRegister();
-
-//remove ex nihilo porcelain clay since it conflicts with ceramics unfired porcelain and is functionally the same
-mods.jei.JEI.removeAndHide(<exnihilocreatio:item_material:1>);
-
-//remove ex nihilo compressed flint since it conflicts with GTCEu block of flint and is functionally the same
-mods.jei.JEI.removeAndHide(<excompressum:compressed_block:5>);
+// Add Slime recipe to Mixer.
+for mushroom in [ <minecraft:red_mushroom>, <minecraft:brown_mushroom> ] {
+    mixer.recipeBuilder()
+        .inputs(mushroom)
+        .fluidInputs(<liquid:milk>*1000)
+        .outputs(<minecraft:slime>)
+        .duration(200)
+        .EUt(8)
+        .buildAndRegister();
+}
