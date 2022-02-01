@@ -8,6 +8,10 @@ var sky_stone_dust    = <appliedenergistics2:material:45>;
 var sky_stone_block   = <appliedenergistics2:sky_stone_block>;
 var crushed_sky_stone = <exnihilocreatio:block_skystone_crushed>;
 
+var dust_block = <exnihilocreatio:block_dust>;
+
+var diamond_mesh = <exnihilocreatio:item_mesh:4>;
+
 
 // Remove stuff.
 mods.jei.JEI.removeAndHide(<excompressum:auto_hammer>);
@@ -191,4 +195,14 @@ forge_hammer.recipeBuilder()
     .outputs(crushed_sky_stone*1)
     .duration(10)
     .EUt(16)
+    .buildAndRegister();
+
+
+// Make Dust in Electric Sieve.
+electric_sieve.recipeBuilder()
+    .notConsumable(diamond_mesh * 1)
+    .inputs(dust_block*1)
+    .chancedOutput(sky_stone_dust, 1000, 500)
+    .EUt(4)
+    .duration(100)
     .buildAndRegister();
