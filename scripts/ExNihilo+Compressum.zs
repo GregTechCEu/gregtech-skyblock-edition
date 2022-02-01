@@ -150,7 +150,7 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 // Clay block.
-chemical_bath.recipeBuilder()
+mixer.recipeBuilder()
     .inputs(<exnihilocreatio:block_dust>*1)
     .fluidInputs(<liquid:water>*1000)
     .outputs(<minecraft:clay>*1)
@@ -159,7 +159,7 @@ chemical_bath.recipeBuilder()
     .buildAndRegister();
 
 // Netherrack.
-chemical_bath.recipeBuilder()
+mixer.recipeBuilder()
     .inputs(<minecraft:redstone>*1)
     .fluidInputs(<liquid:lava>*1000)
     .outputs(<minecraft:netherrack>*1)
@@ -168,7 +168,7 @@ chemical_bath.recipeBuilder()
     .buildAndRegister();
 
 // End stone.
-chemical_bath.recipeBuilder()
+mixer.recipeBuilder()
     .inputs(<minecraft:glowstone_dust>*1)
     .fluidInputs(<liquid:lava>*1000)
     .outputs(<minecraft:end_stone>*1)
