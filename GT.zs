@@ -20,7 +20,7 @@ recipes.remove(<gregtech:machine:65>);
 recipes.addShaped("LV Macerator", <gregtech:machine:65>,
  [[<metaitem:electric.piston.lv>,<metaitem:electric.motor.lv>,<gregtech:meta_tool_head_buzz_saw:324>],
   [<gregtech:cable_single:112>,<gregtech:cable_single:112>,<gregtech:machine:986>],
-  [<metaitem:circuit.electronic>,<metaitem:circuit.electronic>,<gregtech:cable_single:112>]]);
+  [<ore:circuitBasic>,<ore:circuitBasic>,<gregtech:cable_single:112>]]);
 
 //makes GT warning signs chiselable
 mods.chisel.Carving.addGroup("gregtech_warning_sign");
