@@ -12,7 +12,7 @@ mods.jei.JEI.removeAndHide(<excompressum:compressed_hammer_iron>);
 mods.jei.JEI.removeAndHide(<excompressum:compressed_hammer_gold>);
 mods.jei.JEI.removeAndHide(<excompressum:compressed_hammer_diamond>);
 mods.jei.JEI.removeAndHide(<excompressum:double_compressed_diamond_hammer>);
-mods.jei.JEI.removeAndHide(<excompressum:compressed_crook>); 
+mods.jei.JEI.removeAndHide(<excompressum:compressed_crook>);
 mods.jei.JEI.removeAndHide(<excompressum:iron_mesh>);
 mods.jei.JEI.removeAndHide(<excompressum:wood_chippings>);
 mods.jei.JEI.removeAndHide(<excompressum:uncompressed_coal>);
@@ -36,7 +36,7 @@ extractor.recipeBuilder()
    .inputs(<minecraft:cobblestone>)
    .fluidOutputs(<liquid:lava>*250)
    .duration(100)
-   .EUt(32)
+   .EUt(30)
    .buildAndRegister();
 
 //Add Slime recipe to Mixer
