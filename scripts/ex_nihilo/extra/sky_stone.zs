@@ -1,3 +1,5 @@
+import mods.exnihilocreatio.Sieve;
+
 // Sky Stone Slock.
 mixer.recipeBuilder()
     .inputs(sky_stone_dust*1)
@@ -16,7 +18,8 @@ forge_hammer.recipeBuilder()
     .buildAndRegister();
 
 
-// Make Sky Dust in Electric Sieve.
+// Sky Stone Dust Sieving (both manually and in electric sieves).
+Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <appliedenergistics2:material:45>, 0.054);
 electric_sieve.recipeBuilder()
     .notConsumable(diamond_mesh*1)
     .inputs(<exnihilocreatio:block_dust>*1)
