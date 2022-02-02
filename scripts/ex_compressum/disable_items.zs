@@ -28,3 +28,6 @@ mods.jei.JEI.removeAndHide(<excompressum:heavy_sieve:5>);
 
 // Remove compressed flint since it conflicts with GTCEu block of flint and is functionally the same.
 mods.jei.JEI.removeAndHide(<excompressum:compressed_block:5>);
+
+// Hide this category as heavy sieve is just unobtainable.
+mods.jei.JEI.hideCategory("excompressum:heavySieve");
