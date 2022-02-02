@@ -5,8 +5,6 @@ var cocoa_beans = <minecraft:dye:3>;
 
 var crushed_endstone = <exnihilocreatio:block_endstone_crushed>;
 
-var string_mesh = <exnihilocreatio:item_mesh:1>;
-
 // Add Wood Recipes.
 var saplings = [
     <minecraft:sapling>,
