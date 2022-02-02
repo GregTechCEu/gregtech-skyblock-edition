@@ -29,7 +29,6 @@ recipes.addShaped("Storage Upgrade V", <storagedrawers:upgrade_storage:4>,
   [<ore:plateTitanium>, <storagedrawers:upgrade_template>, <ore:plateTitanium>],
   [<ore:plateTitanium>, <ore:plateTitanium>,               <ore:plateTitanium>]]);
 
-
 // Greggify compacting drawer.
 recipes.remove(<storagedrawers:compdrawers>);
 recipes.addShaped("compdrawers", <storagedrawers:compdrawers>,
