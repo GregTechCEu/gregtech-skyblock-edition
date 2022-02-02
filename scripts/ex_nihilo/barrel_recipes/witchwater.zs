@@ -1,7 +1,7 @@
 // Witchwater from Mycelium.
 chemreactor.recipeBuilder()
     .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
-    .notConsumable(<minecraft:mycelium>*1)
+    .inputs(<minecraft:mycelium>*1)
     .fluidInputs(<liquid:water>*1000)
     .fluidOutputs(<liquid:witchwater>*1000)
     .duration(200)
