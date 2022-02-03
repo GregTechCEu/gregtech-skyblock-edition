@@ -18,6 +18,7 @@ global circuit_assembler as RecipeMap = RecipeMap.getByName("circuit_assembler")
 global compressor        as RecipeMap = RecipeMap.getByName("compressor");
 global cutter            as RecipeMap = RecipeMap.getByName("cutter");
 global distillery        as RecipeMap = RecipeMap.getByName("distillery");
+global electric_sieve    as RecipeMap = RecipeMap.getByName("electric_sieve");
 global electrolyzer      as RecipeMap = RecipeMap.getByName("electrolyzer");
 global engraver          as RecipeMap = RecipeMap.getByName("laser_engraver");
 global extractor         as RecipeMap = RecipeMap.getByName("extractor");
@@ -43,29 +44,29 @@ global wiremill          as RecipeMap = RecipeMap.getByName("wiremill");
 
 
 
-// Tools
+// Tools.
 <ore:gtceWrenches>.addItems([
-	<gregtech:meta_tool:8>.withEmptyTag(), 
-	<gregtech:meta_tool:28>.withEmptyTag(), 
-	<gregtech:meta_tool:29>.withEmptyTag(), 
-	<gregtech:meta_tool:30>.withEmptyTag()]);
+    <gregtech:meta_tool:8>.withEmptyTag(),
+    <gregtech:meta_tool:28>.withEmptyTag(),
+    <gregtech:meta_tool:29>.withEmptyTag(),
+    <gregtech:meta_tool:30>.withEmptyTag()]);
 
 <ore:gtceScrewdrivers>.addItems([
-	<gregtech:meta_tool:11>.withEmptyTag(), 
-	<gregtech:meta_tool:31>.withEmptyTag()]);
+    <gregtech:meta_tool:11>.withEmptyTag(),
+    <gregtech:meta_tool:31>.withEmptyTag()]);
 
 <ore:gtceHardHammers>.addItems([
-	<gregtech:meta_tool:6>.withEmptyTag()]);
+    <gregtech:meta_tool:6>.withEmptyTag()]);
 
 <ore:gtceSaws>.addItems([
-	<gregtech:meta_tool:5>.withEmptyTag(),
-	<gregtech:meta_tool:25>.withEmptyTag(), 
-	<gregtech:meta_tool:26>.withEmptyTag(), 
-	<gregtech:meta_tool:27>.withEmptyTag(),
-	<gregtech:meta_tool:32>.withEmptyTag()]);
+    <gregtech:meta_tool:5>.withEmptyTag(),
+    <gregtech:meta_tool:25>.withEmptyTag(),
+    <gregtech:meta_tool:26>.withEmptyTag(),
+    <gregtech:meta_tool:27>.withEmptyTag(),
+    <gregtech:meta_tool:32>.withEmptyTag()]);
 
 <ore:gtceFiles>.addItems([
-	<gregtech:meta_tool:9>.withEmptyTag()]);
+    <gregtech:meta_tool:9>.withEmptyTag()]);
 
 <ore:gtceWireCutters>.addItems([
 	<gregtech:meta_tool:13>.withEmptyTag()]);
@@ -152,3 +153,4 @@ oreDict.maintenanceHatch.add(<metaitem:maintenance_hatch>);
 oreDict.maintenanceHatch.add(<metaitem:maintenance_hatch_configurable>);
 oreDict.maintenanceHatch.add(<metaitem:maintenance_hatch_full_auto>);
 
+    <gregtech:meta_tool:13>.withEmptyTag()]);

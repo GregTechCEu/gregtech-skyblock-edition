@@ -23,25 +23,6 @@ try:
 except Exception as e:
     print("Directory exists, skipping")
 
-for mod in manifest["externalDeps"]:
-    print(basePath + "/mods/" + mod["url"].split("/")[-1] + " opening from " + mod["url"])
-    with open(basePath + "/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
-        for i in range(1,100):
-            r = requests.get(mod["url"])
-            if i == 99:
-                raise Exception("Download failed")
-
-            hash = hashlib.sha256(jar.read()).hexdigest()
-            if True:#str(hash) == mod["hash"]:
-                jar.write(r.content)
-                modlist.append(mod["name"])
-                print("hash succsessful")
-                break
-            else:
-                print("hash unsuccsessful")
-                print("use", str(hash), "this if it is consistant across runs")
-                pass
-
 for dir in copyDirs:
     try:
         shutil.copytree(basePath + dir, basePath + "/buildOut/client/overrides" + dir)
