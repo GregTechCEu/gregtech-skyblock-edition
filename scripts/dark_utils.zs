@@ -33,3 +33,21 @@ recipes.addShaped("extreme vector plate ct", <darkutils:trap_move_hyper>*8,
  [[<darkutils:trap_move_fast>, <darkutils:trap_move_fast>,    <darkutils:trap_move_fast>],
   [<darkutils:trap_move_fast>, <metaitem:conveyor.module.hv>, <darkutils:trap_move_fast>],
   [<darkutils:trap_move_fast>, <darkutils:trap_move_fast>,    <darkutils:trap_move_fast>]]);
+  
+// Change damage trap recipe.
+recipes.remove(<darkutils:trap_tile:2>);
+recipes.addShapeless(<darkutils:trap_tile:2>*3,[<ore:Stone>,<ore:toolHeadSwordWroughtIron>,<ore:Stone>]);
+
+// Change Mob filter player recipe.
+recipes.remove(<darkutils:filter>);
+recipes.addShaped("mob_filter_player", <darkutils:filter>*4,
+ [[<ore:fenceGateWood>,<ore:Stone>,<ore:fenceGateWood>],
+  [<ore:Stone>,<ore:toolHeadPickaxeWroughtIron>,<ore:Stone>],
+  [<ore:fenceGateWood>,<ore:Stone>,<ore:fenceGateWood>]]);
+  
+// Change Aggression charm recipe.
+recipes.remove(<darkutils:charm_agression>);
+recipes.addShaped("aggression_charm", <darkutils:charm_agression>,
+ [[<ore:string>,<ore:nuggetGold>,<ore:string>],
+  [<ore:nuggetGold>,<minecraft:rotten_flesh>,<ore:nuggetGold>],
+  [<ore:toolHeadSwordRoseGold>,<ore:nuggetGold>,<ore:toolHeadSwordRoseGold>]]);

@@ -28,3 +28,26 @@ for i in 1 to 10 {
     recipes.remove(gregtech_warning_sign.makeStack(i));
     mods.chisel.Carving.addVariation("gregtech_warning_sign", gregtech_warning_sign.makeStack(i));
 }
+
+// Make rockbreaker recipes earlier
+<recipemap:rock_breaker>.findRecipe(60, [<minecraft:stone:1>], null).remove();
+<recipemap:rock_breaker>.findRecipe(60, [<minecraft:stone:5>], null).remove();
+<recipemap:rock_breaker>.findRecipe(60, [<minecraft:stone:3>], null).remove();
+rockbreaker.recipeBuilder()
+   .notConsumable(<ore:stoneGranite>)
+   .outputs(<minecraft:stone:1>)
+   .duration(16)
+   .EUt(30)
+   .buildAndRegister();
+rockbreaker.recipeBuilder()
+   .notConsumable(<ore:stoneDiorite>)
+   .outputs(<minecraft:stone:3>)
+   .duration(16)
+   .EUt(30)
+   .buildAndRegister();
+rockbreaker.recipeBuilder()
+   .notConsumable(<ore:stoneAndesite>)
+   .outputs(<minecraft:stone:5>)
+   .duration(16)
+   .EUt(30)
+   .buildAndRegister();
