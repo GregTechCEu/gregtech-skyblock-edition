@@ -16,7 +16,7 @@ assembler.recipeBuilder()
 
 // Crafting storage canning.
 val aematerial = <appliedenergistics2:material>.definition;
-val partss = [54,55,56,57,24] as int[];
+val partss = [35,36,37,38,24] as int[];
 val craftedd = [
     <appliedenergistics2:crafting_storage_1k>,
     <appliedenergistics2:crafting_storage_4k>,
