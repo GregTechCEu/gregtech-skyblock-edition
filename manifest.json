@@ -11,10 +11,15 @@
    "manifestType":"minecraftModpack",
    "overrides":"overrides",
    "manifestVersion":1,
-   "version":"1.1",
+   "version":"1.6",
    "author":"Irgendwer1",
    "name":"Gregtech Skyblock Edition",
    "files":[
+      {
+         "projectID":238856,
+         "fileID":2950248,
+         "required":true
+      },
       {
          "projectID":250398,
          "fileID":3025548,

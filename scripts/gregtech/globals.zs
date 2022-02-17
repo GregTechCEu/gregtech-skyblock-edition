@@ -40,7 +40,7 @@ global solidifier        as RecipeMap = RecipeMap.getByName("fluid_solidifier");
 global tower             as RecipeMap = RecipeMap.getByName("distillation_tower");
 global unpackager        as RecipeMap = RecipeMap.getByName("unpacker");
 global wiremill          as RecipeMap = RecipeMap.getByName("wiremill");
-
+global rockbreaker       as RecipeMap = RecipeMap.getByName("rock_breaker");
 
 
 // Tools.
