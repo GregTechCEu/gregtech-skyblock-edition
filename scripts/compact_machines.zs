@@ -8,6 +8,6 @@ recipes.addShaped("personal shrinking device", <compactmachines3:psd>,
 // Change recipe for miniaturization field projector.
 recipes.remove(<compactmachines3:fieldprojector>);
 recipes.addShaped("miniaturization field projector", <compactmachines3:fieldprojector>*4,
- [[<metaitem:emitter.hv>,     <metaitem:circuit.vacuum_tube>, <metaitem:emitter.hv>],
-  [<ore:lensEmerald>,         <gregtech:machine:988>,         <ore:lensDiamond>],
-  [<metaitem:energy_crystal>, <compactmachines3:psd>,         <metaitem:energy_crystal>]]);
+ [[<metaitem:emitter.hv>,     <ore:circuitPrimitive>, <metaitem:emitter.hv>],
+  [<ore:lensEmerald>,         <gregtech:machine:988>, <ore:lensDiamond>],
+  [<metaitem:energy_crystal>, <compactmachines3:psd>, <metaitem:energy_crystal>]]);
