@@ -51,3 +51,15 @@ rockbreaker.recipeBuilder()
    .duration(16)
    .EUt(30)
    .buildAndRegister();
+
+
+// Crafting Station.
+assembler.recipeBuilder()
+    .inputs(<ore:workbench>)
+    .inputs(<ore:plankWood>*4)
+    .inputs(<ore:chestWood>*2)
+    .circuit(5)
+    .outputs(<metaitem:workbench>)
+    .duration(100)
+    .EUt(6)
+    .buildAndRegister();
