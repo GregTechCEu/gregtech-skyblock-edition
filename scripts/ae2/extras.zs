@@ -62,3 +62,12 @@ assembler.recipeBuilder()
     .duration(15)
     .EUt(120)
     .buildAndRegister();
+
+// Cable Anchors. Same cost as GT covers if making facades.
+bender.recipeBuilder()
+    .inputs(<ore:boltIron>*2)
+    .circuit(1)
+    .outputs(<appliedenergistics2:part:120>)
+    .duration(56)
+    .EUt(16)
+    .buildAndRegister();
