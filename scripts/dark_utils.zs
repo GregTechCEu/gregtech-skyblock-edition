@@ -36,7 +36,7 @@ recipes.addShaped("extreme vector plate ct", <darkutils:trap_move_hyper>*8,
   
 // Change damage trap recipe.
 recipes.remove(<darkutils:trap_tile:2>);
-recipes.addShapeless(<darkutils:trap_tile:2>*3,[<ore:Stone>,<ore:toolHeadSwordWroughtIron>,<ore:Stone>]);
+recipes.addShapeless(<darkutils:trap_tile:2>*3,[<ore:stone>,<ore:toolHeadSwordWroughtIron>,<ore:stone>]);
 
 // Change Mob filter player recipe.
 recipes.remove(<darkutils:filter>);
