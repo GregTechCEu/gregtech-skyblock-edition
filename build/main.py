@@ -79,24 +79,27 @@ if os.path.isdir(prev):
 if cached > 0:
     print("cached %d mod downloads in %s" % (cached, cachepath))
 
-for mod in manifest["externalDeps"]:
-    with open(basePath + "/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
-        for i in range(args.retries + 1):
-            if i == args.retries:
-                raise Exception("Download failed")
+try:
+    for mod in manifest["externalDeps"]:
+        with open(basePath + "/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
+            for i in range(args.retries + 1):
+                if i == args.retries:
+                    raise Exception("Download failed")
 
-            r = requests.get(mod["url"])
+                r = requests.get(mod["url"])
 
-            hash = hashlib.sha256(jar.read()).hexdigest()
-            if str(hash) == mod["hash"]:
-                jar.write(r.content)
-                modlist.append(mod["name"])
-                print("hash succsessful")
-                break
-            else:
-                print("hash unsuccsessful")
-                print("use", str(hash), "this if it is consistant across runs")
-                pass
+                hash = hashlib.sha256(jar.read()).hexdigest()
+                if str(hash) == mod["hash"]:
+                    jar.write(r.content)
+                    modlist.append(mod["name"])
+                    print("hash succsessful")
+                    break
+                else:
+                    print("hash unsuccsessful")
+                    print("use", str(hash), "this if it is consistant across runs")
+                    pass
+except:
+    print("no external deps found")
 
 for dir in copyDirs:
     try:
