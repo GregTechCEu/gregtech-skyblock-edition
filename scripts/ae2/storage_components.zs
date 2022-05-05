@@ -21,7 +21,7 @@ recipes.remove(<appliedenergistics2:material:38>);
 assembler.recipeBuilder()
     .inputs(<gregtech:meta_plate:214>*4)
     .inputs(<gregtech:machine:1628>)
-    .inputs(<ore:circuitBasic>*5)
+    .inputs(<ore:circuitLv>*5)
     .fluidInputs(<liquid:plastic>*576)
     .outputs(<appliedenergistics2:material:35>*2)
     .duration(200)
@@ -29,7 +29,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<ore:circuitGood>*4)
+    .inputs(<ore:circuitMv>*4)
     .inputs(<appliedenergistics2:material:35>*3)
     .outputs(<appliedenergistics2:material:36>)
     .duration(500)
@@ -37,7 +37,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<ore:circuitAdvanced>*4)
+    .inputs(<ore:circuitHv>*4)
     .inputs(<appliedenergistics2:material:36>*3)
     .outputs(<appliedenergistics2:material:37>)
     .duration(800)
@@ -45,7 +45,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-  .inputs(<ore:circuitExtreme>*4)
+  .inputs(<ore:circuitEv>*4)
   .inputs(<appliedenergistics2:material:37>*3)
   .outputs(<appliedenergistics2:material:38>)
   .duration(500)
@@ -61,7 +61,7 @@ recipes.remove(<appliedenergistics2:material:57>);
 assembler.recipeBuilder()
     .inputs(<gregtech:meta_plate:214>*4)
     .inputs(<gregtech:machine:1613>)
-    .inputs(<ore:circuitBasic>*5)
+    .inputs(<ore:circuitLv>*5)
     .fluidInputs(<liquid:plastic>*576)
     .outputs(<appliedenergistics2:material:54>*2)
     .duration(200)
@@ -69,7 +69,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<ore:circuitGood>*4)
+    .inputs(<ore:circuitMv>*4)
     .inputs(<appliedenergistics2:material:54>*3)
     .outputs(<appliedenergistics2:material:55>)
     .duration(500)
@@ -77,7 +77,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<ore:circuitAdvanced>*4)
+    .inputs(<ore:circuitHv>*4)
     .inputs(<appliedenergistics2:material:55>*3)
     .outputs(<appliedenergistics2:material:56>)
     .duration(800)
@@ -85,7 +85,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs(<ore:circuitExtreme>*4)
+    .inputs(<ore:circuitEv>*4)
     .inputs(<appliedenergistics2:material:56>*3)
     .outputs(<appliedenergistics2:material:57>)
     .duration(500)
@@ -121,3 +121,4 @@ for i in 0 to 13 {
         .EUt(30)
         .buildAndRegister();
 }
+

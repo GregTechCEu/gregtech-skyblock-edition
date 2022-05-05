@@ -32,7 +32,7 @@ recipes.addShaped("Storage Upgrade V", <storagedrawers:upgrade_storage:4>,
 // Greggify compacting drawer.
 recipes.remove(<storagedrawers:compdrawers>);
 recipes.addShaped("compdrawers", <storagedrawers:compdrawers>,
- [[<ore:plateWroughtIron>, <ore:circuitPrimitive>, <ore:plateWroughtIron>],
+ [[<ore:plateWroughtIron>, <ore:circuitUlv>, <ore:plateWroughtIron>],
   [<ore:drawerBasic>,      <gregtech:machine:11>,  <ore:drawerBasic>],
   [<ore:plateWroughtIron>, <ore:drawerBasic>,      <ore:plateWroughtIron>]]);
 
@@ -41,11 +41,12 @@ recipes.remove(<storagedrawers:controller>);
 recipes.addShaped("controller", <storagedrawers:controller>,
  [[<metaitem:conveyor.module.mv>, <ore:plateAluminium>,   <metaitem:conveyor.module.mv>],
   [<ore:plateAluminium>,          <gregtech:machine:987>, <ore:plateAluminium>],
-  [<ore:plateAluminium>,          <ore:circuitGood>,      <ore:plateAluminium>]]);
+  [<ore:plateAluminium>,          <ore:circuitMv>,      <ore:plateAluminium>]]);
 
 // Greggify drawer slave.
 recipes.remove(<storagedrawers:controllerslave>);
 recipes.addShaped("controllerslave", <storagedrawers:controllerslave>,
  [[<ore:hopper>,     <metaitem:conveyor.module.lv>, <ore:hopper>],
   [<ore:plateSteel>, <gregtech:machine:986>,        <ore:plateSteel>],
-  [<ore:plateSteel>, <ore:circuitBasic>,            <ore:plateSteel>]]);
+  [<ore:plateSteel>, <ore:circuitLv>,            <ore:plateSteel>]]);
+
