@@ -66,7 +66,7 @@ macerator.recipeBuilder()
 recipes.remove(<appliedenergistics2:material:52>);
 recipes.addShaped("Blank pattern", <appliedenergistics2:material:52>,
  [[<gregtech:meta_plate:1012>,<gregtech:meta_plate:1012>,<gregtech:meta_plate:1012>],
-  [<gregtech:meta_plate:1012>,<ore:circuitAdvanced>,<gregtech:meta_plate:1012>],
+  [<gregtech:meta_plate:1012>,<ore:circuitHv>,<gregtech:meta_plate:1012>],
   [<gregtech:meta_plate:1012>,null,<gregtech:meta_plate:1012>]]);
 
 
@@ -102,3 +102,4 @@ autoclave.recipeBuilder()
     .duration(500)
     .EUt(120)
     .buildAndRegister();
+

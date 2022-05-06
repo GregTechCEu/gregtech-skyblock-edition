@@ -47,14 +47,14 @@ recipes.remove(<openblocks:auto_anvil>);
 recipes.addShaped("auto_anvil", <openblocks:auto_anvil>,
     [[<metaitem:robot.arm.lv>, <metaitem:electric.pump.lv>, <metaitem:robot.arm.lv>],
     [<ore:plateSteel>,         <minecraft:anvil>,           <ore:plateSteel>],
-    [<ore:plateSteel>,         <ore:circuitBasic>,          <ore:plateSteel>]]);
+    [<ore:plateSteel>,         <ore:circuitLv>,          <ore:plateSteel>]]);
 
 // Add auto enchanter recipe.
 recipes.remove(<openblocks:auto_enchantment_table>);
 recipes.addShaped("auto_enchantment_table", <openblocks:auto_enchantment_table>,
     [[<metaitem:robot.arm.lv>, <metaitem:electric.pump.lv>,  <metaitem:robot.arm.lv>],
     [<ore:plateSteel>,         <minecraft:enchanting_table>, <ore:plateSteel>],
-    [<ore:plateSteel>,         <ore:circuitBasic>,           <ore:plateSteel>]]);
+    [<ore:plateSteel>,         <ore:circuitLv>,           <ore:plateSteel>]]);
 
 
 // Add fan recipe.
@@ -76,7 +76,7 @@ recipes.remove(<openblocks:builder_guide>);
 recipes.addShaped("builder_guide", <openblocks:builder_guide>,
  [[<ore:blockGlass>, <ore:lensGlass>,       <ore:blockGlass>],
   [<ore:blockGlass>, <metaitem:emitter.lv>, <ore:blockGlass>],
-  [<ore:blockGlass>, <ore:circuitBasic>,    <ore:blockGlass>]]);
+  [<ore:blockGlass>, <ore:circuitLv>,    <ore:blockGlass>]]);
 
 
 // Donation station.
@@ -108,3 +108,4 @@ assembler.recipeBuilder()
     .EUt(16)
     .duration(512)
     .buildAndRegister();
+

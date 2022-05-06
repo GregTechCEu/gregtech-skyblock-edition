@@ -77,14 +77,14 @@ recipes.addShaped("Molecular assembler", <appliedenergistics2:molecular_assemble
 recipes.remove(<appliedenergistics2:quantum_ring>);
 recipes.addShaped("Quantum Ring", <appliedenergistics2:quantum_ring>,
  [[<ore:plateTungstenSteel>,<appliedenergistics2:material:22>,<ore:plateTungstenSteel>],
-  [<appliedenergistics2:material:24>,<appliedenergistics2:dense_energy_cell>,<ore:circuitElite>],
+  [<appliedenergistics2:material:24>,<appliedenergistics2:dense_energy_cell>,<ore:circuitIv>],
   [<ore:plateTungstenSteel>,<appliedenergistics2:material:22>,<ore:plateTungstenSteel>]]);
 
 //Add ME Quantum link chamber recipe
 recipes.remove(<appliedenergistics2:quantum_link>);
 recipes.addShaped("quantum_link", <appliedenergistics2:quantum_link>,
  [[<ore:plateTungstenSteel>,<appliedenergistics2:material:22>,<ore:plateTungstenSteel>],
-  [<appliedenergistics2:material:24>,<metaitem:hull.iv>,<ore:circuitElite>],
+  [<appliedenergistics2:material:24>,<metaitem:hull.iv>,<ore:circuitIv>],
   [<ore:plateTungstenSteel>,<appliedenergistics2:material:22>,<ore:plateTungstenSteel>]]);
 
 
@@ -104,7 +104,7 @@ recipes.addShaped("dense_energy_cell", <appliedenergistics2:dense_energy_cell>,
 
 //Add Creative energy cell recipe
 assembly_line.recipeBuilder()
-    .inputs(<ore:circuitInfinite>*10)
+    .inputs(<ore:circuitUhv>*10)
     .inputs(<gregtech:meta_item_1:606>*64)
     .inputs(<gregtech:meta_item_1:606>*64)
     .inputs(<gregtech:meta_item_1:606>*64)
@@ -115,8 +115,8 @@ assembly_line.recipeBuilder()
     .inputs(<gregtech:meta_wire_fine:431>*64)
     .inputs(<gregtech:meta_wire_fine:431>*64)
     .inputs(<gregtech:meta_wire_fine:431>*64)
-    .inputs(<ore:circuitSuper>*20)
-    .inputs(<ore:circuitUltimate>*60)
+    .inputs(<ore:circuitUv>*20)
+    .inputs(<ore:circuitZpm>*60)
     .inputs(<gregtech:meta_item_1:209>*5)
     .fluidInputs(<liquid:neutronium>*576)
     .fluidInputs(<liquid:stainless_steel>*1152)

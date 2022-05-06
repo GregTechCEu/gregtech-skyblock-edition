@@ -4,36 +4,36 @@ import mods.gregtech.recipe.RecipeMap;
 recipes.remove(<buildinggadgets:buildingtool>);
 recipes.addShaped("buildinggadget",<buildinggadgets:buildingtool>,
  [[<metaitem:robot.arm.mv>, <metaitem:emitter.mv>,    <metaitem:robot.arm.mv>],
-  [<ore:plateAluminium>,    <ore:circuitGood>,        <ore:plateAluminium>],
+  [<ore:plateAluminium>,    <ore:circuitMv>,        <ore:plateAluminium>],
   [<ore:plateAluminium>,    <metaitem:power_unit.mv>, <ore:plateAluminium>]]);
 
 // Change recipe for copy paste gadget.
 recipes.remove(<buildinggadgets:copypastetool>);
 recipes.addShaped("copypastetool",<buildinggadgets:copypastetool>,
  [[<metaitem:robot.arm.mv>,               <metaitem:sensor.mv>,     <metaitem:robot.arm.mv>],
-  [<ore:plateAluminium>,                  <ore:circuitGood>,        <ore:plateAluminium>],
+  [<ore:plateAluminium>,                  <ore:circuitMv>,        <ore:plateAluminium>],
   [<metaitem:plate.random_access_memory>, <metaitem:power_unit.mv>, <metaitem:plate.random_access_memory>]]);
 
 // Change recipe for exchanger gadget.
 recipes.remove(<buildinggadgets:exchangertool>);
 recipes.addShaped("exchangertool",<buildinggadgets:exchangertool>,
  [[<metaitem:robot.arm.mv>,      <metaitem:component.grinder.diamond>, <metaitem:robot.arm.mv>],
-  [<metaitem:electric.motor.mv>, <ore:circuitGood>,                    <metaitem:electric.motor.mv>],
+  [<metaitem:electric.motor.mv>, <ore:circuitMv>,                    <metaitem:electric.motor.mv>],
   [<ore:plateAluminium>,         <metaitem:power_unit.mv>,             <ore:plateAluminium>]]);
 
 // Change recipe for destruction gadget.
 recipes.remove(<buildinggadgets:destructiontool>);
 recipes.addShaped("destructiontool",<buildinggadgets:destructiontool>,
  [[<metaitem:component.grinder.diamond>, <metaitem:component.grinder.diamond>, <metaitem:component.grinder.diamond>],
-  [<metaitem:electric.motor.mv>,         <ore:circuitGood>,                    <metaitem:electric.motor.mv>],
+  [<metaitem:electric.motor.mv>,         <ore:circuitMv>,                    <metaitem:electric.motor.mv>],
   [<ore:plateAluminium>,                 <metaitem:power_unit.mv>,             <ore:plateAluminium>]]);
 
 // Change recipe for template manager.
 recipes.remove(<buildinggadgets:templatemanager>);
 recipes.addShaped("templatemanager",<buildinggadgets:templatemanager>,
  [[<ore:plateAluminium>, <metaitem:terminal>,    <ore:plateAluminium>],
-  [<ore:circuitGood>,    <gregtech:machine:987>, <ore:circuitGood>],
-  [<ore:plateAluminium>, <ore:circuitGood>,      <ore:plateAluminium>]]);
+  [<ore:circuitMv>,    <gregtech:machine:987>, <ore:circuitMv>],
+  [<ore:plateAluminium>, <ore:circuitMv>,      <ore:plateAluminium>]]);
 
 
 // Change recipe for construction paste container.
@@ -61,7 +61,7 @@ recipes.addShaped("constructionpastecontainert3",<buildinggadgets:constructionpa
 recipes.remove(<buildinggadgets:constructionpastecontainercreative>);
 recipes.addShaped("constructionpastecontainercreative",<buildinggadgets:constructionpastecontainercreative>,
  [[<buildinggadgets:constructionpastecontainert3>, <metaitem:field.generator.ev>, <buildinggadgets:constructionpastecontainert3>],
-  [<metaitem:field.generator.ev>,                  <ore:circuitElite>,            <metaitem:field.generator.ev>],
+  [<metaitem:field.generator.ev>,                  <ore:circuitIv>,            <metaitem:field.generator.ev>],
   [<buildinggadgets:constructionpastecontainert3>, <metaitem:field.generator.ev>, <buildinggadgets:constructionpastecontainert3>]]);
 
 // Change recipe for construction paste.
@@ -73,3 +73,4 @@ RecipeMap.getByName("fluid_solidifier").recipeBuilder()
     .EUt(42)
     .duration(5)
     .buildAndRegister();
+
