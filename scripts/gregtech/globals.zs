@@ -7,6 +7,7 @@ global assembler         as RecipeMap = RecipeMap.getByName("assembler");
 global assembly_line     as RecipeMap = RecipeMap.getByName("assembly_line");
 global attractor         as RecipeMap = RecipeMap.getByName("attractor");
 global autoclave         as RecipeMap = RecipeMap.getByName("autoclave");
+global bender        	 as RecipeMap = RecipeMap.getByName("bender");
 global blast_furnace     as RecipeMap = RecipeMap.getByName("blast_furnace");
 global brewer            as RecipeMap = RecipeMap.getByName("brewer");
 global canner            as RecipeMap = RecipeMap.getByName("canner");
