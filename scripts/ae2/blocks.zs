@@ -91,9 +91,9 @@ recipes.addShaped("quantum_link", <appliedenergistics2:quantum_link>,
 // Energy cell recipe.
 recipes.remove(<appliedenergistics2:energy_cell>);
 recipes.addShaped("energy_cell", <appliedenergistics2:energy_cell>,
- [[<ore:plateAluminium>,<ore:batteryGood>,<ore:plateAluminium>],
-  [<ore:batteryGood>,<metaitem:battery_buffer.mv.4>,<ore:batteryGood>],
-  [<ore:plateAluminium>,<ore:batteryGood>,<ore:plateAluminium>]]);
+ [[<ore:plateAluminium>,<ore:batteryMv>,<ore:plateAluminium>],
+  [<ore:batteryMv>,<metaitem:battery_buffer.mv.4>,<ore:batteryMv>],
+  [<ore:plateAluminium>,<ore:batteryMv>,<ore:plateAluminium>]]);
 
 // Dense energy cell recipe.
 recipes.remove(<appliedenergistics2:dense_energy_cell>);
