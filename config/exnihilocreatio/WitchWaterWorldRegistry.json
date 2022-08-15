@@ -3,5 +3,11 @@
     "minecraft:dirt": 1,
     "minecraft:dirt:2": 1,
     "minecraft:dirt:1": 1
+  },
+  "lava": {
+    "minecraft:stone": 1,
+    "minecraft:stone:5": 1,
+    "minecraft:stone:1": 1,
+    "minecraft:stone:3": 1
   }
 }

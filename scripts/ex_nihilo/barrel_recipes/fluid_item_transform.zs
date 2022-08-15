@@ -37,18 +37,4 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 
-// Slime Block.
-var mushrooms = [
-	<minecraft:brown_mushroom>,
-	<minecraft:red_mushroom>
-] as IItemStack[];
 
-for mushroom in mushrooms {
-    mixer.recipeBuilder()
-        .inputs(mushroom)
-        .fluidInputs(<liquid:milk>*1000)
-        .outputs(<minecraft:slime>)
-        .duration(200)
-        .EUt(8)
-        .buildAndRegister();
-}

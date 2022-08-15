@@ -50,7 +50,8 @@ var saplings = [
     <minecraft:sapling:2>,
     <minecraft:sapling:3>,
     <minecraft:sapling:4>,
-    <minecraft:sapling:5>
+    <minecraft:sapling:5>,
+    <gregtech:rubber_sapling>
 ] as IItemStack[];
 
 var logs = [
@@ -59,7 +60,8 @@ var logs = [
     <minecraft:log:2> * 64,
     <minecraft:log:3> * 64,
     <minecraft:log2> * 64,
-    <minecraft:log2:1> * 64
+    <minecraft:log2:1> * 64,
+    <gregtech:rubber_log> * 64
 ] as IItemStack[];
 
 for i, sapling in saplings {
