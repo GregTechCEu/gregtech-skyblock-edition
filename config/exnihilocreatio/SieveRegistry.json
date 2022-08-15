@@ -422,6 +422,31 @@
   ],
   "ore:dirt": [
     {
+      "drop": "gregification:gtpebble:0",
+      "chance": 0.2,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregification:gtpebble:1",
+      "chance": 0.2,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregification:gtpebble:2",
+      "chance": 0.2,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregification:gtpebble:3",
+      "chance": 0.2,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:rubber_sapling",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
       "drop": "exnihilocreatio:item_pebble:0",
       "chance": 1.0,
       "meshLevel": 1

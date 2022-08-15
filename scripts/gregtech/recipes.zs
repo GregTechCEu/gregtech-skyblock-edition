@@ -1,5 +1,11 @@
 import crafttweaker.item.IItemStack;
 
+// Fix High Pressure Steam Sieve
+recipes.addShaped("HP Steam Sieve", <gregtech:machine:4001>,
+ [[<ore:pipeSmallFluidTinAlloy>,<ore:plateSteel>,<ore:pipeSmallFluidTinAlloy>],
+  [<ore:plateWroughtIron>,<metaitem:gregification:sieve.steam>,<ore:plateWroughtIron>],
+  [<ore:pipeSmallFluidTinAlloy>,<ore:pipeSmallFluidTinAlloy>,<ore:pipeSmallFluidTinAlloy>]]);
+
 // Fix Steam Macerator and rock breaker.
 recipes.remove(<gregtech:machine:9>);
 recipes.addShaped("Steam Macerator", <gregtech:machine:9>,
@@ -33,6 +39,10 @@ for i in 1 to 10 {
 <recipemap:rock_breaker>.findRecipe(60, [<minecraft:stone:1>], null).remove();
 <recipemap:rock_breaker>.findRecipe(60, [<minecraft:stone:5>], null).remove();
 <recipemap:rock_breaker>.findRecipe(60, [<minecraft:stone:3>], null).remove();
+<recipemap:rock_breaker>.findRecipe(240, [<gregtech:stone_smooth:2>], null).remove();
+<recipemap:rock_breaker>.findRecipe(240, [<gregtech:stone_smooth:3>], null).remove();
+<recipemap:rock_breaker>.findRecipe(960, [<gregtech:stone_smooth>], null).remove();
+<recipemap:rock_breaker>.findRecipe(960, [<gregtech:stone_smooth:1>], null).remove();
 rockbreaker.recipeBuilder()
    .notConsumable(<ore:stoneGranite>)
    .outputs(<minecraft:stone:1>)
@@ -51,4 +61,29 @@ rockbreaker.recipeBuilder()
    .duration(16)
    .EUt(30)
    .buildAndRegister();
+rockbreaker.recipeBuilder()
+   .notConsumable(<gregtech:stone_smooth:2>)
+   .outputs(<gregtech:stone_smooth:2>)
+   .duration(16)
+   .EUt(30)
+   .buildAndRegister();
+rockbreaker.recipeBuilder()
+   .notConsumable(<gregtech:stone_smooth:3>)
+   .outputs(<gregtech:stone_smooth:3>)
+   .duration(16)
+   .EUt(30)
+   .buildAndRegister();
+rockbreaker.recipeBuilder()
+   .notConsumable(<gregtech:stone_smooth>)
+   .outputs(<gregtech:stone_smooth>)
+   .duration(16)
+   .EUt(30)
+   .buildAndRegister();
+rockbreaker.recipeBuilder()
+   .notConsumable(<gregtech:stone_smooth:1>)
+   .outputs(<gregtech:stone_smooth:1>)
+   .duration(16)
+   .EUt(30)
+   .buildAndRegister();
+
 
